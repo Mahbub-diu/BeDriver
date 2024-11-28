@@ -47,8 +47,9 @@ header {
     transition: 0.2s all;
     padding: 62px 85px 40px 85px;
     .logo-box {
+      width: 200px;
       img {
-        max-width: 200px;
+        max-width: 100%;
       }
     }
     .header-flex {
@@ -338,6 +339,9 @@ header {
               color: $logo-green;
             }
           }
+          &:last-child {
+            margin-bottom: 0;
+          }
         }
       }
     }
@@ -347,14 +351,18 @@ header {
     bottom: 50px;
     z-index: 1;
     padding-left: 100px;
-    max-width: 100%;
+    max-width: 256px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14.5px;
     p {
       color: $gray-text;
       text-transform: capitalize;
       font-family: $gotham-medium;
       font-size: 20px;
       position: relative;
-      margin-bottom: 17px;
+      margin-bottom: 0px;
+      width: 100%;
       &::after {
         position: absolute;
         right: 0;
@@ -366,12 +374,74 @@ header {
         transform: translateY(-50%);
       }
     }
-    ul {
+  }
+  .slider-sound-switch {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    bottom: 80px;
+    z-index: 1;
+    left: 26px;
+    position: absolute;
+
+    .custom-switch-parent {
       display: flex;
-      flex-wrap: wrap;
+      gap: 10px;
       align-items: center;
-      gap: 14.5px;
-      li {
+    }
+    span {
+      color: $white;
+      font-size: 17px;
+      line-height: 25px;
+      font-family: $gotham-book;
+      text-transform: uppercase;
+    }
+    .custom-switch {
+      position: relative;
+      display: inline-block;
+      user-select: none;
+      input {
+        display: none;
+        &:checked {
+          + {
+            label {
+              background: #bfd552;
+              &:after {
+                left: 16px;
+                background: $white;
+              }
+            }
+          }
+        }
+      }
+      label {
+        position: relative;
+        display: block;
+        width: 30px;
+        height: 18px;
+        border-radius: 22px;
+        background: #fff;
+        cursor: pointer;
+        overflow: hidden;
+        &:after {
+          position: relative;
+          display: block;
+          content: '';
+          width: 10px;
+          height: 10px;
+          top: 4px;
+          left: 4px;
+          border-radius: 50%;
+          background: $gray-text;
+          pointer-events: none;
+          transition: all 0.4s ease-in-out;
+        }
+        &:active {
+          &:after {
+            width: 50px;
+          }
+        }
       }
     }
   }
@@ -401,6 +471,15 @@ footer {
         width: 142px;
         img {
           max-width: 100%;
+        }
+        p {
+          display: none;
+          color: $gray-text;
+          font-family: $gotham-medium;
+          margin-bottom: 0;
+          font-size: 16px;
+          line-height: 24px;
+          text-transform: capitalize;
         }
       }
       .contents {

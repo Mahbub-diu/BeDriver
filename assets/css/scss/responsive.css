@@ -1,1 +1,149 @@
-/*# sourceMappingURL=responsive.css.map */
+@media (max-width: 767px) {
+  /* ========================================== */
+  /* header section start here   */
+  /* ========================================== */
+  header .main-header {
+    padding: 20px 11px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  header .main-header .header-flex .logo-box {
+    width: 118px;
+  }
+  header .main-header .header-flex .logo-box img {
+    max-width: 100%;
+  }
+  header .main-header .header-flex .main-header-items .header-items-flex .single-item:nth-child(1) {
+    display: none;
+  }
+  /* ========================================== */
+  /* header section ends here   */
+  /* ========================================== */
+  /* ========================================== */
+  /* Home Slider part starts here   */
+  /* ========================================== */
+  .home-slider-main .slider-content-box {
+    padding: 200px 26px 70px 26px;
+    justify-content: unset;
+    gap: 39px;
+    flex-direction: column;
+  }
+  .home-slider-main .slider-content-box .left-content {
+    width: 100%;
+    order: 2;
+  }
+  .home-slider-main .slider-content-box .left-content h2 {
+    display: none;
+  }
+  .home-slider-main .slider-content-box .left-content ul li {
+    margin-bottom: 0;
+  }
+  .home-slider-main .slider-content-box .right-content {
+    width: 100%;
+  }
+  .home-slider-main .slider-content-box .right-content ul li {
+    margin-bottom: 17px;
+    text-align: left;
+  }
+  .home-slider-main .slider-content-box .right-content ul li a {
+    font-size: 26px;
+    line-height: normal;
+    text-align: right;
+  }
+  .home-slider-main .slider-contact {
+    padding: 0;
+    transform: rotate(90deg);
+    right: -70px;
+    width: auto;
+    bottom: 171px;
+    align-items: center;
+    left: unset;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+  }
+  .home-slider-main .slider-contact p {
+    margin-bottom: 0;
+    font-size: 12px;
+    width: auto;
+    margin-right: 25px;
+  }
+  .home-slider-main .slider-contact p::after {
+    right: -32px;
+    width: 25px;
+  }
+  .home-slider-main .slider-contact a img {
+    width: 17px;
+    position: relative;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+  }
+  /* ========================================== */
+  /* Home Slider part ends here   */
+  /* ========================================== */
+  /* ========================================== */
+  /* footer part starts here   */
+  /* ========================================== */
+  footer .footer-main {
+    padding: 47px 11px 47px 11px;
+    border-width: 1px;
+  }
+  footer .footer-main .footer-left-flex {
+    margin-bottom: 24px;
+    gap: 24px;
+  }
+  footer .footer-main .footer-left-flex .logo-box {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+  footer .footer-main .footer-left-flex .logo-box img {
+    width: 82px;
+  }
+  footer .footer-main .footer-left-flex .logo-box p {
+    display: unset;
+    line-height: normal;
+    font-size: 12px;
+    position: relative;
+    top: 2px;
+  }
+  footer .footer-main .footer-left-flex .contents {
+    width: 100%;
+  }
+  footer .footer-main .footer-left-flex .contents p {
+    line-height: normal;
+    font-size: 10px;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  footer .footer-main .footer-left-flex .contents p:nth-child(1) {
+    display: none;
+  }
+  footer .footer-main .footer-links ul {
+    justify-content: space-between;
+    gap: unset;
+  }
+  footer .footer-main .footer-links ul li a {
+    font-size: 12px;
+    line-height: 12px;
+  }
+  /* ========================================== */
+  /* footer part ends here   */
+  /* ========================================== */
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  footer .footer-main .footer-links ul {
+    gap: 14px;
+    justify-content: center;
+  }
+}
+@media (min-width: 415px) and (max-width: 575px) {
+  footer .footer-main .footer-links ul {
+    gap: 14px;
+    justify-content: center;
+  }
+}/*# sourceMappingURL=responsive.css.map */
