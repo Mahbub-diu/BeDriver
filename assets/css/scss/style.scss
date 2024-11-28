@@ -110,7 +110,7 @@ header {
                     top: 4px;
                     left: 4px;
                     border-radius: 50%;
-                    background: #9e9e9e;
+                    background: $gray-text;
                     pointer-events: none;
                     transition: all 0.4s ease-in-out;
                   }
@@ -254,15 +254,17 @@ header {
       position: absolute;
       width: 100%;
       height: 100%;
-      background: linear-gradient(
-        180deg,
-        rgba(0, 0, 0, 0) -7.76%,
-        rgba(0, 0, 0, 0.7) 44.84%,
-        rgba(0, 0, 0, 0) 92.24%
-      );
       content: '';
       top: 0;
       left: 0;
+      background: linear-gradient(
+        to bottom,
+        rgba(173, 201, 28, 0),
+        rgba(0, 0, 0, 0.1),
+        rgba(0, 0, 0, 0.4),
+        rgba(117, 135, 17, 0.1),
+        rgba(0, 0, 0, 1)
+      );
     }
     video {
       object-fit: cover;
@@ -308,7 +310,7 @@ header {
             font-family: $gotham-book;
             line-height: normal;
             @include transition-four;
-            color: #7b7e7e;
+            color: $gray-text;
             &:hover {
               color: $white;
             }
@@ -347,10 +349,22 @@ header {
     padding-left: 100px;
     max-width: 100%;
     p {
-      color: #7b7e7e;
+      color: $gray-text;
       text-transform: capitalize;
       font-family: $gotham-medium;
       font-size: 20px;
+      position: relative;
+      margin-bottom: 17px;
+      &::after {
+        position: absolute;
+        right: 0;
+        width: 40px;
+        height: 1px;
+        background: $gray-text;
+        content: '';
+        top: 50%;
+        transform: translateY(-50%);
+      }
     }
     ul {
       display: flex;
@@ -365,5 +379,64 @@ header {
 /* ========================================== */
 
 /* Home Slider part ends here   */
+
+/* ========================================== */
+
+/* ========================================== */
+
+/* footer part start here   */
+
+/* ========================================== */
+footer {
+  .footer-main {
+    padding: 75px 85px 70px 85px;
+    border-top: 2px solid $white;
+    background: #000000;
+    .footer-left-flex {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 52px;
+      align-items: center;
+      .logo-box {
+        width: 142px;
+        img {
+          max-width: 100%;
+        }
+      }
+      .contents {
+        width: calc(100% - 194px);
+        p {
+          color: $gray-text;
+          font-family: $gotham-medium;
+          margin-bottom: 0;
+          font-size: 16px;
+          line-height: 24px;
+          text-transform: capitalize;
+        }
+      }
+    }
+    .footer-links {
+      ul {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: end;
+        gap: 34px;
+        li {
+          a {
+            text-transform: capitalize;
+            color: $gray-text;
+            font-family: $gotham-book;
+            font-size: 16px;
+            line-height: 24px;
+          }
+        }
+      }
+    }
+  }
+}
+/* ========================================== */
+
+/* footer part ends here   */
 
 /* ========================================== */
