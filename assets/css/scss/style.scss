@@ -72,7 +72,7 @@ header {
                 color: $white;
                 font-size: 17px;
                 line-height: 25px;
-                font-family: $gotham-medium;
+                font-family: $gotham-book;
                 text-transform: uppercase;
               }
               .custom-switch {
@@ -128,7 +128,7 @@ header {
                   color: $white;
                   font-size: 17px;
                   line-height: 25px;
-                  font-family: $gotham-medium;
+                  font-family: $gotham-book;
                   text-transform: uppercase;
                 }
               }
@@ -278,6 +278,87 @@ header {
   .swiper-button-next {
     &:after {
       font-size: 32px;
+    }
+  }
+  .slider-content-box {
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    // padding: 270px 100px 197px 100px;
+    padding: 250px 100px 127px 100px;
+    @include trans-y-center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 100px;
+    .left-content {
+      width: 320px;
+      h2 {
+        color: $white;
+        text-transform: capitalize;
+        margin-bottom: 35px;
+        font-family: $gotham-book;
+      }
+      ul {
+        li {
+          margin-bottom: 10px;
+          a {
+            text-transform: uppercase;
+            font-size: 14px;
+            font-family: $gotham-book;
+            line-height: normal;
+            @include transition-four;
+            color: #7b7e7e;
+            &:hover {
+              color: $white;
+            }
+          }
+          &:last-child {
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+    .right-content {
+      ul {
+        li {
+          margin-bottom: 25px;
+          text-align: right;
+          a {
+            text-transform: uppercase;
+            color: $white;
+            font-family: $gotahm-bold;
+            font-size: 48px;
+            line-height: normal;
+            text-align: right;
+            @include transition-four;
+            &:hover {
+              color: $logo-green;
+            }
+          }
+        }
+      }
+    }
+  }
+  .slider-contact {
+    position: absolute;
+    bottom: 50px;
+    z-index: 1;
+    padding-left: 100px;
+    max-width: 100%;
+    p {
+      color: #7b7e7e;
+      text-transform: capitalize;
+      font-family: $gotham-medium;
+      font-size: 20px;
+    }
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 14.5px;
+      li {
+      }
     }
   }
 }

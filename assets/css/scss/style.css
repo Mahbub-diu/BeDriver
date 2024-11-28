@@ -68,7 +68,7 @@ header .main-header .header-flex .main-header-items .header-items-flex .single-i
   color: #fff;
   font-size: 17px;
   line-height: 25px;
-  font-family: "gothammedium";
+  font-family: "gothambook";
   text-transform: uppercase;
 }
 header .main-header .header-flex .main-header-items .header-items-flex .single-item .custom-switch-parent .custom-switch {
@@ -117,7 +117,7 @@ header .main-header .header-flex .main-header-items .header-items-flex .single-i
   color: #fff;
   font-size: 17px;
   line-height: 25px;
-  font-family: "gothammedium";
+  font-family: "gothambook";
   text-transform: uppercase;
 }
 header .main-header .header-flex .main-header-items .header-items-flex .single-item .sidebar-toggler-btn {
@@ -241,7 +241,92 @@ header .main-header.transparent-header {
 .home-slider-main .swiper-button-next:after {
   font-size: 32px;
 }
-
+.home-slider-main .slider-content-box {
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  padding: 250px 100px 127px 100px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 100px;
+}
+.home-slider-main .slider-content-box .left-content {
+  width: 320px;
+}
+.home-slider-main .slider-content-box .left-content h2 {
+  color: #fff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-family: "gothambook";
+}
+.home-slider-main .slider-content-box .left-content ul li {
+  margin-bottom: 10px;
+}
+.home-slider-main .slider-content-box .left-content ul li a {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: "gothambook";
+  line-height: normal;
+  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  color: #7b7e7e;
+}
+.home-slider-main .slider-content-box .left-content ul li a:hover {
+  color: #fff;
+}
+.home-slider-main .slider-content-box .left-content ul li:last-child {
+  margin-bottom: 0;
+}
+.home-slider-main .slider-content-box .right-content ul li {
+  margin-bottom: 25px;
+  text-align: right;
+}
+.home-slider-main .slider-content-box .right-content ul li a {
+  text-transform: uppercase;
+  color: #fff;
+  font-family: "gothambold";
+  font-size: 48px;
+  line-height: normal;
+  text-align: right;
+  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+}
+.home-slider-main .slider-content-box .right-content ul li a:hover {
+  color: #ebff46;
+}
+.home-slider-main .slider-contact {
+  position: absolute;
+  bottom: 50px;
+  z-index: 1;
+  padding-left: 100px;
+  max-width: 100%;
+}
+.home-slider-main .slider-contact p {
+  color: #7b7e7e;
+  text-transform: capitalize;
+  font-family: "gothammedium";
+  font-size: 20px;
+}
+.home-slider-main .slider-contact ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 14.5px;
+}
 /* ========================================== */
 /* Home Slider part ends here   */
 /* ========================================== *//*# sourceMappingURL=style.css.map */
