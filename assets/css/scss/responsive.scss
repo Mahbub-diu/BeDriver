@@ -1,8 +1,177 @@
+@media (min-width: 1441px) and (max-width: 1700px) {
+  header {
+    .main-header {
+      padding: 60px 35px;
+    }
+  }
+  .home-slider-main {
+    .slider-content-box {
+      padding: 200px 50px 140px 50px;
+      justify-content: space-between;
+      gap: 39px;
+
+      .left-content {
+        width: 145px;
+        ul {
+          li {
+            margin-bottom: 5px;
+          }
+        }
+      }
+      .right-content {
+        ul {
+          li {
+            a {
+              font-size: 40px;
+              line-height: normal;
+              text-align: right;
+            }
+          }
+        }
+      }
+    }
+    .slider-contact {
+      padding-left: 50px;
+    }
+  }
+
+  footer {
+    .footer-main {
+      padding: 50px 50px 50px 50px;
+      .footer-left-flex {
+        .contents {
+          p {
+            margin-bottom: 0;
+            font-size: 14px;
+            line-height: 22px;
+          }
+        }
+      }
+      .footer-links {
+        ul {
+          gap: 20px;
+        }
+      }
+    }
+  }
+}
+// min width 1441px and max width 1550px ends here
+
 @media (min-width: 1366px) and (max-width: 1440px) {
+  header {
+    .main-header {
+      padding: 60px 35px;
+    }
+  }
+  .home-slider-main {
+    .slider-content-box {
+      padding: 200px 50px 140px 50px;
+      justify-content: space-between;
+      gap: 39px;
+
+      .left-content {
+        width: 145px;
+        ul {
+          li {
+            margin-bottom: 5px;
+          }
+        }
+      }
+      .right-content {
+        ul {
+          li {
+            a {
+              font-size: 40px;
+              line-height: normal;
+              text-align: right;
+            }
+          }
+        }
+      }
+    }
+    .slider-contact {
+      padding-left: 50px;
+    }
+  }
+
+  footer {
+    .footer-main {
+      padding: 50px 50px 50px 50px;
+      .footer-left-flex {
+        .contents {
+          p {
+            margin-bottom: 0;
+            font-size: 14px;
+            line-height: 22px;
+          }
+        }
+      }
+      .footer-links {
+        ul {
+          gap: 20px;
+        }
+      }
+    }
+  }
 }
 // min width 1366px and max width 1440px ends here
 
 @media (min-width: 1300px) and (max-width: 1365px) {
+  header {
+    .main-header {
+      padding: 60px 35px;
+    }
+  }
+  .home-slider-main {
+    .slider-content-box {
+      padding: 200px 50px 140px 50px;
+      justify-content: space-between;
+      gap: 39px;
+
+      .left-content {
+        width: 145px;
+        ul {
+          li {
+            margin-bottom: 5px;
+          }
+        }
+      }
+      .right-content {
+        ul {
+          li {
+            a {
+              font-size: 40px;
+              line-height: normal;
+              text-align: right;
+            }
+          }
+        }
+      }
+    }
+    .slider-contact {
+      padding-left: 50px;
+    }
+  }
+
+  footer {
+    .footer-main {
+      padding: 50px 50px 50px 50px;
+      .footer-left-flex {
+        .contents {
+          p {
+            margin-bottom: 0;
+            font-size: 14px;
+            line-height: 22px;
+          }
+        }
+      }
+      .footer-links {
+        ul {
+          gap: 20px;
+        }
+      }
+    }
+  }
 }
 // min width 1300px and max width 1365px ends here
 
@@ -17,31 +186,210 @@
 // max widht 1299px ends here
 
 @media (min-width: 1025px) and (max-width: 1299px) {
+  header {
+    .main-header {
+      padding: 60px 35px;
+    }
+  }
+  .home-slider-main {
+    .slider-content-box {
+      padding: 200px 50px 70px 50px;
+      justify-content: space-between;
+      gap: 39px;
+
+      .left-content {
+        width: 145px;
+        ul {
+          li {
+            margin-bottom: 5px;
+          }
+        }
+      }
+      .right-content {
+        ul {
+          li {
+            a {
+              font-size: 35px;
+              line-height: normal;
+              text-align: right;
+            }
+          }
+        }
+      }
+    }
+    .slider-contact {
+      padding-left: 50px;
+    }
+  }
+
+  footer {
+    .footer-main {
+      border-top: 1px solid #fff;
+      padding: 50px 35px;
+      .footer-left-flex {
+        gap: 50px;
+        .contents {
+          p {
+            margin-bottom: 0;
+            font-size: 15px;
+            line-height: 22px;
+            margin-bottom: 2px;
+          }
+        }
+      }
+      .footer-links {
+        ul {
+          justify-content: center;
+        }
+      }
+    }
+  }
 }
 
 // min width 1025px and max width 1299px ends here
 
 @media (min-width: 992px) and (max-width: 1024px) {
+  header {
+    .main-header {
+      padding: 60px 35px;
+    }
+  }
+  .home-slider-main {
+    .slider-content-box {
+      padding: 200px 50px 70px 50px;
+      justify-content: space-between;
+      gap: 39px;
+
+      .left-content {
+        width: 145px;
+        ul {
+          li {
+            margin-bottom: 5px;
+          }
+        }
+      }
+      .right-content {
+        ul {
+          li {
+            a {
+              font-size: 35px;
+              line-height: normal;
+              text-align: right;
+            }
+          }
+        }
+      }
+    }
+    .slider-contact {
+      padding-left: 50px;
+    }
+  }
+
+  footer {
+    .footer-main {
+      border-top: 1px solid #fff;
+      padding: 50px 35px;
+      .footer-left-flex {
+        gap: 50px;
+        margin-bottom: 45px;
+
+        .contents {
+          p {
+            margin-bottom: 0;
+            font-size: 15px;
+            line-height: 22px;
+            margin-bottom: 2px;
+          }
+        }
+      }
+      .footer-links {
+        ul {
+          justify-content: center;
+        }
+      }
+    }
+  }
 }
 
 // min width 992px and max width 1024px ends here
 
 @media (min-width: 768px) and (max-width: 991px) {
+  header {
+    .main-header {
+      padding: 60px 35px;
+    }
+  }
+  .home-slider-main {
+    .slider-content-box {
+      padding: 200px 50px 70px 50px;
+      justify-content: space-between;
+      gap: 39px;
+
+      .left-content {
+        width: 145px;
+        ul {
+          li {
+            margin-bottom: 5px;
+          }
+        }
+      }
+      .right-content {
+        ul {
+          li {
+            a {
+              font-size: 26px;
+              line-height: normal;
+              text-align: right;
+            }
+          }
+        }
+      }
+    }
+    .slider-contact {
+      padding-left: 50px;
+    }
+  }
+
+  footer {
+    .footer-main {
+      border-top: 1px solid #fff;
+      padding: 50px 35px;
+      .footer-left-flex {
+        gap: 50px;
+        margin-bottom: 50px;
+        .logo-box {
+          width: 120px;
+        }
+        .contents {
+          p {
+            margin-bottom: 0;
+            font-size: 10px;
+            line-height: 15px;
+            margin-bottom: 2px;
+          }
+        }
+      }
+      .footer-links {
+        ul {
+          justify-content: center;
+        }
+      }
+    }
+  }
 }
 
 // min width 768px and max width 991px ends here
 
 @media (min-width: 768px) {
+  .home-slider-main {
+    .slider-sound-switch {
+      display: none;
+    }
+  }
 }
 // max widht 768px ends here
 
 @media (max-width: 767px) {
-  /* ========================================== */
-
-  /* header section start here   */
-
-  /* ========================================== */
-
   header {
     .main-header {
       padding: 20px 11px;
@@ -66,18 +414,6 @@
       }
     }
   }
-
-  /* ========================================== */
-
-  /* header section ends here   */
-
-  /* ========================================== */
-
-  /* ========================================== */
-
-  /* Home Slider part starts here   */
-
-  /* ========================================== */
 
   .home-slider-main {
     .slider-content-box {
@@ -146,17 +482,6 @@
     }
   }
 
-  /* ========================================== */
-
-  /* Home Slider part ends here   */
-
-  /* ========================================== */
-
-  /* ========================================== */
-
-  /* footer part starts here   */
-
-  /* ========================================== */
   footer {
     .footer-main {
       padding: 47px 11px 47px 11px;
@@ -208,11 +533,6 @@
       }
     }
   }
-  /* ========================================== */
-
-  /* footer part ends here   */
-
-  /* ========================================== */
 }
 
 // max widht 767px ends here
