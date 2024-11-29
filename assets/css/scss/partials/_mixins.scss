@@ -51,3 +51,9 @@
   -ms-transition: $transition-9-einout;
   -o-transition: $transition-9-einout;
 }
+
+@mixin flex-wrap-center {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}

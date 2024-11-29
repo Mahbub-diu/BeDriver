@@ -54,6 +54,29 @@
       }
     }
   }
+
+  .sidebar-main {
+    padding: 30px 40px;
+    .sidebar-header {
+      .sidebar-header-flex {
+        .logo-box {
+          width: 140px;
+        }
+      }
+    }
+    .sidebar-links {
+      padding-top: 80px;
+      gap: 20px;
+      .top-items {
+        ul {
+          li {
+            font-size: 28px;
+            margin-bottom: 12px;
+          }
+        }
+      }
+    }
+  }
 }
 // min width 1441px and max width 1550px ends here
 
@@ -113,6 +136,30 @@
       }
     }
   }
+  .sidebar-main {
+    padding: 30px 40px;
+    .sidebar-header {
+      .sidebar-header-flex {
+        .logo-box {
+          width: 140px;
+        }
+      }
+    }
+    .sidebar-links {
+      padding-top: 80px;
+      gap: 20px;
+      .top-items {
+        ul {
+          li {
+            margin-bottom: 10px;
+            a {
+              font-size: 27px;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 // min width 1366px and max width 1440px ends here
 
@@ -168,6 +215,30 @@
       .footer-links {
         ul {
           gap: 20px;
+        }
+      }
+    }
+  }
+  .sidebar-main {
+    padding: 30px 40px;
+    .sidebar-header {
+      .sidebar-header-flex {
+        .logo-box {
+          width: 140px;
+        }
+      }
+    }
+    .sidebar-links {
+      padding-top: 80px;
+      gap: 20px;
+      .top-items {
+        ul {
+          li {
+            margin-bottom: 10px;
+            a {
+              font-size: 27px;
+            }
+          }
         }
       }
     }
@@ -244,6 +315,30 @@
       }
     }
   }
+  .sidebar-main {
+    padding: 30px 30px;
+    .sidebar-header {
+      .sidebar-header-flex {
+        .logo-box {
+          width: 140px;
+        }
+      }
+    }
+    .sidebar-links {
+      padding-top: 80px;
+      gap: 20px;
+      .top-items {
+        ul {
+          li {
+            margin-bottom: 7px;
+            a {
+              font-size: 25px;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 // min width 1025px and max width 1299px ends here
@@ -305,6 +400,31 @@
       .footer-links {
         ul {
           justify-content: center;
+        }
+      }
+    }
+  }
+
+  .sidebar-main {
+    padding: 30px 30px;
+    .sidebar-header {
+      .sidebar-header-flex {
+        .logo-box {
+          width: 140px;
+        }
+      }
+    }
+    .sidebar-links {
+      padding-top: 80px;
+      gap: 20px;
+      .top-items {
+        ul {
+          li {
+            margin-bottom: 7px;
+            a {
+              font-size: 25px;
+            }
+          }
         }
       }
     }
@@ -372,6 +492,31 @@
       .footer-links {
         ul {
           justify-content: center;
+        }
+      }
+    }
+  }
+
+  .sidebar-main {
+    padding: 30px 30px;
+    .sidebar-header {
+      .sidebar-header-flex {
+        .logo-box {
+          width: 140px;
+        }
+      }
+    }
+    .sidebar-links {
+      padding-top: 80px;
+      gap: 20px;
+      .top-items {
+        ul {
+          li {
+            margin-bottom: 7px;
+            a {
+              font-size: 25px;
+            }
+          }
         }
       }
     }
@@ -527,6 +672,31 @@
             a {
               font-size: 12px;
               line-height: 12px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .sidebar-main {
+    padding: 30px 30px;
+    .sidebar-header {
+      .sidebar-header-flex {
+        .logo-box {
+          width: 120px;
+        }
+      }
+    }
+    .sidebar-links {
+      padding-top: 80px;
+      gap: 20px;
+      .top-items {
+        ul {
+          li {
+            margin-bottom: 7px;
+            a {
+              font-size: 20px;
             }
           }
         }

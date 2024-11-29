@@ -61,9 +61,35 @@
       $(this).attr('id', 'custom-switch-' + i);
       $(this).attr('name', name);
     });
+
     $('.custom-switch input').change(function () {
-      // code goes here
+      var isChecked = $(this).is(':checked');
+
+      $('.swiper-video').each(function () {
+        this.muted = !isChecked;
+      });
     });
+
     // header custom switch for sound end
+
+    // header sticky start
+    $(window).scroll(function () {
+      var navbar = $('#main-header');
+
+      if ($(window).scrollTop() >= 110) {
+        navbar.addClass('sticky');
+      } else {
+        navbar.removeClass('sticky');
+      }
+    });
+    // header sticky start
+
+    $('.main-header .openButton').click(function () {
+      $('#sidebar-main').removeClass('sidebar-hide');
+    });
+
+    $('#sidebar-main .sidebar-close-btn').click(function () {
+      $('#sidebar-main').addClass('sidebar-hide');
+    });
   });
 })(jQuery);
