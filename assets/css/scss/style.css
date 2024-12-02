@@ -1,3 +1,13 @@
+@keyframes stroke-fill {
+  0% {
+    opacity: 0;
+    -webkit-text-stroke-color: transparent;
+  }
+  100% {
+    opacity: 1;
+    -webkit-text-stroke-color: white;
+  }
+}
 html {
   scroll-padding-top: 100px;
 }
@@ -594,6 +604,24 @@ header .main-header.sticky .logo-box {
 }
 .home-slider-main .slider-sound-switch .custom-switch label:active:after {
   width: 50px;
+}
+.home-slider-main .centerd {
+  width: 100%;
+  text-align: center;
+}
+.home-slider-main .centerd h1 {
+  font-size: 90px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  color: transparent;
+  display: inline-block;
+}
+.home-slider-main .centerd h1 span {
+  display: inline-block;
+  -webkit-text-stroke: 2px white;
+  color: transparent;
+  opacity: 0;
+  animation: stroke-fill 2s ease-in-out forwards;
 }
 
 /* ========================================== */

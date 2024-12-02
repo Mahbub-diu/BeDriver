@@ -91,5 +91,27 @@
     $('#sidebar-main .sidebar-close-btn').click(function () {
       $('#sidebar-main').addClass('sidebar-hide');
     });
+
+    function animateText(selector, delay = 0.1) {
+      const $element = $(selector);
+      const htmlContent = $element.html();
+      $element.empty();
+
+      let index = 0;
+
+      htmlContent.split(/(<[^>]+>)/g).forEach((fragment) => {
+        if (fragment.startsWith('<')) {
+          $element.append(fragment);
+        } else {
+          fragment.split('').forEach((char) => {
+            const $span = $('<span></span>').text(char);
+            $span.css('animation-delay', `${index * delay}s`);
+            $element.append($span);
+            index++;
+          });
+        }
+      });
+    }
+    animateText('.centerd h1', 0.1);
   });
 })(jQuery);
