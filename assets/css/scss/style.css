@@ -294,6 +294,7 @@ header .main-header.sticky .logo-box {
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
+  font-family: "gothambook";
 }
 .sidebar-main .sidebar-links .top-items ul li a:hover {
   color: #ebff46;

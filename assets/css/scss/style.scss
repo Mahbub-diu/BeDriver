@@ -299,6 +299,7 @@ header {
             color: $white;
             font-size: 30px;
             @include transition-four;
+            font-family: $gotham-book;
             &:hover {
               color: $logo-green;
             }
@@ -519,6 +520,7 @@ header {
             text-transform: uppercase;
             color: $white;
             font-family: $gotahm-bold;
+
             font-size: 48px;
             line-height: normal;
             text-align: right;
