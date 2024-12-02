@@ -120,6 +120,7 @@
   }
   .home-slider-main .slider-contact {
     padding-left: 50px;
+    max-width: 207px;
   }
   footer .footer-main {
     padding: 50px 50px 50px 50px;
