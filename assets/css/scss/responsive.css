@@ -462,6 +462,26 @@
   .sidebar-main .sidebar-links .top-items ul li a {
     font-size: 20px;
   }
+  .azienda-slider-main {
+    height: 553px;
+  }
+  .azienda-slider-main .swiper-slide .slide-bg {
+    height: 100%;
+  }
+  .azienda-slider-main .centerd h1 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+  .azienda-slider-main .slider-sound-switch {
+    display: none;
+  }
+  .azienda-slider-main .slider-contact {
+    bottom: 0;
+  }
+  .azienda-slider-main .slider-content-box {
+    justify-content: center !important;
+    flex-direction: unset;
+  }
 }
 @media (min-width: 576px) and (max-width: 767px) {
   footer .footer-main .footer-links ul {

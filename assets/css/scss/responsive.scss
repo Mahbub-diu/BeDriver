@@ -704,6 +704,31 @@
       }
     }
   }
+
+  .azienda-slider-main {
+    height: 553px;
+    .swiper-slide {
+      .slide-bg {
+        height: 100%;
+      }
+    }
+    .centerd {
+      h1 {
+        font-size: 35px;
+        line-height: 40px;
+      }
+    }
+    .slider-sound-switch {
+      display: none;
+    }
+    .slider-contact {
+      bottom: 0;
+    }
+    .slider-content-box {
+      justify-content: center !important;
+      flex-direction: unset;
+    }
+  }
 }
 
 // max widht 767px ends here

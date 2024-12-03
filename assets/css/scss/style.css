@@ -946,6 +946,9 @@ footer .footer-main .footer-links ul li a {
   line-height: 24px;
   font-family: "gothambold";
 }
+.footer-top-main .form-check {
+  margin-bottom: 20px;
+}
 .footer-top-main .form-check input[type=radio] {
   border: none !important;
   background-color: #2c2c2c;
@@ -968,6 +971,7 @@ footer .footer-main .footer-links ul li a {
   font-size: 16px;
   line-height: 20px;
   font-family: "gothamlight";
+  margin-bottom: 0;
 }
 
 /* ========================================== */
