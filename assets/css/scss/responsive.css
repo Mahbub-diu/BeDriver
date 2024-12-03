@@ -46,6 +46,117 @@
     font-size: 28px;
     margin-bottom: 12px;
   }
+  .azienda-slider-main {
+    height: 950px;
+  }
+  .azienda-slider-main .swiper-slide .slide-bg {
+    height: 950px;
+  }
+  .azienda-slider-main .slider-content-box {
+    padding: 150px 50px 70px 50px;
+    justify-content: center;
+    gap: 0;
+    align-items: center;
+  }
+  .azienda-slider-main .centerd {
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .azienda-slider-main .centerd h1 {
+    font-size: 100px;
+    line-height: 120px;
+  }
+  .azienda-slider-main .slider-sound-switch {
+    display: none;
+  }
+  .leadership-main {
+    padding: 76px 35px;
+    padding-bottom: 48px;
+  }
+  .leadership-main .title-box {
+    margin-bottom: 20px;
+  }
+  .leadership-main .title-box h2 {
+    line-height: 67px;
+    font-size: 45px;
+    letter-spacing: -1.75px;
+    margin-bottom: 48px;
+  }
+  .leadership-main .swiper {
+    padding-bottom: 60px;
+  }
+  .leadership-main .swiper .swiper-slide .single-leader-box .content-box {
+    padding: 0 15px;
+  }
+  .leadership-main .swiper .swiper-slide .single-leader-box .content-box .name {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .leadership-main .swiper .swiper-slide .single-leader-box .content-box .designation {
+    font-size: 11px;
+    line-height: 16px;
+  }
+  .leadership-main .swiper .swiper-button-prev {
+    left: 47%;
+  }
+  .leadership-main .swiper .swiper-button-next {
+    right: 45%;
+  }
+  .ohibo-section {
+    padding-top: 0;
+  }
+  .footer-top-main {
+    padding: 76px 35px 74px 35px;
+  }
+  .footer-top-main .title {
+    margin-bottom: 25px;
+  }
+  .footer-top-main .title h4 {
+    line-height: 20px;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  .footer-top-main .title h6 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .footer-top-main .form-group {
+    margin-bottom: 15px;
+  }
+  .footer-top-main .form-group input[type=text] {
+    font-size: 16px;
+    line-height: 16px;
+    padding: 10px 15px;
+  }
+  .footer-top-main .form-group textarea {
+    font-size: 16px;
+    line-height: 16px;
+    padding: 10px 15px;
+  }
+  .footer-top-main .form-group ::-moz-placeholder {
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .footer-top-main .form-group ::placeholder {
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .footer-top-main .form-group .footer-btn-submit {
+    font-size: 16px;
+    line-height: 16px;
+    padding: 15px 20px;
+  }
+  .footer-top-main .form-check {
+    margin-top: 20px;
+  }
+  .footer-top-main .form-check label {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .footer-top-main .form-text {
+    font-size: 12px;
+    line-height: 16px;
+  }
 }
 @media (min-width: 1366px) and (max-width: 1440px) {
   header .main-header {
@@ -69,6 +180,7 @@
   }
   .home-slider-main .slider-contact {
     padding-left: 50px;
+    max-width: 210px;
   }
   footer .footer-main {
     padding: 50px 50px 50px 50px;
@@ -96,6 +208,117 @@
   }
   .sidebar-main .sidebar-links .top-items ul li a {
     font-size: 27px;
+  }
+  .azienda-slider-main {
+    height: 950px;
+  }
+  .azienda-slider-main .swiper-slide .slide-bg {
+    height: 950px;
+  }
+  .azienda-slider-main .slider-content-box {
+    padding: 150px 50px 70px 50px;
+    justify-content: center;
+    gap: 0;
+    align-items: center;
+  }
+  .azienda-slider-main .centerd {
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .azienda-slider-main .centerd h1 {
+    font-size: 100px;
+    line-height: 120px;
+  }
+  .azienda-slider-main .slider-sound-switch {
+    display: none;
+  }
+  .leadership-main {
+    padding: 76px 35px;
+    padding-bottom: 48px;
+  }
+  .leadership-main .title-box {
+    margin-bottom: 20px;
+  }
+  .leadership-main .title-box h2 {
+    line-height: 67px;
+    font-size: 45px;
+    letter-spacing: -1.75px;
+    margin-bottom: 48px;
+  }
+  .leadership-main .swiper {
+    padding-bottom: 60px;
+  }
+  .leadership-main .swiper .swiper-slide .single-leader-box .content-box {
+    padding: 0 15px;
+  }
+  .leadership-main .swiper .swiper-slide .single-leader-box .content-box .name {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .leadership-main .swiper .swiper-slide .single-leader-box .content-box .designation {
+    font-size: 11px;
+    line-height: 16px;
+  }
+  .leadership-main .swiper .swiper-button-prev {
+    left: 47%;
+  }
+  .leadership-main .swiper .swiper-button-next {
+    right: 45%;
+  }
+  .ohibo-section {
+    padding-top: 0;
+  }
+  .footer-top-main {
+    padding: 76px 35px 74px 35px;
+  }
+  .footer-top-main .title {
+    margin-bottom: 25px;
+  }
+  .footer-top-main .title h4 {
+    line-height: 20px;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  .footer-top-main .title h6 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .footer-top-main .form-group {
+    margin-bottom: 15px;
+  }
+  .footer-top-main .form-group input[type=text] {
+    font-size: 16px;
+    line-height: 16px;
+    padding: 10px 15px;
+  }
+  .footer-top-main .form-group textarea {
+    font-size: 16px;
+    line-height: 16px;
+    padding: 10px 15px;
+  }
+  .footer-top-main .form-group ::-moz-placeholder {
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .footer-top-main .form-group ::placeholder {
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .footer-top-main .form-group .footer-btn-submit {
+    font-size: 16px;
+    line-height: 16px;
+    padding: 15px 20px;
+  }
+  .footer-top-main .form-check {
+    margin-top: 20px;
+  }
+  .footer-top-main .form-check label {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .footer-top-main .form-text {
+    font-size: 12px;
+    line-height: 16px;
   }
 }
 @media (min-width: 1300px) and (max-width: 1365px) {
@@ -148,6 +371,117 @@
   }
   .sidebar-main .sidebar-links .top-items ul li a {
     font-size: 27px;
+  }
+  .azienda-slider-main {
+    height: 950px;
+  }
+  .azienda-slider-main .swiper-slide .slide-bg {
+    height: 950px;
+  }
+  .azienda-slider-main .slider-content-box {
+    padding: 150px 50px 70px 50px;
+    justify-content: center;
+    gap: 0;
+    align-items: center;
+  }
+  .azienda-slider-main .centerd {
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .azienda-slider-main .centerd h1 {
+    font-size: 68px;
+    line-height: 78px;
+  }
+  .azienda-slider-main .slider-sound-switch {
+    display: none;
+  }
+  .leadership-main {
+    padding: 76px 35px;
+    padding-bottom: 48px;
+  }
+  .leadership-main .title-box {
+    margin-bottom: 20px;
+  }
+  .leadership-main .title-box h2 {
+    line-height: 67px;
+    font-size: 45px;
+    letter-spacing: -1.75px;
+    margin-bottom: 48px;
+  }
+  .leadership-main .swiper {
+    padding-bottom: 60px;
+  }
+  .leadership-main .swiper .swiper-slide .single-leader-box .content-box {
+    padding: 0 15px;
+  }
+  .leadership-main .swiper .swiper-slide .single-leader-box .content-box .name {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .leadership-main .swiper .swiper-slide .single-leader-box .content-box .designation {
+    font-size: 11px;
+    line-height: 16px;
+  }
+  .leadership-main .swiper .swiper-button-prev {
+    left: 47%;
+  }
+  .leadership-main .swiper .swiper-button-next {
+    right: 45%;
+  }
+  .ohibo-section {
+    padding-top: 0;
+  }
+  .footer-top-main {
+    padding: 76px 35px 74px 35px;
+  }
+  .footer-top-main .title {
+    margin-bottom: 25px;
+  }
+  .footer-top-main .title h4 {
+    line-height: 20px;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  .footer-top-main .title h6 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .footer-top-main .form-group {
+    margin-bottom: 15px;
+  }
+  .footer-top-main .form-group input[type=text] {
+    font-size: 16px;
+    line-height: 16px;
+    padding: 10px 15px;
+  }
+  .footer-top-main .form-group textarea {
+    font-size: 16px;
+    line-height: 16px;
+    padding: 10px 15px;
+  }
+  .footer-top-main .form-group ::-moz-placeholder {
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .footer-top-main .form-group ::placeholder {
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .footer-top-main .form-group .footer-btn-submit {
+    font-size: 16px;
+    line-height: 16px;
+    padding: 15px 20px;
+  }
+  .footer-top-main .form-check {
+    margin-top: 20px;
+  }
+  .footer-top-main .form-check label {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .footer-top-main .form-text {
+    font-size: 12px;
+    line-height: 16px;
   }
 }
 @media (min-width: 1025px) and (max-width: 1299px) {
@@ -205,6 +539,150 @@
   .sidebar-main .sidebar-links .top-items ul li a {
     font-size: 25px;
   }
+  .azienda-slider-main {
+    height: 900px;
+  }
+  .azienda-slider-main .swiper-slide .slide-bg {
+    height: 900px;
+  }
+  .azienda-slider-main .slider-content-box {
+    padding: 150px 50px 70px 50px;
+    justify-content: center;
+    gap: 0;
+    align-items: center;
+  }
+  .azienda-slider-main .centerd {
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .azienda-slider-main .centerd h1 {
+    font-size: 68px;
+    line-height: 78px;
+  }
+  .azienda-slider-main .slider-sound-switch {
+    display: none;
+  }
+  .azienda-slider-main .slider-contact {
+    position: fixed;
+    top: 75%;
+    transform: translateY(-50%) rotate(90deg);
+    z-index: 999;
+    padding: 0;
+    right: -85px;
+    width: auto;
+    bottom: 171px;
+    align-items: center;
+    left: unset;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+  }
+  .azienda-slider-main .slider-contact p {
+    margin-bottom: 0;
+    font-size: 15px;
+    width: auto;
+    margin-right: 25px;
+  }
+  .azienda-slider-main .slider-contact p::after {
+    right: -32px;
+    width: 25px;
+  }
+  .azienda-slider-main .slider-contact a img {
+    width: 20px;
+    position: relative;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+  }
+  .leadership-main {
+    padding: 76px 35px;
+    padding-bottom: 48px;
+  }
+  .leadership-main .title-box {
+    margin-bottom: 20px;
+  }
+  .leadership-main .title-box h2 {
+    line-height: 67px;
+    font-size: 45px;
+    letter-spacing: -1.75px;
+    margin-bottom: 48px;
+  }
+  .leadership-main .swiper {
+    padding-bottom: 60px;
+  }
+  .leadership-main .swiper .swiper-slide .single-leader-box .content-box {
+    padding: 0 15px;
+  }
+  .leadership-main .swiper .swiper-slide .single-leader-box .content-box .name {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .leadership-main .swiper .swiper-slide .single-leader-box .content-box .designation {
+    font-size: 11px;
+    line-height: 16px;
+  }
+  .leadership-main .swiper .swiper-button-prev {
+    left: 47%;
+  }
+  .leadership-main .swiper .swiper-button-next {
+    right: 40%;
+  }
+  .ohibo-section {
+    padding-top: 0;
+  }
+  .footer-top-main {
+    padding: 76px 35px 74px 35px;
+  }
+  .footer-top-main .title {
+    margin-bottom: 25px;
+  }
+  .footer-top-main .title h4 {
+    line-height: 20px;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  .footer-top-main .title h6 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .footer-top-main .form-group {
+    margin-bottom: 15px;
+  }
+  .footer-top-main .form-group input[type=text] {
+    font-size: 16px;
+    line-height: 16px;
+    padding: 10px 15px;
+  }
+  .footer-top-main .form-group textarea {
+    font-size: 16px;
+    line-height: 16px;
+    padding: 10px 15px;
+  }
+  .footer-top-main .form-group ::-moz-placeholder {
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .footer-top-main .form-group ::placeholder {
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .footer-top-main .form-group .footer-btn-submit {
+    font-size: 16px;
+    line-height: 16px;
+    padding: 15px 20px;
+  }
+  .footer-top-main .form-check {
+    margin-top: 20px;
+  }
+  .footer-top-main .form-check label {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .footer-top-main .form-text {
+    font-size: 12px;
+    line-height: 16px;
+  }
 }
 @media (min-width: 992px) and (max-width: 1024px) {
   header .main-header {
@@ -261,6 +739,153 @@
   }
   .sidebar-main .sidebar-links .top-items ul li a {
     font-size: 25px;
+  }
+  .azienda-slider-main {
+    height: 850px;
+  }
+  .azienda-slider-main .swiper-slide .slide-bg {
+    height: 850px;
+  }
+  .azienda-slider-main .slider-content-box {
+    padding: 150px 50px 70px 50px;
+    justify-content: center;
+    gap: 0;
+    align-items: center;
+  }
+  .azienda-slider-main .centerd {
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .azienda-slider-main .centerd h1 {
+    font-size: 68px;
+    line-height: 78px;
+  }
+  .azienda-slider-main .slider-sound-switch {
+    display: none;
+  }
+  .azienda-slider-main .slider-contact {
+    position: fixed;
+    top: 75%;
+    transform: translateY(-50%) rotate(90deg);
+    z-index: 999;
+    padding: 0;
+    right: -85px;
+    width: auto;
+    bottom: 171px;
+    align-items: center;
+    left: unset;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+  }
+  .azienda-slider-main .slider-contact p {
+    margin-bottom: 0;
+    font-size: 15px;
+    width: auto;
+    margin-right: 25px;
+  }
+  .azienda-slider-main .slider-contact p::after {
+    right: -32px;
+    width: 25px;
+  }
+  .azienda-slider-main .slider-contact a img {
+    width: 20px;
+    position: relative;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+  }
+  .leadership-main {
+    padding: 76px 35px;
+    padding-bottom: 48px;
+  }
+  .leadership-main .title-box {
+    margin-bottom: 20px;
+  }
+  .leadership-main .title-box h2 {
+    line-height: 67px;
+    font-size: 45px;
+    letter-spacing: -1.75px;
+    margin-bottom: 48px;
+  }
+  .leadership-main .swiper {
+    padding-bottom: 60px;
+  }
+  .leadership-main .swiper .swiper-slide .single-leader-box .content-box {
+    padding: 0 15px;
+  }
+  .leadership-main .swiper .swiper-slide .single-leader-box .content-box .name {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .leadership-main .swiper .swiper-slide .single-leader-box .content-box .designation {
+    font-size: 11px;
+    line-height: 16px;
+  }
+  .leadership-main .swiper .swiper-button-prev {
+    left: 47%;
+  }
+  .leadership-main .swiper .swiper-button-next {
+    right: 40%;
+  }
+  .ohibo-section {
+    padding-top: 0;
+  }
+  .footer-top-main {
+    padding: 76px 35px 74px 35px;
+  }
+  .footer-top-main .title {
+    margin-bottom: 25px;
+  }
+  .footer-top-main .title h4 {
+    line-height: 20px;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  .footer-top-main .title h6 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .footer-top-main .title h6 br {
+    display: none;
+  }
+  .footer-top-main .form-group {
+    margin-bottom: 15px;
+  }
+  .footer-top-main .form-group input[type=text] {
+    font-size: 16px;
+    line-height: 16px;
+    padding: 10px 15px;
+  }
+  .footer-top-main .form-group textarea {
+    font-size: 16px;
+    line-height: 16px;
+    padding: 10px 15px;
+  }
+  .footer-top-main .form-group ::-moz-placeholder {
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .footer-top-main .form-group ::placeholder {
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .footer-top-main .form-group .footer-btn-submit {
+    font-size: 16px;
+    line-height: 16px;
+    padding: 15px 20px;
+  }
+  .footer-top-main .form-check {
+    margin-top: 20px;
+  }
+  .footer-top-main .form-check label {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .footer-top-main .form-text {
+    font-size: 12px;
+    line-height: 16px;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -321,6 +946,153 @@
   }
   .sidebar-main .sidebar-links .top-items ul li a {
     font-size: 25px;
+  }
+  .azienda-slider-main {
+    height: 725px;
+  }
+  .azienda-slider-main .swiper-slide .slide-bg {
+    height: 725px;
+  }
+  .azienda-slider-main .slider-content-box {
+    padding: 150px 50px 70px 50px;
+    justify-content: center;
+    gap: 0;
+    align-items: center;
+  }
+  .azienda-slider-main .centerd {
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .azienda-slider-main .centerd h1 {
+    font-size: 68px;
+    line-height: 78px;
+  }
+  .azienda-slider-main .slider-sound-switch {
+    display: none;
+  }
+  .azienda-slider-main .slider-contact {
+    position: fixed;
+    top: 75%;
+    transform: translateY(-50%) rotate(90deg);
+    z-index: 999;
+    padding: 0;
+    right: -85px;
+    width: auto;
+    bottom: 171px;
+    align-items: center;
+    left: unset;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+  }
+  .azienda-slider-main .slider-contact p {
+    margin-bottom: 0;
+    font-size: 15px;
+    width: auto;
+    margin-right: 25px;
+  }
+  .azienda-slider-main .slider-contact p::after {
+    right: -32px;
+    width: 25px;
+  }
+  .azienda-slider-main .slider-contact a img {
+    width: 20px;
+    position: relative;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+  }
+  .leadership-main {
+    padding: 76px 35px;
+    padding-bottom: 48px;
+  }
+  .leadership-main .title-box {
+    margin-bottom: 20px;
+  }
+  .leadership-main .title-box h2 {
+    line-height: 67px;
+    font-size: 45px;
+    letter-spacing: -1.75px;
+    margin-bottom: 48px;
+  }
+  .leadership-main .swiper {
+    padding-bottom: 60px;
+  }
+  .leadership-main .swiper .swiper-slide .single-leader-box .content-box {
+    padding: 0 15px;
+  }
+  .leadership-main .swiper .swiper-slide .single-leader-box .content-box .name {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .leadership-main .swiper .swiper-slide .single-leader-box .content-box .designation {
+    font-size: 11px;
+    line-height: 16px;
+  }
+  .leadership-main .swiper .swiper-button-prev {
+    left: 47%;
+  }
+  .leadership-main .swiper .swiper-button-next {
+    right: 40%;
+  }
+  .ohibo-section {
+    padding-top: 0;
+  }
+  .footer-top-main {
+    padding: 76px 35px 74px 35px;
+  }
+  .footer-top-main .title {
+    margin-bottom: 25px;
+  }
+  .footer-top-main .title h4 {
+    line-height: 20px;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  .footer-top-main .title h6 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .footer-top-main .title h6 br {
+    display: none;
+  }
+  .footer-top-main .form-group {
+    margin-bottom: 15px;
+  }
+  .footer-top-main .form-group input[type=text] {
+    font-size: 16px;
+    line-height: 16px;
+    padding: 10px 15px;
+  }
+  .footer-top-main .form-group textarea {
+    font-size: 16px;
+    line-height: 16px;
+    padding: 10px 15px;
+  }
+  .footer-top-main .form-group ::-moz-placeholder {
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .footer-top-main .form-group ::placeholder {
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .footer-top-main .form-group .footer-btn-submit {
+    font-size: 16px;
+    line-height: 16px;
+    padding: 15px 20px;
+  }
+  .footer-top-main .form-check {
+    margin-top: 20px;
+  }
+  .footer-top-main .form-check label {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .footer-top-main .form-text {
+    font-size: 12px;
+    line-height: 16px;
   }
 }
 @media (min-width: 768px) {
@@ -466,7 +1238,7 @@
     height: 553px;
   }
   .azienda-slider-main .swiper-slide .slide-bg {
-    height: 100%;
+    height: 553px;
   }
   .azienda-slider-main .centerd h1 {
     font-size: 35px;
@@ -476,11 +1248,106 @@
     display: none;
   }
   .azienda-slider-main .slider-contact {
-    bottom: 0;
+    position: fixed;
+    top: 75%;
+    transform: translateY(-50%) rotate(90deg);
+    z-index: 999;
   }
-  .azienda-slider-main .slider-content-box {
-    justify-content: center !important;
-    flex-direction: unset;
+  .leadership-main {
+    padding: 40px 20px;
+    padding-bottom: 30px;
+  }
+  .leadership-main .title-box {
+    margin-bottom: 20px;
+  }
+  .leadership-main .title-box h2 {
+    line-height: 36px;
+    font-size: 22px;
+    letter-spacing: -0.86px;
+    margin-bottom: 16px;
+  }
+  .leadership-main .title-box h6 {
+    font-size: 14px;
+    line-height: 14px;
+  }
+  .leadership-main .swiper {
+    padding-bottom: 60px;
+  }
+  .leadership-main .swiper .swiper-slide .single-leader-box .content-box {
+    padding: 0 15px;
+  }
+  .leadership-main .swiper .swiper-slide .single-leader-box .content-box .name {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .leadership-main .swiper .swiper-slide .single-leader-box .content-box .designation {
+    font-size: 11px;
+    line-height: 16px;
+  }
+  .leadership-main .swiper .swiper-button-prev {
+    height: 30px;
+    width: 30px;
+    left: 40%;
+  }
+  .leadership-main .swiper .swiper-button-prev::after {
+    font-size: 14px;
+  }
+  .leadership-main .swiper .swiper-button-next {
+    height: 30px;
+    width: 30px;
+    right: 31%;
+  }
+  .leadership-main .swiper .swiper-button-next::after {
+    font-size: 14px;
+  }
+  .ohibo-section {
+    padding-top: 0;
+  }
+  .footer-top-main {
+    padding: 48px 20px 44px 20px;
+  }
+  .footer-top-main .title {
+    margin-bottom: 25px;
+  }
+  .footer-top-main .title h4 {
+    line-height: 20px;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  .footer-top-main .title h6 {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .footer-top-main .form-group input[type=text] {
+    font-size: 16px;
+    line-height: 16px;
+    padding: 10px 15px;
+  }
+  .footer-top-main .form-group textarea {
+    font-size: 16px;
+    line-height: 16px;
+    padding: 10px 15px;
+  }
+  .footer-top-main .form-group ::-moz-placeholder {
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .footer-top-main .form-group ::placeholder {
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .footer-top-main .form-group .footer-btn-submit {
+    font-size: 16px;
+    line-height: 16px;
+    padding: 10px 15px;
+  }
+  .footer-top-main .form-check label {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .footer-top-main .form-text {
+    font-size: 12px;
+    line-height: 16px;
   }
 }
 @media (min-width: 576px) and (max-width: 767px) {

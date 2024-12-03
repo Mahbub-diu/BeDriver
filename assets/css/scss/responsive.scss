@@ -77,6 +77,122 @@
       }
     }
   }
+  // azienda page start
+
+  .azienda-slider-main {
+    height: 950px;
+    .swiper-slide {
+      .slide-bg {
+        height: 950px;
+      }
+    }
+    .slider-content-box {
+      padding: 150px 50px 70px 50px;
+      justify-content: center;
+      gap: 0;
+      align-items: center;
+    }
+    .centerd {
+      height: fit-content;
+      h1 {
+        font-size: 100px;
+        line-height: 120px;
+      }
+    }
+    .slider-sound-switch {
+      display: none;
+    }
+  }
+  .leadership-main {
+    padding: 76px 35px;
+    padding-bottom: 48px;
+    .title-box {
+      margin-bottom: 20px;
+      h2 {
+        line-height: 67px;
+        font-size: 45px;
+        letter-spacing: -1.75px;
+        margin-bottom: 48px;
+      }
+    }
+    .swiper {
+      padding-bottom: 60px;
+      .swiper-slide {
+        .single-leader-box {
+          .content-box {
+            padding: 0 15px;
+            .name {
+              font-size: 16px;
+              line-height: 20px;
+            }
+            .designation {
+              font-size: 11px;
+              line-height: 16px;
+            }
+          }
+        }
+      }
+      .swiper-button-prev {
+        left: 47%;
+      }
+
+      .swiper-button-next {
+        right: 45%;
+      }
+    }
+  }
+  .ohibo-section {
+    padding-top: 0;
+  }
+  .footer-top-main {
+    padding: 76px 35px 74px 35px;
+    .title {
+      margin-bottom: 25px;
+      h4 {
+        line-height: 20px;
+        margin-bottom: 10px;
+        font-size: 16px;
+      }
+      h6 {
+        font-size: 25px;
+        line-height: 30px;
+      }
+    }
+    .form-group {
+      margin-bottom: 15px;
+      input[type='text'] {
+        font-size: 16px;
+        line-height: 16px;
+        padding: 10px 15px;
+      }
+      textarea {
+        font-size: 16px;
+        line-height: 16px;
+        padding: 10px 15px;
+      }
+      ::placeholder {
+        font-size: 16px;
+        line-height: 16px;
+      }
+      .footer-btn-submit {
+        font-size: 16px;
+        line-height: 16px;
+        padding: 15px 20px;
+      }
+    }
+    .form-check {
+      margin-top: 20px;
+      label {
+        font-size: 12px;
+        line-height: 16px;
+      }
+    }
+    .form-text {
+      font-size: 12px;
+      line-height: 16px;
+    }
+  }
+  // azienda page end
 }
 // min width 1441px and max width 1550px ends here
 
@@ -114,6 +230,7 @@
     }
     .slider-contact {
       padding-left: 50px;
+      max-width: 210px;
     }
   }
 
@@ -160,6 +277,123 @@
       }
     }
   }
+
+  // azienda page start
+
+  .azienda-slider-main {
+    height: 950px;
+    .swiper-slide {
+      .slide-bg {
+        height: 950px;
+      }
+    }
+    .slider-content-box {
+      padding: 150px 50px 70px 50px;
+      justify-content: center;
+      gap: 0;
+      align-items: center;
+    }
+    .centerd {
+      height: fit-content;
+      h1 {
+        font-size: 100px;
+        line-height: 120px;
+      }
+    }
+    .slider-sound-switch {
+      display: none;
+    }
+  }
+  .leadership-main {
+    padding: 76px 35px;
+    padding-bottom: 48px;
+    .title-box {
+      margin-bottom: 20px;
+      h2 {
+        line-height: 67px;
+        font-size: 45px;
+        letter-spacing: -1.75px;
+        margin-bottom: 48px;
+      }
+    }
+    .swiper {
+      padding-bottom: 60px;
+      .swiper-slide {
+        .single-leader-box {
+          .content-box {
+            padding: 0 15px;
+            .name {
+              font-size: 16px;
+              line-height: 20px;
+            }
+            .designation {
+              font-size: 11px;
+              line-height: 16px;
+            }
+          }
+        }
+      }
+      .swiper-button-prev {
+        left: 47%;
+      }
+
+      .swiper-button-next {
+        right: 45%;
+      }
+    }
+  }
+  .ohibo-section {
+    padding-top: 0;
+  }
+  .footer-top-main {
+    padding: 76px 35px 74px 35px;
+    .title {
+      margin-bottom: 25px;
+      h4 {
+        line-height: 20px;
+        margin-bottom: 10px;
+        font-size: 16px;
+      }
+      h6 {
+        font-size: 25px;
+        line-height: 30px;
+      }
+    }
+    .form-group {
+      margin-bottom: 15px;
+      input[type='text'] {
+        font-size: 16px;
+        line-height: 16px;
+        padding: 10px 15px;
+      }
+      textarea {
+        font-size: 16px;
+        line-height: 16px;
+        padding: 10px 15px;
+      }
+      ::placeholder {
+        font-size: 16px;
+        line-height: 16px;
+      }
+      .footer-btn-submit {
+        font-size: 16px;
+        line-height: 16px;
+        padding: 15px 20px;
+      }
+    }
+    .form-check {
+      margin-top: 20px;
+      label {
+        font-size: 12px;
+        line-height: 16px;
+      }
+    }
+    .form-text {
+      font-size: 12px;
+      line-height: 16px;
+    }
+  }
+  // azienda page end
 }
 // min width 1366px and max width 1440px ends here
 
@@ -244,6 +478,122 @@
       }
     }
   }
+  // azienda page start
+
+  .azienda-slider-main {
+    height: 950px;
+    .swiper-slide {
+      .slide-bg {
+        height: 950px;
+      }
+    }
+    .slider-content-box {
+      padding: 150px 50px 70px 50px;
+      justify-content: center;
+      gap: 0;
+      align-items: center;
+    }
+    .centerd {
+      height: fit-content;
+      h1 {
+        font-size: 68px;
+        line-height: 78px;
+      }
+    }
+    .slider-sound-switch {
+      display: none;
+    }
+  }
+  .leadership-main {
+    padding: 76px 35px;
+    padding-bottom: 48px;
+    .title-box {
+      margin-bottom: 20px;
+      h2 {
+        line-height: 67px;
+        font-size: 45px;
+        letter-spacing: -1.75px;
+        margin-bottom: 48px;
+      }
+    }
+    .swiper {
+      padding-bottom: 60px;
+      .swiper-slide {
+        .single-leader-box {
+          .content-box {
+            padding: 0 15px;
+            .name {
+              font-size: 16px;
+              line-height: 20px;
+            }
+            .designation {
+              font-size: 11px;
+              line-height: 16px;
+            }
+          }
+        }
+      }
+      .swiper-button-prev {
+        left: 47%;
+      }
+
+      .swiper-button-next {
+        right: 45%;
+      }
+    }
+  }
+  .ohibo-section {
+    padding-top: 0;
+  }
+  .footer-top-main {
+    padding: 76px 35px 74px 35px;
+    .title {
+      margin-bottom: 25px;
+      h4 {
+        line-height: 20px;
+        margin-bottom: 10px;
+        font-size: 16px;
+      }
+      h6 {
+        font-size: 25px;
+        line-height: 30px;
+      }
+    }
+    .form-group {
+      margin-bottom: 15px;
+      input[type='text'] {
+        font-size: 16px;
+        line-height: 16px;
+        padding: 10px 15px;
+      }
+      textarea {
+        font-size: 16px;
+        line-height: 16px;
+        padding: 10px 15px;
+      }
+      ::placeholder {
+        font-size: 16px;
+        line-height: 16px;
+      }
+      .footer-btn-submit {
+        font-size: 16px;
+        line-height: 16px;
+        padding: 15px 20px;
+      }
+    }
+    .form-check {
+      margin-top: 20px;
+      label {
+        font-size: 12px;
+        line-height: 16px;
+      }
+    }
+    .form-text {
+      font-size: 12px;
+      line-height: 16px;
+    }
+  }
+  // azienda page end
 }
 // min width 1300px and max width 1365px ends here
 
@@ -340,6 +690,158 @@
       }
     }
   }
+
+  // azienda page start
+
+  .azienda-slider-main {
+    height: 900px;
+    .swiper-slide {
+      .slide-bg {
+        height: 900px;
+      }
+    }
+    .slider-content-box {
+      padding: 150px 50px 70px 50px;
+      justify-content: center;
+      gap: 0;
+      align-items: center;
+    }
+    .centerd {
+      height: fit-content;
+      h1 {
+        font-size: 68px;
+        line-height: 78px;
+      }
+    }
+    .slider-sound-switch {
+      display: none;
+    }
+    .slider-contact {
+      position: fixed;
+      top: 75%;
+      transform: translateY(-50%) rotate(90deg);
+      z-index: 999;
+      padding: 0;
+      right: -85px;
+      width: auto;
+      bottom: 171px;
+      align-items: center;
+      left: unset;
+      max-width: -moz-fit-content;
+      max-width: fit-content;
+      p {
+        margin-bottom: 0;
+        font-size: 15px;
+        width: auto;
+        margin-right: 25px;
+        &::after {
+          right: -32px;
+          width: 25px;
+        }
+      }
+      a {
+        img {
+          width: 20px;
+          position: relative;
+          transform: rotate(-90deg);
+          -webkit-transform: rotate(-90deg);
+          -moz-transform: rotate(-90deg);
+          -ms-transform: rotate(-90deg);
+          -o-transform: rotate(-90deg);
+        }
+      }
+    }
+  }
+  .leadership-main {
+    padding: 76px 35px;
+    padding-bottom: 48px;
+    .title-box {
+      margin-bottom: 20px;
+      h2 {
+        line-height: 67px;
+        font-size: 45px;
+        letter-spacing: -1.75px;
+        margin-bottom: 48px;
+      }
+    }
+    .swiper {
+      padding-bottom: 60px;
+      .swiper-slide {
+        .single-leader-box {
+          .content-box {
+            padding: 0 15px;
+            .name {
+              font-size: 16px;
+              line-height: 20px;
+            }
+            .designation {
+              font-size: 11px;
+              line-height: 16px;
+            }
+          }
+        }
+      }
+      .swiper-button-prev {
+        left: 47%;
+      }
+
+      .swiper-button-next {
+        right: 40%;
+      }
+    }
+  }
+  .ohibo-section {
+    padding-top: 0;
+  }
+  .footer-top-main {
+    padding: 76px 35px 74px 35px;
+    .title {
+      margin-bottom: 25px;
+      h4 {
+        line-height: 20px;
+        margin-bottom: 10px;
+        font-size: 16px;
+      }
+      h6 {
+        font-size: 25px;
+        line-height: 30px;
+      }
+    }
+    .form-group {
+      margin-bottom: 15px;
+      input[type='text'] {
+        font-size: 16px;
+        line-height: 16px;
+        padding: 10px 15px;
+      }
+      textarea {
+        font-size: 16px;
+        line-height: 16px;
+        padding: 10px 15px;
+      }
+      ::placeholder {
+        font-size: 16px;
+        line-height: 16px;
+      }
+      .footer-btn-submit {
+        font-size: 16px;
+        line-height: 16px;
+        padding: 15px 20px;
+      }
+    }
+    .form-check {
+      margin-top: 20px;
+      label {
+        font-size: 12px;
+        line-height: 16px;
+      }
+    }
+    .form-text {
+      font-size: 12px;
+      line-height: 16px;
+    }
+  }
+  // azienda page end
 }
 
 // min width 1025px and max width 1299px ends here
@@ -430,6 +932,161 @@
       }
     }
   }
+
+  // azienda page start
+
+  .azienda-slider-main {
+    height: 850px;
+    .swiper-slide {
+      .slide-bg {
+        height: 850px;
+      }
+    }
+    .slider-content-box {
+      padding: 150px 50px 70px 50px;
+      justify-content: center;
+      gap: 0;
+      align-items: center;
+    }
+    .centerd {
+      height: fit-content;
+      h1 {
+        font-size: 68px;
+        line-height: 78px;
+      }
+    }
+    .slider-sound-switch {
+      display: none;
+    }
+    .slider-contact {
+      position: fixed;
+      top: 75%;
+      transform: translateY(-50%) rotate(90deg);
+      z-index: 999;
+      padding: 0;
+      right: -85px;
+      width: auto;
+      bottom: 171px;
+      align-items: center;
+      left: unset;
+      max-width: -moz-fit-content;
+      max-width: fit-content;
+      p {
+        margin-bottom: 0;
+        font-size: 15px;
+        width: auto;
+        margin-right: 25px;
+        &::after {
+          right: -32px;
+          width: 25px;
+        }
+      }
+      a {
+        img {
+          width: 20px;
+          position: relative;
+          transform: rotate(-90deg);
+          -webkit-transform: rotate(-90deg);
+          -moz-transform: rotate(-90deg);
+          -ms-transform: rotate(-90deg);
+          -o-transform: rotate(-90deg);
+        }
+      }
+    }
+  }
+  .leadership-main {
+    padding: 76px 35px;
+    padding-bottom: 48px;
+    .title-box {
+      margin-bottom: 20px;
+      h2 {
+        line-height: 67px;
+        font-size: 45px;
+        letter-spacing: -1.75px;
+        margin-bottom: 48px;
+      }
+    }
+    .swiper {
+      padding-bottom: 60px;
+      .swiper-slide {
+        .single-leader-box {
+          .content-box {
+            padding: 0 15px;
+            .name {
+              font-size: 16px;
+              line-height: 20px;
+            }
+            .designation {
+              font-size: 11px;
+              line-height: 16px;
+            }
+          }
+        }
+      }
+      .swiper-button-prev {
+        left: 47%;
+      }
+
+      .swiper-button-next {
+        right: 40%;
+      }
+    }
+  }
+  .ohibo-section {
+    padding-top: 0;
+  }
+  .footer-top-main {
+    padding: 76px 35px 74px 35px;
+    .title {
+      margin-bottom: 25px;
+      h4 {
+        line-height: 20px;
+        margin-bottom: 10px;
+        font-size: 16px;
+      }
+      h6 {
+        font-size: 25px;
+        line-height: 30px;
+        br {
+          display: none;
+        }
+      }
+    }
+    .form-group {
+      margin-bottom: 15px;
+      input[type='text'] {
+        font-size: 16px;
+        line-height: 16px;
+        padding: 10px 15px;
+      }
+      textarea {
+        font-size: 16px;
+        line-height: 16px;
+        padding: 10px 15px;
+      }
+      ::placeholder {
+        font-size: 16px;
+        line-height: 16px;
+      }
+      .footer-btn-submit {
+        font-size: 16px;
+        line-height: 16px;
+        padding: 15px 20px;
+      }
+    }
+    .form-check {
+      margin-top: 20px;
+      label {
+        font-size: 12px;
+        line-height: 16px;
+      }
+    }
+    .form-text {
+      font-size: 12px;
+      line-height: 16px;
+    }
+  }
+  // azienda page end
 }
 
 // min width 992px and max width 1024px ends here
@@ -522,6 +1179,161 @@
       }
     }
   }
+
+  // azienda page start
+
+  .azienda-slider-main {
+    height: 725px;
+    .swiper-slide {
+      .slide-bg {
+        height: 725px;
+      }
+    }
+    .slider-content-box {
+      padding: 150px 50px 70px 50px;
+      justify-content: center;
+      gap: 0;
+      align-items: center;
+    }
+    .centerd {
+      height: fit-content;
+      h1 {
+        font-size: 68px;
+        line-height: 78px;
+      }
+    }
+    .slider-sound-switch {
+      display: none;
+    }
+    .slider-contact {
+      position: fixed;
+      top: 75%;
+      transform: translateY(-50%) rotate(90deg);
+      z-index: 999;
+      padding: 0;
+      right: -85px;
+      width: auto;
+      bottom: 171px;
+      align-items: center;
+      left: unset;
+      max-width: -moz-fit-content;
+      max-width: fit-content;
+      p {
+        margin-bottom: 0;
+        font-size: 15px;
+        width: auto;
+        margin-right: 25px;
+        &::after {
+          right: -32px;
+          width: 25px;
+        }
+      }
+      a {
+        img {
+          width: 20px;
+          position: relative;
+          transform: rotate(-90deg);
+          -webkit-transform: rotate(-90deg);
+          -moz-transform: rotate(-90deg);
+          -ms-transform: rotate(-90deg);
+          -o-transform: rotate(-90deg);
+        }
+      }
+    }
+  }
+  .leadership-main {
+    padding: 76px 35px;
+    padding-bottom: 48px;
+    .title-box {
+      margin-bottom: 20px;
+      h2 {
+        line-height: 67px;
+        font-size: 45px;
+        letter-spacing: -1.75px;
+        margin-bottom: 48px;
+      }
+    }
+    .swiper {
+      padding-bottom: 60px;
+      .swiper-slide {
+        .single-leader-box {
+          .content-box {
+            padding: 0 15px;
+            .name {
+              font-size: 16px;
+              line-height: 20px;
+            }
+            .designation {
+              font-size: 11px;
+              line-height: 16px;
+            }
+          }
+        }
+      }
+      .swiper-button-prev {
+        left: 47%;
+      }
+
+      .swiper-button-next {
+        right: 40%;
+      }
+    }
+  }
+  .ohibo-section {
+    padding-top: 0;
+  }
+  .footer-top-main {
+    padding: 76px 35px 74px 35px;
+    .title {
+      margin-bottom: 25px;
+      h4 {
+        line-height: 20px;
+        margin-bottom: 10px;
+        font-size: 16px;
+      }
+      h6 {
+        font-size: 25px;
+        line-height: 30px;
+        br {
+          display: none;
+        }
+      }
+    }
+    .form-group {
+      margin-bottom: 15px;
+      input[type='text'] {
+        font-size: 16px;
+        line-height: 16px;
+        padding: 10px 15px;
+      }
+      textarea {
+        font-size: 16px;
+        line-height: 16px;
+        padding: 10px 15px;
+      }
+      ::placeholder {
+        font-size: 16px;
+        line-height: 16px;
+      }
+      .footer-btn-submit {
+        font-size: 16px;
+        line-height: 16px;
+        padding: 15px 20px;
+      }
+    }
+    .form-check {
+      margin-top: 20px;
+      label {
+        font-size: 12px;
+        line-height: 16px;
+      }
+    }
+    .form-text {
+      font-size: 12px;
+      line-height: 16px;
+    }
+  }
+  // azienda page end
 }
 
 // min width 768px and max width 991px ends here
@@ -705,11 +1517,13 @@
     }
   }
 
+  // azienda page start
+
   .azienda-slider-main {
     height: 553px;
     .swiper-slide {
       .slide-bg {
-        height: 100%;
+        height: 553px;
       }
     }
     .centerd {
@@ -722,13 +1536,114 @@
       display: none;
     }
     .slider-contact {
-      bottom: 0;
-    }
-    .slider-content-box {
-      justify-content: center !important;
-      flex-direction: unset;
+      position: fixed;
+      top: 75%;
+      transform: translateY(-50%) rotate(90deg);
+      z-index: 999;
     }
   }
+  .leadership-main {
+    padding: 40px 20px;
+    padding-bottom: 30px;
+    .title-box {
+      margin-bottom: 20px;
+      h2 {
+        line-height: 36px;
+        font-size: 22px;
+        letter-spacing: -0.86px;
+        margin-bottom: 16px;
+      }
+      h6 {
+        font-size: 14px;
+        line-height: 14px;
+      }
+    }
+    .swiper {
+      padding-bottom: 60px;
+      .swiper-slide {
+        .single-leader-box {
+          .content-box {
+            padding: 0 15px;
+            .name {
+              font-size: 16px;
+              line-height: 20px;
+            }
+            .designation {
+              font-size: 11px;
+              line-height: 16px;
+            }
+          }
+        }
+      }
+      .swiper-button-prev {
+        height: 30px;
+        width: 30px;
+        left: 40%;
+        &::after {
+          font-size: 14px;
+        }
+      }
+
+      .swiper-button-next {
+        height: 30px;
+        width: 30px;
+        right: 31%;
+        &::after {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+  .ohibo-section {
+    padding-top: 0;
+  }
+  .footer-top-main {
+    padding: 48px 20px 44px 20px;
+    .title {
+      margin-bottom: 25px;
+      h4 {
+        line-height: 20px;
+        margin-bottom: 10px;
+        font-size: 16px;
+      }
+      h6 {
+        font-size: 20px;
+        line-height: 26px;
+      }
+    }
+    .form-group {
+      input[type='text'] {
+        font-size: 16px;
+        line-height: 16px;
+        padding: 10px 15px;
+      }
+      textarea {
+        font-size: 16px;
+        line-height: 16px;
+        padding: 10px 15px;
+      }
+      ::placeholder {
+        font-size: 16px;
+        line-height: 16px;
+      }
+      .footer-btn-submit {
+        font-size: 16px;
+        line-height: 16px;
+        padding: 10px 15px;
+      }
+    }
+    .form-check {
+      label {
+        font-size: 12px;
+        line-height: 16px;
+      }
+    }
+    .form-text {
+      font-size: 12px;
+      line-height: 16px;
+    }
+  }
+  // azienda page end
 }
 
 // max widht 767px ends here
