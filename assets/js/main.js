@@ -99,9 +99,14 @@
 
       let index = 0;
 
-      htmlContent.split(/(<[^>]+>)/g).forEach((fragment) => {
+      htmlContent.split(/(<[^>]+>| )/g).forEach((fragment) => {
         if (fragment.startsWith('<')) {
           $element.append(fragment);
+        } else if (fragment === ' ') {
+          const $space = $('<span>&nbsp;</span>');
+          $space.css('animation-delay', `${index * delay}s`);
+          $element.append($space);
+          index++;
         } else {
           fragment.split('').forEach((char) => {
             const $span = $('<span></span>').text(char);
@@ -112,7 +117,8 @@
         }
       });
     }
-    animateText('.centerd h1', 0.2);
+
+    // animateText('.azienda-slider-main .centerd h1', 0.2);
 
     var swiper = new Swiper('.leader-slider', {
       slidesPerView: 4,
@@ -224,5 +230,19 @@
         },
       },
     });
+    // Background image area start here
+    $('[data-background]').each(function () {
+      var bgImage = $(this).attr('data-background');
+      if (bgImage) {
+        $(this).css({
+          'background-image': 'url(' + bgImage + ')',
+          'background-size': 'cover',
+          'background-position': 'center center',
+          'background-repeat': 'no-repeat',
+        });
+      }
+    });
+
+    // Background image area end here
   });
 })(jQuery);

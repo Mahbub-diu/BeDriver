@@ -398,7 +398,8 @@ header {
 /* ========================================== */
 
 .home-slider-main {
-  height: 1080px;
+  // height: 1080px;
+  height: 100vh;
   position: relative;
   .swiper {
     width: 100%;
@@ -435,11 +436,13 @@ header {
       background-repeat: no-repeat !important;
       background-position: center center !important;
       width: 100%;
-      height: 1080px;
+      // height: 1080px;
+      height: 100vh;
     }
     .video-bg {
       width: 100%;
-      height: 1080px;
+      // height: 1080px;
+      height: 100vh;
     }
     position: relative;
     &::before {
@@ -479,7 +482,8 @@ header {
     width: 100%;
     height: 100%;
     // padding: 270px 100px 197px 100px;
-    padding: 260px 100px 190px 100px;
+    // padding: 260px 100px 190px 100px;
+    padding: 180px 100px 100px 100px;
     @include trans-y-center;
     display: flex;
     flex-wrap: wrap;
@@ -641,26 +645,8 @@ header {
       }
     }
   }
-  .centerd {
-    width: 100%;
-    text-align: center;
-    h1 {
-      font-size: 125px;
-      text-transform: uppercase;
-      margin-bottom: 0;
-      color: transparent;
-      display: inline-block;
-      line-height: 130px;
-      span {
-        display: inline-block;
-        -webkit-text-stroke: 2px white;
-        color: transparent;
-        opacity: 0;
-        animation: stroke-fill 2s ease-in-out forwards;
-      }
-    }
-  }
 }
+
 /* ========================================== */
 
 /* Home Slider part ends here   */
@@ -673,6 +659,8 @@ header {
 
 /* ========================================== */
 footer {
+  position: relative;
+  z-index: 99;
   .footer-main {
     padding: 75px 85px 70px 85px;
     border-top: 2px solid $white;
@@ -740,6 +728,32 @@ footer {
 /* azienda page start here   */
 
 /* ========================================== */
+
+.azienda-slider-main {
+  .slider-content-box {
+    align-items: center;
+  }
+  .centerd {
+    width: 100%;
+    text-align: center;
+    height: fit-content;
+    h1 {
+      font-size: 125px;
+      text-transform: uppercase;
+      margin-bottom: 0;
+      color: transparent;
+      display: inline-block;
+      line-height: 130px;
+      span {
+        display: inline-block;
+        -webkit-text-stroke: 2px white;
+        color: transparent;
+        opacity: 0;
+        animation: stroke-fill 2s ease-in-out forwards;
+      }
+    }
+  }
+}
 
 .azinda-man-banner {
   .image-box {
@@ -1011,5 +1025,73 @@ footer {
 /* ========================================== */
 
 /* azienda page ends here   */
+
+/* ========================================== */
+
+/* ========================================== */
+
+/* officina page start here   */
+
+/* ========================================== */
+
+.officina-main {
+  height: 100vh;
+  .slider-content-box {
+    justify-content: center;
+    align-items: center;
+    .centerd {
+      width: 100%;
+      max-width: 886px;
+      height: fit-content;
+      h1 {
+        font-size: 65px;
+        line-height: 80px;
+        color: $white;
+        font-family: $gotahm-bold;
+        margin-bottom: 39px;
+      }
+      h6 {
+        font-family: $gotham-medium;
+        font-size: 30px;
+        line-height: 42px;
+        color: $white;
+        margin-bottom: 40px;
+      }
+      a {
+        font-family: $gotham-medium;
+        color: $logo-green;
+        font-size: 20px;
+        @include transition-four;
+        i {
+          font-size: 12px;
+          margin-left: 5px;
+          position: relative;
+          top: 0px;
+        }
+        &:hover {
+          color: $white;
+        }
+      }
+    }
+  }
+  .slider-contact {
+    position: fixed;
+    z-index: 99;
+    max-width: 261px;
+  }
+}
+
+.bdrive-garage-main {
+  padding: 194px 0;
+  .image-box {
+    text-align: center;
+    img {
+      max-width: 372px;
+    }
+  }
+}
+/* ========================================== */
+
+/* officina page ends here   */
 
 /* ========================================== */

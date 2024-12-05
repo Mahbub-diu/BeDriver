@@ -379,7 +379,7 @@ header .main-header.sticky .logo-box {
 /* Home Slider part starts here   */
 /* ========================================== */
 .home-slider-main {
-  height: 1080px;
+  height: 100vh;
   position: relative;
 }
 .home-slider-main .swiper {
@@ -417,11 +417,11 @@ header .main-header.sticky .logo-box {
   background-repeat: no-repeat !important;
   background-position: center center !important;
   width: 100%;
-  height: 1080px;
+  height: 100vh;
 }
 .home-slider-main .swiper-slide .video-bg {
   width: 100%;
-  height: 1080px;
+  height: 100vh;
 }
 .home-slider-main .swiper-slide::before {
   position: absolute;
@@ -448,7 +448,7 @@ header .main-header.sticky .logo-box {
   z-index: 1;
   width: 100%;
   height: 100%;
-  padding: 260px 100px 190px 100px;
+  padding: 180px 100px 100px 100px;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -613,25 +613,6 @@ header .main-header.sticky .logo-box {
 .home-slider-main .slider-sound-switch .custom-switch label:active:after {
   width: 50px;
 }
-.home-slider-main .centerd {
-  width: 100%;
-  text-align: center;
-}
-.home-slider-main .centerd h1 {
-  font-size: 125px;
-  text-transform: uppercase;
-  margin-bottom: 0;
-  color: transparent;
-  display: inline-block;
-  line-height: 130px;
-}
-.home-slider-main .centerd h1 span {
-  display: inline-block;
-  -webkit-text-stroke: 2px white;
-  color: transparent;
-  opacity: 0;
-  animation: stroke-fill 2s ease-in-out forwards;
-}
 
 /* ========================================== */
 /* Home Slider part ends here   */
@@ -639,6 +620,10 @@ header .main-header.sticky .logo-box {
 /* ========================================== */
 /* footer part start here   */
 /* ========================================== */
+footer {
+  position: relative;
+  z-index: 99;
+}
 footer .footer-main {
   padding: 75px 85px 70px 85px;
   border-top: 2px solid #fff;
@@ -697,6 +682,31 @@ footer .footer-main .footer-links ul li a {
 /* ========================================== */
 /* azienda page start here   */
 /* ========================================== */
+.azienda-slider-main .slider-content-box {
+  align-items: center;
+}
+.azienda-slider-main .centerd {
+  width: 100%;
+  text-align: center;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.azienda-slider-main .centerd h1 {
+  font-size: 125px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  color: transparent;
+  display: inline-block;
+  line-height: 130px;
+}
+.azienda-slider-main .centerd h1 span {
+  display: inline-block;
+  -webkit-text-stroke: 2px white;
+  color: transparent;
+  opacity: 0;
+  animation: stroke-fill 2s ease-in-out forwards;
+}
+
 .azinda-man-banner .image-box img {
   width: 100%;
   height: 100%;
@@ -975,4 +985,72 @@ footer .footer-main .footer-links ul li a {
 
 /* ========================================== */
 /* azienda page ends here   */
+/* ========================================== */
+/* ========================================== */
+/* officina page start here   */
+/* ========================================== */
+.officina-main {
+  height: 100vh;
+}
+.officina-main .slider-content-box {
+  justify-content: center;
+  align-items: center;
+}
+.officina-main .slider-content-box .centerd {
+  width: 100%;
+  max-width: 886px;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.officina-main .slider-content-box .centerd h1 {
+  font-size: 65px;
+  line-height: 80px;
+  color: #fff;
+  font-family: "gothambold";
+  margin-bottom: 39px;
+}
+.officina-main .slider-content-box .centerd h6 {
+  font-family: "gothammedium";
+  font-size: 30px;
+  line-height: 42px;
+  color: #fff;
+  margin-bottom: 40px;
+}
+.officina-main .slider-content-box .centerd a {
+  font-family: "gothammedium";
+  color: #ebff46;
+  font-size: 20px;
+  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+}
+.officina-main .slider-content-box .centerd a i {
+  font-size: 12px;
+  margin-left: 5px;
+  position: relative;
+  top: 0px;
+}
+.officina-main .slider-content-box .centerd a:hover {
+  color: #fff;
+}
+.officina-main .slider-contact {
+  position: fixed;
+  z-index: 99;
+  max-width: 261px;
+}
+
+.bdrive-garage-main {
+  padding: 194px 0;
+}
+.bdrive-garage-main .image-box {
+  text-align: center;
+}
+.bdrive-garage-main .image-box img {
+  max-width: 372px;
+}
+
+/* ========================================== */
+/* officina page ends here   */
 /* ========================================== *//*# sourceMappingURL=style.css.map */
