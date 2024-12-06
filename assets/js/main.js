@@ -230,6 +230,7 @@
         },
       },
     });
+
     // Background image area start here
     $('[data-background]').each(function () {
       var bgImage = $(this).attr('data-background');
@@ -244,5 +245,51 @@
     });
 
     // Background image area end here
+
+    // dynamic hover bg change start
+
+    function setupHoverImage(parentSelector, childSelector) {
+      $(parentSelector).each(function () {
+        let $parent = $(this);
+
+        let currentBackground = $parent.css('background-image');
+        $parent.data('previous-bg', currentBackground);
+
+        $parent.find(childSelector).hover(
+          function () {
+            let newBackground = $(this).data('bg');
+
+            if (newBackground) {
+              $parent.css('opacity', 0.4);
+              setTimeout(() => {
+                $parent.attr('data-background', newBackground).css({
+                  'background-image': 'url(' + newBackground + ')',
+                  opacity: 1,
+                });
+              }, 150);
+            }
+          },
+          function () {
+            let previousBackground = $parent.data('previous-bg');
+            let currentChildBackground = $(this).data('bg');
+
+            if (currentChildBackground) {
+              $parent.css('opacity', 0.4);
+              setTimeout(() => {
+                $parent.attr('data-background', previousBackground).css({
+                  'background-image': previousBackground,
+                  opacity: 1,
+                });
+              }, 150);
+            }
+          }
+        );
+      });
+    }
+
+    // Initialize for all instances with dynamic child selectors
+    setupHoverImage('.hover-image-parent', '.single-box');
+
+    // dynamic hover bg change end
   });
 })(jQuery);
