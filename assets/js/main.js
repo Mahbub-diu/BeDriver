@@ -249,11 +249,37 @@
     // dynamic hover bg change start
 
     function setupHoverImage(parentSelector, childSelector) {
+      function calculatePositions() {
+        $(parentSelector).each(function () {
+          let $parent = $(this);
+
+          let currentBackground = $parent.css('background-image');
+          $parent.data('previous-bg', currentBackground);
+
+          $parent.find(childSelector).each(function () {
+            let $child = $(this);
+            let $pTag = $child.find('p');
+            let adjustedHeight = $pTag.height();
+            let pHeight = adjustedHeight + 20;
+            let $h3Tag = $child.find('h3');
+            let $contentBox = $child.find('.content-box');
+
+            let paddingBottom =
+              parseInt($contentBox.css('padding-bottom'), 10) || 0;
+
+            // Update positions
+            $pTag.css('top', pHeight + paddingBottom + 'px');
+            $h3Tag.css('top', pHeight + 'px');
+          });
+        });
+      }
+
+      // Initial calculation
+      calculatePositions();
+
+      // Hover functionality
       $(parentSelector).each(function () {
         let $parent = $(this);
-
-        let currentBackground = $parent.css('background-image');
-        $parent.data('previous-bg', currentBackground);
 
         $parent.find(childSelector).hover(
           function () {
@@ -285,9 +311,18 @@
           }
         );
       });
+
+      // Recalculate on window resize with debounce
+      let resizeTimer;
+      $(window).on('resize', function () {
+        clearTimeout(resizeTimer);
+        resizeTimer = setTimeout(() => {
+          calculatePositions();
+        }, 100); // Adjust the timeout value as needed
+      });
     }
 
-    // Initialize for all instances with dynamic child selectors
+    // Call the function
     setupHoverImage('.hover-image-parent', '.single-box');
 
     // dynamic hover bg change end
