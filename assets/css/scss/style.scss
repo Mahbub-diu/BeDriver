@@ -1155,6 +1155,9 @@ footer {
               @include transition-four;
               position: relative;
               padding-bottom: 20px;
+              font-family: $gotham-medium;
+              font-size: 20px;
+              line-height: 30px;
             }
           }
         }

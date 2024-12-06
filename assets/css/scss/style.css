@@ -1132,6 +1132,9 @@ footer .footer-main .footer-links ul li a {
   -o-transition: all 0.4s ease-in-out;
   position: relative;
   padding-bottom: 20px;
+  font-family: "gothammedium";
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .first-service-main .hover-image-parent .hover-image-flex .single-box:nth-child(1) {
