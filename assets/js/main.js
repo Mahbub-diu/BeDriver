@@ -351,5 +351,36 @@
         },
       },
     });
+
+    function animateText(selector, delay = 0.1) {
+      const $element = $(selector);
+      const htmlContent = $element.html();
+      $element.empty();
+
+      let index = 0;
+
+      htmlContent.split(/(<[^>]+>| )/g).forEach((fragment) => {
+        if (fragment.startsWith('<')) {
+          $element.append(fragment);
+        } else if (fragment === ' ') {
+          const $space = $('<span>&nbsp;</span>');
+          $space.css('animation-delay', `${index * delay}s`);
+          $element.append($space);
+          index++;
+        } else {
+          fragment.split('').forEach((char) => {
+            const $span = $('<span></span>').text(char);
+            $span.css('animation-delay', `${index * delay}s`);
+            $element.append($span);
+            index++;
+          });
+        }
+      });
+    }
+
+    const current_url = window.location.href;
+    if (current_url.includes('azinda')) {
+      animateText('.azienda-slider-main .centerd h1', 0.2);
+    }
   });
 })(jQuery);
