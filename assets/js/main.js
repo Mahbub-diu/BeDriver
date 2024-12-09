@@ -92,34 +92,6 @@
       $('#sidebar-main').addClass('sidebar-hide');
     });
 
-    function animateText(selector, delay = 0.1) {
-      const $element = $(selector);
-      const htmlContent = $element.html();
-      $element.empty();
-
-      let index = 0;
-
-      htmlContent.split(/(<[^>]+>| )/g).forEach((fragment) => {
-        if (fragment.startsWith('<')) {
-          $element.append(fragment);
-        } else if (fragment === ' ') {
-          const $space = $('<span>&nbsp;</span>');
-          $space.css('animation-delay', `${index * delay}s`);
-          $element.append($space);
-          index++;
-        } else {
-          fragment.split('').forEach((char) => {
-            const $span = $('<span></span>').text(char);
-            $span.css('animation-delay', `${index * delay}s`);
-            $element.append($span);
-            index++;
-          });
-        }
-      });
-    }
-
-    // animateText('.azienda-slider-main .centerd h1', 0.2);
-
     var swiper = new Swiper('.leader-slider', {
       slidesPerView: 4,
       spaceBetween: 20,
@@ -263,21 +235,16 @@
             let pHeight = adjustedHeight + 20;
             let $h3Tag = $child.find('h3');
             let $contentBox = $child.find('.content-box');
-
             let paddingBottom =
               parseInt($contentBox.css('padding-bottom'), 10) || 0;
-
-            // Update positions
             $pTag.css('top', pHeight + paddingBottom + 'px');
             $h3Tag.css('top', pHeight + 'px');
           });
         });
       }
 
-      // Initial calculation
       calculatePositions();
 
-      // Hover functionality
       $(parentSelector).each(function () {
         let $parent = $(this);
 
@@ -312,13 +279,12 @@
         );
       });
 
-      // Recalculate on window resize with debounce
       let resizeTimer;
       $(window).on('resize', function () {
         clearTimeout(resizeTimer);
         resizeTimer = setTimeout(() => {
           calculatePositions();
-        }, 100); // Adjust the timeout value as needed
+        }, 100);
       });
     }
 
@@ -326,5 +292,64 @@
     setupHoverImage('.hover-image-parent', '.single-box');
 
     // dynamic hover bg change end
+    var swiper = new Swiper('.highlight-slider', {
+      slidesPerView: 5,
+      spaceBetween: 20,
+      slidesPerGroup: 1,
+      loop: true,
+      autoplay: true,
+      autoplay: {
+        delay: 2000,
+      },
+
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      breakpoints: {
+        320: {
+          slidesPerView: 1,
+          spaceBetween: 10,
+        },
+        360: {
+          slidesPerView: 1,
+          spaceBetween: 10,
+        },
+        375: {
+          slidesPerView: 1,
+          spaceBetween: 10,
+        },
+        414: {
+          slidesPerView: 1,
+          spaceBetween: 10,
+        },
+        415: {
+          slidesPerView: 2,
+          spaceBetween: 10,
+        },
+        576: {
+          slidesPerView: 2,
+          spaceBetween: 10,
+        },
+
+        767: {
+          slidesPerView: 3,
+          spaceBetween: 20,
+        },
+
+        992: {
+          slidesPerView: 4,
+          spaceBetween: 20,
+        },
+        1300: {
+          slidesPerView: 4,
+          spaceBetween: 20,
+        },
+        1440: {
+          slidesPerView: 5,
+          spaceBetween: 20,
+        },
+      },
+    });
   });
 })(jQuery);

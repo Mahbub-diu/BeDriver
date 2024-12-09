@@ -193,6 +193,13 @@
     }
   }
   // azienda page end
+
+  .officina-main {
+    .slider-content-box {
+      justify-content: center !important;
+      align-items: center;
+    }
+  }
 }
 // min width 1441px and max width 1550px ends here
 
@@ -394,6 +401,179 @@
     }
   }
   // azienda page end
+
+  // officina page start
+
+  .officina-main {
+    .slider-content-box {
+      justify-content: center;
+      .centerd {
+        h1 {
+          font-size: 45px;
+          line-height: 60px;
+          margin-bottom: 30px;
+        }
+        h6 {
+          font-size: 22px;
+          line-height: 32px;
+          br {
+            display: none;
+          }
+        }
+        a {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  .bdrive-garage-main {
+    padding: 60px 0;
+
+    .image-box {
+      img {
+        max-width: 250px;
+      }
+    }
+  }
+  .private-service-main {
+    padding-top: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    .title-box {
+      max-width: 100%;
+      padding-bottom: 60px;
+      h3 {
+        font-size: 45px;
+        line-height: 50px;
+      }
+      p {
+        font-size: 18px;
+        line-height: 25px;
+        br {
+          display: none;
+        }
+      }
+    }
+    .hover-image-parent {
+      .hover-image-flex {
+        .single-box {
+          min-height: 550px;
+
+          .content-box {
+            padding: 50px 30px;
+            .content-inner {
+              h3 {
+                font-size: 20px;
+              }
+              p {
+                font-size: 16px;
+                line-height: 20px;
+              }
+            }
+          }
+          &:hover {
+            .content-box {
+              .content-inner {
+                padding-bottom: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .convenzioni-main {
+    padding: 40px 20px 40px 20px;
+    .content-box {
+      h3 {
+        font-size: 45px;
+        line-height: 50px;
+        margin-bottom: 20px;
+      }
+      p {
+        font-size: 20px;
+        line-height: 25px;
+
+        br {
+          display: none;
+        }
+      }
+      ul {
+        li {
+          &::before {
+            width: 15px;
+            height: 20px;
+          }
+          a {
+            font-size: 25px;
+            line-height: 30px;
+            padding-left: 22px;
+          }
+          ul {
+            margin-left: 20px;
+          }
+        }
+      }
+    }
+  }
+  .officina-checkup-main {
+    padding: 80px 50px;
+  }
+
+  .officina-contact-main {
+    padding: 40px 20px;
+    .contact-flex {
+      gap: 20px;
+      .title-box {
+        width: 60%;
+        h5 {
+          margin-bottom: 20px;
+        }
+        p {
+          font-size: 16px;
+          line-height: 20px;
+        }
+      }
+      .btn-box {
+        width: calc(40% - 20px);
+        a {
+          font-size: 16px;
+          line-height: 20px;
+
+          max-width: 340px;
+        }
+      }
+    }
+  }
+
+  .officina-highlight-main {
+    padding: 40px 20px;
+    .title-box {
+      h3 {
+        font-size: 45px;
+        line-height: 50px;
+        margin-bottom: 20px;
+      }
+      p {
+        font-size: 20px;
+        line-height: 25px;
+      }
+    }
+    .swiper-button-prev {
+      left: 47%;
+    }
+    .swiper-button-next {
+      right: 42%;
+    }
+  }
+  .second-service-main {
+    padding-top: 0;
+  }
+  .third-service-main {
+    padding-top: 0;
+  }
+  // officina page ends
 }
 // min width 1366px and max width 1440px ends here
 
@@ -594,6 +774,179 @@
     }
   }
   // azienda page end
+
+  // officina page start
+
+  .officina-main {
+    .slider-content-box {
+      justify-content: center;
+      .centerd {
+        h1 {
+          font-size: 45px;
+          line-height: 60px;
+          margin-bottom: 30px;
+        }
+        h6 {
+          font-size: 22px;
+          line-height: 32px;
+          br {
+            display: none;
+          }
+        }
+        a {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  .bdrive-garage-main {
+    padding: 60px 0;
+
+    .image-box {
+      img {
+        max-width: 250px;
+      }
+    }
+  }
+  .private-service-main {
+    padding-top: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    .title-box {
+      max-width: 100%;
+      padding-bottom: 60px;
+      h3 {
+        font-size: 45px;
+        line-height: 50px;
+      }
+      p {
+        font-size: 18px;
+        line-height: 25px;
+        br {
+          display: none;
+        }
+      }
+    }
+    .hover-image-parent {
+      .hover-image-flex {
+        .single-box {
+          min-height: 550px;
+
+          .content-box {
+            padding: 50px 30px;
+            .content-inner {
+              h3 {
+                font-size: 20px;
+              }
+              p {
+                font-size: 16px;
+                line-height: 20px;
+              }
+            }
+          }
+          &:hover {
+            .content-box {
+              .content-inner {
+                padding-bottom: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .convenzioni-main {
+    padding: 40px 20px 40px 20px;
+    .content-box {
+      h3 {
+        font-size: 45px;
+        line-height: 50px;
+        margin-bottom: 20px;
+      }
+      p {
+        font-size: 20px;
+        line-height: 25px;
+
+        br {
+          display: none;
+        }
+      }
+      ul {
+        li {
+          &::before {
+            width: 15px;
+            height: 20px;
+          }
+          a {
+            font-size: 25px;
+            line-height: 30px;
+            padding-left: 22px;
+          }
+          ul {
+            margin-left: 20px;
+          }
+        }
+      }
+    }
+  }
+  .officina-checkup-main {
+    padding: 80px 50px;
+  }
+
+  .officina-contact-main {
+    padding: 40px 20px;
+    .contact-flex {
+      gap: 20px;
+      .title-box {
+        width: 60%;
+        h5 {
+          margin-bottom: 20px;
+        }
+        p {
+          font-size: 16px;
+          line-height: 20px;
+        }
+      }
+      .btn-box {
+        width: calc(40% - 20px);
+        a {
+          font-size: 16px;
+          line-height: 20px;
+
+          max-width: 340px;
+        }
+      }
+    }
+  }
+
+  .officina-highlight-main {
+    padding: 40px 20px;
+    .title-box {
+      h3 {
+        font-size: 45px;
+        line-height: 50px;
+        margin-bottom: 20px;
+      }
+      p {
+        font-size: 20px;
+        line-height: 25px;
+      }
+    }
+    .swiper-button-prev {
+      left: 47%;
+    }
+    .swiper-button-next {
+      right: 42%;
+    }
+  }
+  .second-service-main {
+    padding-top: 0;
+  }
+  .third-service-main {
+    padding-top: 0;
+  }
+  // officina page ends
 }
 // min width 1300px and max width 1365px ends here
 
@@ -842,6 +1195,217 @@
     }
   }
   // azienda page end
+
+  // officina page start
+
+  .officina-main {
+    .slider-content-box {
+      justify-content: center;
+      .centerd {
+        h1 {
+          font-size: 45px;
+          line-height: 60px;
+          margin-bottom: 30px;
+        }
+        h6 {
+          font-size: 22px;
+          line-height: 32px;
+          br {
+            display: none;
+          }
+        }
+        a {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  .bdrive-garage-main {
+    padding: 60px 0;
+
+    .image-box {
+      img {
+        max-width: 250px;
+      }
+    }
+  }
+  .private-service-main {
+    padding-top: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    .title-box {
+      max-width: 100%;
+      padding-bottom: 60px;
+      h3 {
+        font-size: 45px;
+        line-height: 50px;
+      }
+      p {
+        font-size: 18px;
+        line-height: 25px;
+        br {
+          display: none;
+        }
+      }
+    }
+    .hover-image-parent {
+      .hover-image-flex {
+        .single-box {
+          flex-basis: 50%;
+          min-height: 400px;
+
+          .content-box {
+            padding: 30px 20px;
+            .content-inner {
+              h3 {
+                font-size: 20px;
+              }
+              p {
+                font-size: 16px;
+                line-height: 20px;
+              }
+            }
+          }
+          &:hover {
+            .content-box {
+              .content-inner {
+                padding-bottom: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .second-service-main {
+    .hover-image-parent {
+      .hover-image-flex {
+        .single-box {
+          &:nth-child(2) {
+            border-right: none;
+          }
+          &:nth-child(3) {
+            border-left: none;
+            border-right: none;
+            border-top: 1px solid #fff;
+            flex-basis: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  .third-service-main {
+    .hover-image-parent {
+      .hover-image-flex {
+        .single-box {
+          &:nth-child(2) {
+            border-right: none;
+            border-left: 1px solid #fff;
+          }
+          &:nth-child(3) {
+            border-left: none;
+            border-right: none;
+            border-top: 1px solid #fff;
+            flex-basis: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  .convenzioni-main {
+    padding: 40px 20px 40px 20px;
+    .content-box {
+      h3 {
+        font-size: 45px;
+        line-height: 50px;
+        margin-bottom: 20px;
+      }
+      p {
+        font-size: 20px;
+        line-height: 25px;
+
+        br {
+          display: none;
+        }
+      }
+      ul {
+        li {
+          &::before {
+            width: 15px;
+            height: 20px;
+          }
+          a {
+            font-size: 25px;
+            line-height: 30px;
+            padding-left: 22px;
+          }
+          ul {
+            margin-left: 20px;
+          }
+        }
+      }
+    }
+  }
+  .officina-checkup-main {
+    padding: 80px 50px;
+  }
+
+  .officina-contact-main {
+    padding: 40px 20px;
+    .contact-flex {
+      gap: 20px;
+      .title-box {
+        width: 60%;
+        h5 {
+          margin-bottom: 20px;
+        }
+        p {
+          font-size: 16px;
+          line-height: 20px;
+        }
+      }
+      .btn-box {
+        width: calc(40% - 20px);
+        a {
+          font-size: 16px;
+          line-height: 20px;
+
+          max-width: 340px;
+        }
+      }
+    }
+  }
+
+  .officina-highlight-main {
+    padding: 40px 20px;
+    .title-box {
+      h3 {
+        font-size: 45px;
+        line-height: 50px;
+        margin-bottom: 20px;
+      }
+      p {
+        font-size: 20px;
+        line-height: 25px;
+      }
+    }
+    .swiper-button-prev {
+      left: 47%;
+    }
+    .swiper-button-next {
+      right: 42%;
+    }
+  }
+  .second-service-main {
+    padding-top: 0;
+  }
+  .third-service-main {
+    padding-top: 0;
+  }
+  // officina page ends
 }
 
 // min width 1025px and max width 1299px ends here
@@ -1087,6 +1651,217 @@
     }
   }
   // azienda page end
+
+  // officina page start
+
+  .officina-main {
+    .slider-content-box {
+      justify-content: center;
+      .centerd {
+        h1 {
+          font-size: 45px;
+          line-height: 60px;
+          margin-bottom: 30px;
+        }
+        h6 {
+          font-size: 22px;
+          line-height: 32px;
+          br {
+            display: none;
+          }
+        }
+        a {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  .bdrive-garage-main {
+    padding: 60px 0;
+
+    .image-box {
+      img {
+        max-width: 250px;
+      }
+    }
+  }
+  .private-service-main {
+    padding-top: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    .title-box {
+      max-width: 100%;
+      padding-bottom: 60px;
+      h3 {
+        font-size: 45px;
+        line-height: 50px;
+      }
+      p {
+        font-size: 18px;
+        line-height: 25px;
+        br {
+          display: none;
+        }
+      }
+    }
+    .hover-image-parent {
+      .hover-image-flex {
+        .single-box {
+          flex-basis: 50%;
+          min-height: 400px;
+
+          .content-box {
+            padding: 30px 20px;
+            .content-inner {
+              h3 {
+                font-size: 20px;
+              }
+              p {
+                font-size: 16px;
+                line-height: 20px;
+              }
+            }
+          }
+          &:hover {
+            .content-box {
+              .content-inner {
+                padding-bottom: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .second-service-main {
+    .hover-image-parent {
+      .hover-image-flex {
+        .single-box {
+          &:nth-child(2) {
+            border-right: none;
+          }
+          &:nth-child(3) {
+            border-left: none;
+            border-right: none;
+            border-top: 1px solid #fff;
+            flex-basis: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  .third-service-main {
+    .hover-image-parent {
+      .hover-image-flex {
+        .single-box {
+          &:nth-child(2) {
+            border-right: none;
+            border-left: 1px solid #fff;
+          }
+          &:nth-child(3) {
+            border-left: none;
+            border-right: none;
+            border-top: 1px solid #fff;
+            flex-basis: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  .convenzioni-main {
+    padding: 40px 20px 40px 20px;
+    .content-box {
+      h3 {
+        font-size: 45px;
+        line-height: 50px;
+        margin-bottom: 20px;
+      }
+      p {
+        font-size: 20px;
+        line-height: 25px;
+
+        br {
+          display: none;
+        }
+      }
+      ul {
+        li {
+          &::before {
+            width: 15px;
+            height: 20px;
+          }
+          a {
+            font-size: 25px;
+            line-height: 30px;
+            padding-left: 22px;
+          }
+          ul {
+            margin-left: 20px;
+          }
+        }
+      }
+    }
+  }
+  .officina-checkup-main {
+    padding: 40px 0px;
+  }
+
+  .officina-contact-main {
+    padding: 40px 20px;
+    .contact-flex {
+      gap: 20px;
+      .title-box {
+        width: 60%;
+        h5 {
+          margin-bottom: 20px;
+        }
+        p {
+          font-size: 16px;
+          line-height: 20px;
+        }
+      }
+      .btn-box {
+        width: calc(40% - 20px);
+        a {
+          font-size: 16px;
+          line-height: 20px;
+
+          max-width: 340px;
+        }
+      }
+    }
+  }
+
+  .officina-highlight-main {
+    padding: 40px 20px;
+    .title-box {
+      h3 {
+        font-size: 45px;
+        line-height: 50px;
+        margin-bottom: 20px;
+      }
+      p {
+        font-size: 20px;
+        line-height: 25px;
+      }
+    }
+    .swiper-button-prev {
+      left: 47%;
+    }
+    .swiper-button-next {
+      right: 42%;
+    }
+  }
+  .second-service-main {
+    padding-top: 0;
+  }
+  .third-service-main {
+    padding-top: 0;
+  }
+  // officina page ends
 }
 
 // min width 992px and max width 1024px ends here
@@ -1334,6 +2109,218 @@
     }
   }
   // azienda page end
+
+  // officina page start
+
+  .officina-main {
+    .slider-content-box {
+      justify-content: center;
+      .centerd {
+        h1 {
+          font-size: 35px;
+          line-height: 40px;
+          margin-bottom: 25px;
+        }
+        h6 {
+          font-size: 18px;
+          line-height: 25px;
+          br {
+            display: none;
+          }
+        }
+        a {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  .bdrive-garage-main {
+    padding: 40px 0;
+
+    .image-box {
+      img {
+        max-width: 250px;
+      }
+    }
+  }
+  .private-service-main {
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    .title-box {
+      max-width: 100%;
+      padding-bottom: 40px;
+      h3 {
+        font-size: 35px;
+        line-height: 40px;
+      }
+      p {
+        font-size: 18px;
+        line-height: 25px;
+        br {
+          display: none;
+        }
+      }
+    }
+    .hover-image-parent {
+      .hover-image-flex {
+        .single-box {
+          flex-basis: 50%;
+          min-height: 400px;
+
+          &:nth-child(1) {
+          }
+          .content-box {
+            padding: 30px 20px;
+            .content-inner {
+              h3 {
+                font-size: 20px;
+              }
+              p {
+                font-size: 16px;
+                line-height: 20px;
+              }
+            }
+          }
+          &:hover {
+            .content-box {
+              .content-inner {
+                padding-bottom: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .second-service-main {
+    .hover-image-parent {
+      .hover-image-flex {
+        .single-box {
+          &:nth-child(2) {
+            border-right: none;
+          }
+          &:nth-child(3) {
+            border-left: none;
+            border-right: none;
+            border-top: 1px solid #fff;
+            flex-basis: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  .third-service-main {
+    .hover-image-parent {
+      .hover-image-flex {
+        .single-box {
+          &:nth-child(2) {
+            border-right: none;
+            border-left: 1px solid #fff;
+          }
+          &:nth-child(3) {
+            border-left: none;
+            border-right: none;
+            border-top: 1px solid #fff;
+            flex-basis: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  .convenzioni-main {
+    padding: 40px 20px 40px 20px;
+    .content-box {
+      h3 {
+        font-size: 35px;
+        line-height: 40px;
+        margin-bottom: 20px;
+      }
+      p {
+        font-size: 16px;
+        line-height: 20px;
+        br {
+          display: none;
+        }
+      }
+      ul {
+        li {
+          &::before {
+            width: 15px;
+            height: 20px;
+          }
+          a {
+            font-size: 20px;
+            line-height: 25px;
+            padding-left: 22px;
+          }
+          ul {
+            margin-left: 20px;
+          }
+        }
+      }
+    }
+  }
+  .officina-checkup-main {
+    padding: 40px 0px;
+  }
+
+  .officina-contact-main {
+    padding: 40px 20px;
+    .contact-flex {
+      gap: 20px;
+      .title-box {
+        width: 60%;
+        h5 {
+          margin-bottom: 20px;
+        }
+        p {
+          font-size: 16px;
+          line-height: 20px;
+        }
+      }
+      .btn-box {
+        width: calc(40% - 20px);
+        a {
+          font-size: 16px;
+          line-height: 20px;
+
+          max-width: 340px;
+        }
+      }
+    }
+  }
+
+  .officina-highlight-main {
+    padding: 40px 20px;
+    .title-box {
+      h3 {
+        font-size: 35px;
+        line-height: 40px;
+        margin-bottom: 20px;
+      }
+      p {
+        font-size: 16px;
+        line-height: 20px;
+      }
+    }
+    .swiper-button-prev {
+      left: 43%;
+    }
+    .swiper-button-next {
+      right: 33%;
+    }
+  }
+  .second-service-main {
+    padding-top: 0;
+  }
+  .third-service-main {
+    padding-top: 0;
+  }
+  // officina page ends
 }
 
 // min width 768px and max width 991px ends here
@@ -1644,6 +2631,209 @@
     }
   }
   // azienda page end
+
+  // officina page start
+
+  .officina-main {
+    .slider-content-box {
+      justify-content: center;
+      .centerd {
+        h1 {
+          font-size: 35px;
+          line-height: 40px;
+          margin-bottom: 25px;
+        }
+        h6 {
+          font-size: 18px;
+          line-height: 25px;
+          br {
+            display: none;
+          }
+        }
+        a {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  .bdrive-garage-main {
+    padding: 40px 0;
+
+    .image-box {
+      img {
+        max-width: 250px;
+      }
+    }
+  }
+  .private-service-main {
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    .title-box {
+      max-width: 100%;
+      padding-bottom: 40px;
+      h3 {
+        font-size: 35px;
+        line-height: 40px;
+      }
+      p {
+        font-size: 18px;
+        line-height: 25px;
+        br {
+          display: none;
+        }
+      }
+    }
+    .hover-image-parent {
+      .hover-image-flex {
+        .single-box {
+          flex-basis: 100%;
+          min-height: 400px;
+
+          &:nth-child(1) {
+            border-right: none;
+            border-bottom: 1px solid #fff;
+          }
+          .content-box {
+            padding: 30px 20px;
+            .content-inner {
+              h3 {
+                font-size: 20px;
+              }
+              p {
+                font-size: 16px;
+                line-height: 20px;
+              }
+            }
+          }
+          &:hover {
+            .content-box {
+              .content-inner {
+                padding-bottom: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .second-service-main {
+    .hover-image-parent {
+      .hover-image-flex {
+        .single-box {
+          &:nth-child(2) {
+            border-left: none;
+            border-right: none;
+            border-bottom: 1px solid #fff;
+          }
+        }
+      }
+    }
+  }
+
+  .third-service-main {
+    .hover-image-parent {
+      .hover-image-flex {
+        .single-box {
+          &:nth-child(2) {
+            border-right: none;
+            border-bottom: 1px solid #fff;
+          }
+        }
+      }
+    }
+  }
+
+  .convenzioni-main {
+    padding: 40px 20px 40px 20px;
+    .content-box {
+      h3 {
+        font-size: 35px;
+        line-height: 40px;
+        margin-bottom: 20px;
+      }
+      p {
+        font-size: 16px;
+        line-height: 20px;
+        br {
+          display: none;
+        }
+      }
+      ul {
+        li {
+          &::before {
+            width: 15px;
+            height: 20px;
+          }
+          a {
+            font-size: 20px;
+            line-height: 25px;
+            padding-left: 22px;
+          }
+          ul {
+            margin-left: 20px;
+          }
+        }
+      }
+    }
+  }
+  .officina-checkup-main {
+    padding: 40px 0px;
+  }
+
+  .officina-contact-main {
+    padding: 40px 20px;
+    .contact-flex {
+      gap: 20px;
+      .title-box {
+        width: 100%;
+        h5 {
+          margin-bottom: 20px;
+        }
+        p {
+          font-size: 16px;
+          line-height: 20px;
+        }
+      }
+      .btn-box {
+        a {
+          font-size: 16px;
+          line-height: 20px;
+          width: 100%;
+          max-width: 340px;
+        }
+      }
+    }
+  }
+
+  .officina-highlight-main {
+    padding: 40px 20px;
+    .title-box {
+      h3 {
+        font-size: 35px;
+        line-height: 40px;
+        margin-bottom: 20px;
+      }
+      p {
+        font-size: 16px;
+        line-height: 20px;
+      }
+    }
+    .swiper-button-prev {
+      left: 43%;
+    }
+    .swiper-button-next {
+      right: 33%;
+    }
+  }
+  .second-service-main {
+    padding-top: 0;
+  }
+  .third-service-main {
+    padding-top: 0;
+  }
+  // officina page ends
 }
 
 // max widht 767px ends here
