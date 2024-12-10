@@ -382,5 +382,266 @@
     if (current_url.includes('azinda')) {
       animateText('.azienda-slider-main .centerd h1', 0.2);
     }
+    var swiper = new Swiper('.logoslider', {
+      slidesPerView: 8,
+      spaceBetween: 20,
+      slidesPerGroup: 1,
+      loop: true,
+      autoplay: true,
+      autoplay: {
+        delay: 2000,
+      },
+
+      breakpoints: {
+        320: {
+          slidesPerView: 1,
+          spaceBetween: 10,
+        },
+        360: {
+          slidesPerView: 1,
+          spaceBetween: 10,
+        },
+        375: {
+          slidesPerView: 1,
+          spaceBetween: 10,
+        },
+        414: {
+          slidesPerView: 2,
+          spaceBetween: 10,
+        },
+        415: {
+          slidesPerView: 3,
+          spaceBetween: 10,
+        },
+        576: {
+          slidesPerView: 4,
+          spaceBetween: 10,
+        },
+
+        767: {
+          slidesPerView: 5,
+          spaceBetween: 20,
+        },
+
+        992: {
+          slidesPerView: 6,
+          spaceBetween: 20,
+        },
+        1300: {
+          slidesPerView: 7,
+          spaceBetween: 20,
+        },
+        1440: {
+          slidesPerView: 8,
+          spaceBetween: 20,
+        },
+      },
+    });
+    $(document).ready(function () {
+      // Countdown values
+      let days = 8,
+        hours = 21,
+        minutes = 46,
+        seconds = 50;
+
+      function updateTimer() {
+        if (seconds > 0) {
+          seconds--;
+        } else if (minutes > 0) {
+          seconds = 59;
+          minutes--;
+        } else if (hours > 0) {
+          seconds = 59;
+          minutes = 59;
+          hours--;
+        } else if (days > 0) {
+          seconds = 59;
+          minutes = 59;
+          hours = 23;
+          days--;
+        }
+
+        // Update DOM with animations
+        $('.count1')
+          .eq(0)
+          .text(days)
+          .css('transform', 'scale(1.2)')
+          .animate({ transform: 'scale(1)' }, 300);
+        $('.count1')
+          .eq(1)
+          .text(hours)
+          .css('transform', 'scale(1.2)')
+          .animate({ transform: 'scale(1)' }, 300);
+        $('.count1')
+          .eq(2)
+          .text(minutes)
+          .css('transform', 'scale(1.2)')
+          .animate({ transform: 'scale(1)' }, 300);
+        $('.count1')
+          .eq(3)
+          .text(seconds)
+          .css('transform', 'scale(1.2)')
+          .animate({ transform: 'scale(1)' }, 300);
+      }
+
+      // Call updateTimer every second
+      setInterval(updateTimer, 1000);
+    });
+
+    var swiper = new Swiper('.compionti-slider', {
+      slidesPerView: 3,
+      spaceBetween: 0,
+      slidesPerGroup: 1,
+      loop: true,
+      autoplay: true,
+      autoplay: {
+        delay: 2000,
+      },
+
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      breakpoints: {
+        320: {
+          slidesPerView: 1,
+          spaceBetween: 0,
+        },
+        360: {
+          slidesPerView: 1,
+          spaceBetween: 0,
+        },
+        375: {
+          slidesPerView: 1,
+          spaceBetween: 0,
+        },
+        414: {
+          slidesPerView: 1,
+          spaceBetween: 0,
+        },
+        415: {
+          slidesPerView: 1,
+          spaceBetween: 0,
+        },
+        576: {
+          slidesPerView: 2,
+          spaceBetween: 0,
+        },
+
+        767: {
+          slidesPerView: 2,
+          spaceBetween: 0,
+        },
+
+        992: {
+          slidesPerView: 3,
+          spaceBetween: 0,
+        },
+        1300: {
+          slidesPerView: 3,
+          spaceBetween: 0,
+        },
+        1440: {
+          slidesPerView: 3,
+          spaceBetween: 0,
+        },
+      },
+    });
+
+    var $ul = $('.calendar-wrapper > ul');
+
+    $ul.find('li > a').click(function (e) {
+      if (!$(this).closest('li').hasClass('selected--last')) {
+        e.preventDefault();
+      }
+
+      var $li = $(this).closest('li');
+
+      if ($li.find('ul').length > 0) {
+        if ($li.hasClass('selected')) {
+          $li.removeClass('selected').find('li').removeClass('selected');
+          $li.find('ul').slideUp(400);
+          $li.find('a span').removeClass('mdi-flip-v');
+        } else {
+          if ($li.parents('li.selected').length == 0) {
+            $ul.find('li').removeClass('selected');
+            $ul.find('ul').slideUp(400);
+            $ul.find('li a span').removeClass('mdi-flip-v');
+          } else {
+            $li.parent().find('li').removeClass('selected');
+            $li.parent().find('> li ul').slideUp(400);
+            $li.parent().find('> li a span').removeClass('mdi-flip-v');
+          }
+
+          $li.addClass('selected');
+          $li.find('>ul').slideDown(400);
+          $li.find('>a>span').addClass('mdi-flip-v');
+        }
+      }
+    });
+
+    $('.calendar-wrapper > ul ul').each(function (i) {
+      if ($(this).find('>li>ul').length > 0) {
+        var paddingLeft = $(this)
+          .parent()
+          .parent()
+          .find('>li>a')
+          .css('padding-left');
+        var pIntPLeft = parseInt(paddingLeft);
+        var result = pIntPLeft + 0;
+
+        $(this).find('>li>a').css('padding-left', result);
+      } else {
+        var paddingLeft = $(this)
+          .parent()
+          .parent()
+          .find('>li>a')
+          .css('padding-left');
+        var pIntPLeft = parseInt(paddingLeft);
+        var result = pIntPLeft + 0;
+
+        $(this)
+          .find('>li>a')
+          .css('padding-left', result)
+          .parent()
+          .addClass('selected--last');
+      }
+    });
+
+    var activeLi = $('li.selected');
+    if (activeLi.length) {
+      opener(activeLi);
+    }
+
+    function opener(li) {
+      var ul = li.closest('ul');
+      if (ul.length) {
+        li.addClass('selected');
+        ul.addClass('open');
+        li.find('>a>span').addClass('mdi-flip-v');
+
+        if (ul.closest('li').length) {
+          opener(ul.closest('li'));
+        } else {
+          return false;
+        }
+      }
+    }
+    var swiper = new Swiper('.season-slider', {
+      slidesPerView: 2,
+      grid: {
+        rows: 3,
+      },
+      loop: true,
+      autoplay: true,
+      autoplay: {
+        delay: 3000,
+      },
+      spaceBetween: 15,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
   });
 })(jQuery);
