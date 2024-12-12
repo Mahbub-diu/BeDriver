@@ -1307,6 +1307,7 @@ footer .footer-main .footer-links ul li a {
 
 .officina-highlight-main {
   padding: 150px 85px 70px 85px;
+  padding-top: 0;
 }
 .officina-highlight-main .title-box h3 {
   font-size: 60px;
@@ -2072,6 +2073,239 @@ body.motorsport main .home-slider-main .swiper-slide .video-bg {
 }
 .motorsport-calendar-main .youtube-wrapper a:last-child img {
   width: 155px;
+}
+
+.driver-main {
+  padding: 170px 85px 112px 85px;
+}
+.driver-main .title-box {
+  margin-bottom: 80px;
+}
+.driver-main .title-box h3 {
+  font-family: "gothambold";
+  color: #fff;
+  line-height: 45px;
+  font-size: 40px;
+}
+.driver-main .title-box h3 a {
+  font-family: "gothammedium";
+  font-size: 25px;
+  line-height: 30px;
+  color: #bbd03e;
+}
+.driver-main .title-box h3 a i {
+  font-size: 15px;
+}
+.driver-main .driver-grid-parent {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+}
+.driver-main .driver-grid-parent .single-driver {
+  position: relative;
+  transition: 0.4s ease-in-out;
+  -webkit-transition: 0.4s ease-in-out;
+  -moz-transition: 0.4s ease-in-out;
+  -ms-transition: 0.4s ease-in-out;
+  -o-transition: 0.4s ease-in-out;
+}
+.driver-main .driver-grid-parent .single-driver .image-box img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.driver-main .driver-grid-parent .single-driver .name {
+  position: absolute;
+  z-index: 3;
+  right: -12px;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-family: "gothambold";
+  line-height: 34px;
+  color: #9e9e9e;
+  height: 100%;
+  width: 100%;
+  bottom: 13px;
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  text-align: end;
+  transition: 0.4s ease-in-out;
+  -webkit-transition: 0.4s ease-in-out;
+  -moz-transition: 0.4s ease-in-out;
+  -ms-transition: 0.4s ease-in-out;
+  -o-transition: 0.4s ease-in-out;
+}
+.driver-main .driver-grid-parent .single-driver .name span {
+  position: relative;
+}
+.driver-main .driver-grid-parent .single-driver:hover {
+  transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  -moz-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  -o-transform: scale(1.3);
+}
+.driver-main .driver-grid-parent .single-driver:hover .name {
+  color: #ebff46;
+}
+
+.motor-partner-main {
+  padding: 110px 85px;
+  padding-top: 0;
+}
+.motor-partner-main .title-box {
+  margin-bottom: 100px;
+}
+.motor-partner-main .title-box h3 {
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 84px;
+  font-family: "gothambold";
+  color: #fff;
+  margin-bottom: 40px;
+}
+.motor-partner-main .title-box p {
+  font-size: 30px;
+  line-height: 42px;
+  font-family: "gothammedium";
+  color: #fff;
+  margin-bottom: 0;
+}
+.motor-partner-main .nav-tabs {
+  justify-content: center;
+  margin-bottom: 100px;
+  border: none;
+  gap: 100px;
+}
+.motor-partner-main .nav-tabs li button {
+  font-family: "gothammedium";
+  font-size: 30px;
+  line-height: 35px;
+  color: #fff;
+  padding: 0 20px;
+  border: none;
+  outline: none;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  text-transform: capitalize;
+}
+.motor-partner-main .nav-tabs li button.active {
+  background: transparent;
+  color: #fff;
+}
+.motor-partner-main .large-image-box {
+  margin-bottom: 50px;
+  overflow: hidden;
+}
+.motor-partner-main .large-image-box img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: 0.4s ease-in-out;
+  -webkit-transition: 0.4s ease-in-out;
+  -moz-transition: 0.4s ease-in-out;
+  -ms-transition: 0.4s ease-in-out;
+  -o-transition: 0.4s ease-in-out;
+}
+.motor-partner-main .large-image-box:hover img {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+.motor-partner-main .partner-grid-parent {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  -moz-column-gap: 50px;
+       column-gap: 50px;
+  row-gap: 50px;
+}
+.motor-partner-main .partner-grid-parent .single-partner .image-box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.motor-partner-main .partner-grid-parent .single-partner .image-box img {
+  max-width: 100%;
+  transition: 0.4s ease-in-out;
+  -webkit-transition: 0.4s ease-in-out;
+  -moz-transition: 0.4s ease-in-out;
+  -ms-transition: 0.4s ease-in-out;
+  -o-transition: 0.4s ease-in-out;
+}
+.motor-partner-main .partner-grid-parent .single-partner .image-box:hover img {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+.motor-news-main {
+  padding: 66px 85px 150px 85px;
+  padding-top: 0;
+}
+.motor-news-main .title-box h3 {
+  font-family: "gothambold";
+  color: #fff;
+  line-height: 84px;
+  font-size: 60px;
+  margin-bottom: 40px;
+}
+.motor-news-main .news-grid-parent {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  -moz-column-gap: 50px;
+       column-gap: 50px;
+  row-gap: 45px;
+}
+.motor-news-main .news-grid-parent .single-grid {
+  height: 415px;
+  overflow: hidden;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.motor-news-main .news-grid-parent .single-grid .contents-wrapper {
+  width: 100%;
+  height: 100%;
+  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+}
+.motor-news-main .news-grid-parent .single-grid:hover .contents-wrapper {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+.motor-news-main .news-grid-parent .single-grid:nth-child(4n+1) {
+  grid-column: span 7;
+}
+.motor-news-main .news-grid-parent .single-grid:nth-child(4n+2) {
+  grid-column: span 5;
+}
+.motor-news-main .news-grid-parent .single-grid:nth-child(4n+3) {
+  grid-column: span 5;
+}
+.motor-news-main .news-grid-parent .single-grid:nth-child(4n+4) {
+  grid-column: span 7;
 }
 
 /* ========================================== */

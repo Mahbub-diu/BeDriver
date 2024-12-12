@@ -57,3 +57,16 @@
   flex-wrap: wrap;
   align-items: center;
 }
+@mixin bold-font-sixty {
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 84px;
+  font-family: $gotahm-bold;
+  color: $white;
+}
+@mixin medium-font-thirty {
+  font-size: 30px;
+  line-height: 42px;
+  font-family: $gotham-medium;
+  color: $white;
+}
