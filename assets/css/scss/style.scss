@@ -2467,6 +2467,71 @@ body.motorsport {
   }
 }
 
+.newsletter-main {
+  padding: 110px 85px;
+  .newsletter-form {
+    h3 {
+      @include bold-font-sixty;
+      line-height: 70px;
+      margin-bottom: 27px;
+    }
+    .form-group {
+      margin-bottom: 27px;
+      position: relative;
+      input[type='email'] {
+        height: 72px;
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 140px;
+        border: none;
+        outline: none;
+        font-size: 20px;
+        line-height: 24px;
+        font-family: $gotham-book;
+        color: #000000;
+        @include dynamic-border-radius(1, 5);
+      }
+      .newsletter-btn {
+        background: #bfd552;
+        text-transform: uppercase;
+        font-family: $gotahm-bold;
+        height: 58px;
+        padding: 10px 20px;
+        position: absolute;
+        top: 7px;
+        right: 8px;
+        border: none;
+        outline: none;
+        @include dynamic-border-radius(1, 5);
+      }
+    }
+    .newsletter-social-icon {
+      p {
+        font-size: 20px;
+        font-family: $gotham-medium;
+        color: $white;
+        margin-bottom: 20px;
+      }
+      ul {
+        display: flex;
+        gap: 15px;
+        li {
+          a {
+            display: block;
+
+            @include dynamic-border-radius(1, 5);
+            @include flex-wrap-center;
+
+            img {
+              width: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
 /* ========================================== */
 
 /* motorsport page end here   */

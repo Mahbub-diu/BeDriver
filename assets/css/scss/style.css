@@ -2376,6 +2376,69 @@ body.motorsport main .home-slider-main .swiper-slide .video-bg {
   font-size: 15px;
 }
 
+.newsletter-main {
+  padding: 110px 85px;
+}
+.newsletter-main .newsletter-form h3 {
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 84px;
+  font-family: "gothambold";
+  color: #fff;
+  line-height: 70px;
+  margin-bottom: 27px;
+}
+.newsletter-main .newsletter-form .form-group {
+  margin-bottom: 27px;
+  position: relative;
+}
+.newsletter-main .newsletter-form .form-group input[type=email] {
+  height: 72px;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 140px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  line-height: 24px;
+  font-family: "gothambook";
+  color: #000000;
+  border-radius: 5px;
+}
+.newsletter-main .newsletter-form .form-group .newsletter-btn {
+  background: #bfd552;
+  text-transform: uppercase;
+  font-family: "gothambold";
+  height: 58px;
+  padding: 10px 20px;
+  position: absolute;
+  top: 7px;
+  right: 8px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+.newsletter-main .newsletter-form .newsletter-social-icon p {
+  font-size: 20px;
+  font-family: "gothammedium";
+  color: #fff;
+  margin-bottom: 20px;
+}
+.newsletter-main .newsletter-form .newsletter-social-icon ul {
+  display: flex;
+  gap: 15px;
+}
+.newsletter-main .newsletter-form .newsletter-social-icon ul li a {
+  display: block;
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.newsletter-main .newsletter-form .newsletter-social-icon ul li a img {
+  width: 20px;
+}
+
 /* ========================================== */
 /* motorsport page end here   */
 /* ========================================== *//*# sourceMappingURL=style.css.map */
