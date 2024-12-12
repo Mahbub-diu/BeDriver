@@ -70,3 +70,8 @@
   font-family: $gotham-medium;
   color: $white;
 }
+@mixin dynamic-border-radius($count, $multiplier) {
+  @for $i from 1 through $count {
+    border-radius: #{$i * $multiplier}px;
+  }
+}
