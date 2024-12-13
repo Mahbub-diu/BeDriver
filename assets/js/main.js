@@ -414,8 +414,8 @@
           spaceBetween: 10,
         },
         576: {
-          slidesPerView: 4,
-          spaceBetween: 10,
+          slidesPerView: 3,
+          spaceBetween: 15,
         },
 
         767: {
@@ -505,45 +505,45 @@
       breakpoints: {
         320: {
           slidesPerView: 1,
-          spaceBetween: 0,
+          spaceBetween: 20,
         },
         360: {
           slidesPerView: 1,
-          spaceBetween: 0,
+          spaceBetween: 20,
         },
         375: {
           slidesPerView: 1,
-          spaceBetween: 0,
+          spaceBetween: 20,
         },
         414: {
           slidesPerView: 1,
-          spaceBetween: 0,
+          spaceBetween: 20,
         },
         415: {
           slidesPerView: 1,
-          spaceBetween: 0,
+          spaceBetween: 20,
         },
         576: {
-          slidesPerView: 2,
-          spaceBetween: 0,
+          slidesPerView: 1,
+          spaceBetween: 20,
         },
 
         767: {
           slidesPerView: 2,
-          spaceBetween: 0,
+          spaceBetween: 2,
         },
 
         992: {
-          slidesPerView: 3,
-          spaceBetween: 0,
+          slidesPerView: 2,
+          spaceBetween: 20,
         },
         1300: {
           slidesPerView: 3,
-          spaceBetween: 0,
+          spaceBetween: 20,
         },
         1440: {
           slidesPerView: 3,
-          spaceBetween: 0,
+          spaceBetween: 20,
         },
       },
     });
@@ -633,14 +633,54 @@
         rows: 3,
       },
       loop: true,
-      autoplay: true,
-      autoplay: {
-        delay: 3000,
-      },
+      // autoplay: {
+      //   delay: 3000,
+      // },
       spaceBetween: 15,
       navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
+      },
+      breakpoints: {
+        320: {
+          // For small screens like mobile
+          slidesPerView: 1,
+          grid: {
+            rows: 1,
+          },
+          spaceBetween: 10,
+        },
+        576: {
+          slidesPerView: 2,
+          grid: {
+            rows: 2,
+          },
+          spaceBetween: 15,
+        },
+        768: {
+          // For tablets
+          slidesPerView: 1,
+          grid: {
+            rows: 2,
+          },
+          spaceBetween: 15,
+        },
+        1024: {
+          // For desktops
+          slidesPerView: 2,
+          grid: {
+            rows: 2,
+          },
+          spaceBetween: 20,
+        },
+        1440: {
+          // For larger desktops
+          slidesPerView: 2,
+          grid: {
+            rows: 3,
+          },
+          spaceBetween: 15,
+        },
       },
     });
   });
