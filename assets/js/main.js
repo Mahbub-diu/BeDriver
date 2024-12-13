@@ -666,15 +666,13 @@
           spaceBetween: 15,
         },
         1024: {
-          // For desktops
           slidesPerView: 2,
           grid: {
             rows: 2,
           },
-          spaceBetween: 20,
         },
         1440: {
-          // For larger desktops
+    
           slidesPerView: 2,
           grid: {
             rows: 3,
