@@ -379,7 +379,7 @@
     }
 
     const current_url = window.location.href;
-    if (current_url.includes('azinda')) {
+    if (current_url.includes('azienda')) {
       animateText('.azienda-slider-main .centerd h1', 0.2);
     }
     var swiper = new Swiper('.logoslider', {
@@ -632,10 +632,11 @@
       grid: {
         rows: 3,
       },
+
       loop: true,
-      // autoplay: {
-      //   delay: 3000,
-      // },
+      autoplay: {
+        delay: 3000,
+      },
       spaceBetween: 15,
       navigation: {
         nextEl: '.swiper-button-next',
@@ -651,14 +652,13 @@
           spaceBetween: 10,
         },
         576: {
-          slidesPerView: 2,
+          slidesPerView: 1,
           grid: {
             rows: 2,
           },
           spaceBetween: 15,
         },
         768: {
-          // For tablets
           slidesPerView: 1,
           grid: {
             rows: 2,
@@ -666,13 +666,18 @@
           spaceBetween: 15,
         },
         1024: {
+          slidesPerView: 1,
+          grid: {
+            rows: 2,
+          },
+        },
+        1366: {
           slidesPerView: 2,
           grid: {
             rows: 2,
           },
         },
-        1440: {
-    
+        1441: {
           slidesPerView: 2,
           grid: {
             rows: 3,

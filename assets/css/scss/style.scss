@@ -667,7 +667,7 @@ footer {
   z-index: 99;
   .footer-main {
     padding: 75px 85px 70px 85px;
-    border-top: 2px solid $white;
+    border-top: 1px solid $white;
     background: #000000;
     .footer-left-flex {
       display: flex;
@@ -1396,7 +1396,7 @@ footer {
 
 .officina-highlight-main {
   padding: 150px 85px 70px 85px;
-  padding-top: 0;
+  // padding-top: 0;
   .title-box {
     h3 {
       font-size: 60px;
@@ -2084,8 +2084,30 @@ body.motorsport {
             border-color: rgba(255, 255, 255, 0.25);
             .overlay-bg {
               opacity: 1;
-
+              overflow-y: scroll;
               visibility: visible;
+
+              &::-webkit-scrollbar {
+                width: 2px;
+              }
+
+              &::-webkit-scrollbar-thumb {
+                background-color: rgba(255, 255, 255, 0.5);
+                border-radius: 4px;
+              }
+
+              &::-webkit-scrollbar-thumb:hover {
+                background-color: rgba(255, 255, 255, 0.7);
+              }
+
+              &::-webkit-scrollbar-track {
+                background-color: rgba(0, 0, 0, 0.1);
+                border-radius: 4px;
+                -webkit-border-radius: 4px;
+                -moz-border-radius: 4px;
+                -ms-border-radius: 4px;
+                -o-border-radius: 4px;
+              }
             }
           }
         }
@@ -2535,5 +2557,64 @@ body.motorsport {
 /* ========================================== */
 
 /* motorsport page end here   */
+
+/* ========================================== */
+
+/* ========================================== */
+
+/* search result page start here   */
+
+/* ========================================== */
+
+.ricerca-risulti-main {
+  .search-result-parent {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100vh;
+    .search-result-wrapper {
+      flex-basis: 100%;
+      .title-box {
+        margin-bottom: 100px;
+        h1 {
+          text-align: center;
+          font-size: 40px;
+          line-height: 56px;
+          font-family: $gotham-book;
+          color: $white;
+          border-bottom: 1px solid $white;
+          margin-bottom: 0;
+          padding-bottom: 29px;
+        }
+      }
+      .result-grid-parent {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 180px;
+        row-gap: 100px;
+        color: $white;
+        .single-result {
+          h4 {
+            font-family: $gotahm-bold;
+            font-size: 20px;
+            line-height: 28px;
+            text-transform: uppercase;
+            margin-bottom: 17px;
+          }
+          p {
+            font-size: 20px;
+            line-height: 28px;
+            font-family: $gotham-book;
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+/* ========================================== */
+
+/* search result page ends here   */
 
 /* ========================================== */

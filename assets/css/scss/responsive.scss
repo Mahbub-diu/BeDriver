@@ -479,9 +479,6 @@
           }
         }
       }
-      .swiper-slide-next {
-        border: none;
-      }
     }
   }
   .motorsport-contact-main {
@@ -523,6 +520,32 @@
     }
   }
   // motorsport page ends
+
+  // search page start from here
+
+  .ricerca-risulti-main {
+    padding: 160px 35px 100px 35px;
+    .search-result-parent {
+      height: auto;
+      min-height: 50vh;
+      .search-result-wrapper {
+        .title-box {
+          margin-bottom: 60px;
+          h1 {
+            font-size: 30px;
+            line-height: 35px;
+            padding-bottom: 15px;
+          }
+        }
+        .result-grid-parent {
+          grid-template-columns: repeat(3, 1fr);
+          row-gap: 80px;
+          column-gap: 80px;
+        }
+      }
+    }
+  }
+  // search page ends here
 }
 // min width 1441px and max width 1550px ends here
 
@@ -1042,7 +1065,7 @@
       height: 550px;
       .swiper {
         .swiper-slide {
-          height: calc((100% - 30px) / 2) !important;
+          height: calc((100% - 15px) / 2) !important;
           .single-calendar {
             .content-grid {
               gap: 20px;
@@ -1176,9 +1199,6 @@
           }
         }
       }
-      .swiper-slide-next {
-        border: none;
-      }
     }
   }
   .motorsport-contact-main {
@@ -1220,6 +1240,32 @@
     }
   }
   // motorsport page ends
+
+  // search page start from here
+
+  .ricerca-risulti-main {
+    padding: 160px 35px 100px 35px;
+    .search-result-parent {
+      height: auto;
+      min-height: 50vh;
+      .search-result-wrapper {
+        .title-box {
+          margin-bottom: 60px;
+          h1 {
+            font-size: 30px;
+            line-height: 35px;
+            padding-bottom: 15px;
+          }
+        }
+        .result-grid-parent {
+          grid-template-columns: repeat(3, 1fr);
+          row-gap: 50px;
+          column-gap: 50px;
+        }
+      }
+    }
+  }
+  // search page ends here
 }
 // min width 1366px and max width 1440px ends here
 
@@ -1869,9 +1915,6 @@
           }
         }
       }
-      .swiper-slide-next {
-        border: none;
-      }
     }
   }
   .motorsport-contact-main {
@@ -1912,6 +1955,32 @@
     }
   }
   // motorsport page ends
+
+  // search page start from here
+
+  .ricerca-risulti-main {
+    padding: 160px 35px 100px 35px;
+    .search-result-parent {
+      height: auto;
+      min-height: 50vh;
+      .search-result-wrapper {
+        .title-box {
+          margin-bottom: 60px;
+          h1 {
+            font-size: 30px;
+            line-height: 35px;
+            padding-bottom: 15px;
+          }
+        }
+        .result-grid-parent {
+          grid-template-columns: repeat(2, 1fr);
+          row-gap: 80px;
+          column-gap: 80px;
+        }
+      }
+    }
+  }
+  // search page ends here
 }
 // min width 1300px and max width 1365px ends here
 
@@ -2648,7 +2717,7 @@
         }
       }
       .swiper-slide-next {
-        border: none;
+        border-right: none;
       }
     }
   }
@@ -2688,6 +2757,42 @@
     }
   }
   // motorsport page ends
+
+  // search page start from here
+
+  .ricerca-risulti-main {
+    padding: 160px 35px 100px 35px;
+    .search-result-parent {
+      height: auto;
+      min-height: 50vh;
+      .search-result-wrapper {
+        .title-box {
+          margin-bottom: 50px;
+          h1 {
+            font-size: 25px;
+            line-height: 30px;
+            padding-bottom: 10px;
+          }
+        }
+        .result-grid-parent {
+          grid-template-columns: repeat(2, 1fr);
+          row-gap: 50px;
+          column-gap: 50px;
+          .single-result {
+            h4 {
+              font-size: 18px;
+              margin-bottom: 10px;
+            }
+            p {
+              font-size: 16px;
+              line-height: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+  // search page ends here
 }
 
 // min width 1025px and max width 1299px ends here
@@ -3419,9 +3524,6 @@
           }
         }
       }
-      .swiper-slide-next {
-        border: none;
-      }
     }
   }
   .motorsport-contact-main {
@@ -3460,6 +3562,42 @@
     }
   }
   // motorsport page ends
+
+  // search page start from here
+
+  .ricerca-risulti-main {
+    padding: 160px 35px 100px 35px;
+    .search-result-parent {
+      height: auto;
+      min-height: 50vh;
+      .search-result-wrapper {
+        .title-box {
+          margin-bottom: 50px;
+          h1 {
+            font-size: 25px;
+            line-height: 30px;
+            padding-bottom: 10px;
+          }
+        }
+        .result-grid-parent {
+          grid-template-columns: repeat(2, 1fr);
+          row-gap: 50px;
+          column-gap: 50px;
+          .single-result {
+            h4 {
+              font-size: 18px;
+              margin-bottom: 10px;
+            }
+            p {
+              font-size: 16px;
+              line-height: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+  // search page ends here
 }
 
 // min width 992px and max width 1024px ends here
@@ -4195,9 +4333,6 @@
           }
         }
       }
-      .swiper-slide-next {
-        border: none;
-      }
     }
   }
   .motorsport-contact-main {
@@ -4242,6 +4377,41 @@
     padding-right: 35px;
   }
   // motorsport page ends
+
+  // search page start from here
+
+  .ricerca-risulti-main {
+    padding: 160px 35px 100px 35px;
+    .search-result-parent {
+      height: auto;
+      .search-result-wrapper {
+        .title-box {
+          margin-bottom: 50px;
+          h1 {
+            font-size: 25px;
+            line-height: 30px;
+            padding-bottom: 10px;
+          }
+        }
+        .result-grid-parent {
+          grid-template-columns: repeat(2, 1fr);
+          row-gap: 30px;
+          column-gap: 30px;
+          .single-result {
+            h4 {
+              font-size: 18px;
+              margin-bottom: 10px;
+            }
+            p {
+              font-size: 16px;
+              line-height: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+  // search page ends here
 }
 
 // min width 768px and max width 991px ends here
@@ -5011,9 +5181,6 @@
           }
         }
       }
-      .swiper-slide-next {
-        border: none;
-      }
     }
   }
   .motorsport-contact-main {
@@ -5052,6 +5219,40 @@
     }
   }
   // motorsport page ends
+
+  // search page start from here
+
+  .ricerca-risulti-main {
+    padding: 160px 20px 100px 20px;
+    .search-result-parent {
+      height: auto;
+      .search-result-wrapper {
+        .title-box {
+          margin-bottom: 50px;
+          h1 {
+            font-size: 25px;
+            line-height: 30px;
+            padding-bottom: 10px;
+          }
+        }
+        .result-grid-parent {
+          grid-template-columns: 1fr;
+          row-gap: 30px;
+          .single-result {
+            h4 {
+              font-size: 18px;
+              margin-bottom: 10px;
+            }
+            p {
+              font-size: 16px;
+              line-height: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+  // search page ends here
 }
 
 // max widht 767px ends here

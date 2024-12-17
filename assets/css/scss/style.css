@@ -8,6 +8,11 @@
     -webkit-text-stroke-color: white;
   }
 }
+.vc_column-inner {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
 html {
   scroll-padding-top: 100px;
 }
@@ -629,7 +634,7 @@ footer {
 }
 footer .footer-main {
   padding: 75px 85px 70px 85px;
-  border-top: 2px solid #fff;
+  border-top: 1px solid #fff;
   background: #000000;
 }
 footer .footer-main .footer-left-flex {
@@ -1307,7 +1312,6 @@ footer .footer-main .footer-links ul li a {
 
 .officina-highlight-main {
   padding: 150px 85px 70px 85px;
-  padding-top: 0;
 }
 .officina-highlight-main .title-box h3 {
   font-size: 60px;
@@ -1995,7 +1999,26 @@ body.motorsport main .home-slider-main .swiper-slide .video-bg {
 }
 .motorsport-calendar-main .season-slider-parent .swiper .swiper-slide .single-calendar:hover .overlay-bg {
   opacity: 1;
+  overflow-y: scroll;
   visibility: visible;
+}
+.motorsport-calendar-main .season-slider-parent .swiper .swiper-slide .single-calendar:hover .overlay-bg::-webkit-scrollbar {
+  width: 2px;
+}
+.motorsport-calendar-main .season-slider-parent .swiper .swiper-slide .single-calendar:hover .overlay-bg::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 4px;
+}
+.motorsport-calendar-main .season-slider-parent .swiper .swiper-slide .single-calendar:hover .overlay-bg::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+.motorsport-calendar-main .season-slider-parent .swiper .swiper-slide .single-calendar:hover .overlay-bg::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
 }
 .motorsport-calendar-main .season-slider-parent .swiper .swiper-button-prev {
   transition: 1s ease-out;
@@ -2441,4 +2464,54 @@ body.motorsport main .home-slider-main .swiper-slide .video-bg {
 
 /* ========================================== */
 /* motorsport page end here   */
+/* ========================================== */
+/* ========================================== */
+/* search result page start here   */
+/* ========================================== */
+.ricerca-risulti-main .search-result-parent {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 100vh;
+}
+.ricerca-risulti-main .search-result-parent .search-result-wrapper {
+  flex-basis: 100%;
+}
+.ricerca-risulti-main .search-result-parent .search-result-wrapper .title-box {
+  margin-bottom: 100px;
+}
+.ricerca-risulti-main .search-result-parent .search-result-wrapper .title-box h1 {
+  text-align: center;
+  font-size: 40px;
+  line-height: 56px;
+  font-family: "gothambook";
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 0;
+  padding-bottom: 29px;
+}
+.ricerca-risulti-main .search-result-parent .search-result-wrapper .result-grid-parent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  -moz-column-gap: 180px;
+       column-gap: 180px;
+  row-gap: 100px;
+  color: #fff;
+}
+.ricerca-risulti-main .search-result-parent .search-result-wrapper .result-grid-parent .single-result h4 {
+  font-family: "gothambold";
+  font-size: 20px;
+  line-height: 28px;
+  text-transform: uppercase;
+  margin-bottom: 17px;
+}
+.ricerca-risulti-main .search-result-parent .search-result-wrapper .result-grid-parent .single-result p {
+  font-size: 20px;
+  line-height: 28px;
+  font-family: "gothambook";
+  margin-bottom: 0;
+}
+
+/* ========================================== */
+/* search result page ends here   */
 /* ========================================== *//*# sourceMappingURL=style.css.map */

@@ -373,9 +373,6 @@
   .compionati-main .swiper .swiper-slide .slider-content-wrapper .contents a i {
     font-size: 12px;
   }
-  .compionati-main .swiper .swiper-slide-next {
-    border: none;
-  }
   .motorsport-contact-main {
     margin-bottom: 50px;
     padding-left: 35px;
@@ -411,6 +408,27 @@
     height: 39px;
     top: 3px;
     right: 3px;
+  }
+  .ricerca-risulti-main {
+    padding: 160px 35px 100px 35px;
+  }
+  .ricerca-risulti-main .search-result-parent {
+    height: auto;
+    min-height: 50vh;
+  }
+  .ricerca-risulti-main .search-result-parent .search-result-wrapper .title-box {
+    margin-bottom: 60px;
+  }
+  .ricerca-risulti-main .search-result-parent .search-result-wrapper .title-box h1 {
+    font-size: 30px;
+    line-height: 35px;
+    padding-bottom: 15px;
+  }
+  .ricerca-risulti-main .search-result-parent .search-result-wrapper .result-grid-parent {
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 80px;
+    -moz-column-gap: 80px;
+         column-gap: 80px;
   }
 }
 @media (min-width: 1366px) and (max-width: 1440px) {
@@ -828,7 +846,7 @@
     height: 550px;
   }
   .motorsport-calendar-main .season-slider-parent .swiper .swiper-slide {
-    height: calc((100% - 30px) / 2) !important;
+    height: calc((100% - 15px) / 2) !important;
   }
   .motorsport-calendar-main .season-slider-parent .swiper .swiper-slide .single-calendar .content-grid {
     gap: 20px;
@@ -925,9 +943,6 @@
   .compionati-main .swiper .swiper-slide .slider-content-wrapper .contents a i {
     font-size: 12px;
   }
-  .compionati-main .swiper .swiper-slide-next {
-    border: none;
-  }
   .motorsport-contact-main {
     margin-bottom: 50px;
     padding-left: 35px;
@@ -963,6 +978,27 @@
     height: 39px;
     top: 3px;
     right: 3px;
+  }
+  .ricerca-risulti-main {
+    padding: 160px 35px 100px 35px;
+  }
+  .ricerca-risulti-main .search-result-parent {
+    height: auto;
+    min-height: 50vh;
+  }
+  .ricerca-risulti-main .search-result-parent .search-result-wrapper .title-box {
+    margin-bottom: 60px;
+  }
+  .ricerca-risulti-main .search-result-parent .search-result-wrapper .title-box h1 {
+    font-size: 30px;
+    line-height: 35px;
+    padding-bottom: 15px;
+  }
+  .ricerca-risulti-main .search-result-parent .search-result-wrapper .result-grid-parent {
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 50px;
+    -moz-column-gap: 50px;
+         column-gap: 50px;
   }
 }
 @media (min-width: 1300px) and (max-width: 1365px) {
@@ -1478,9 +1514,6 @@
   .compionati-main .swiper .swiper-slide .slider-content-wrapper .contents a i {
     font-size: 12px;
   }
-  .compionati-main .swiper .swiper-slide-next {
-    border: none;
-  }
   .motorsport-contact-main {
     margin-bottom: 50px;
     padding-left: 35px;
@@ -1515,6 +1548,27 @@
     height: 39px;
     top: 3px;
     right: 3px;
+  }
+  .ricerca-risulti-main {
+    padding: 160px 35px 100px 35px;
+  }
+  .ricerca-risulti-main .search-result-parent {
+    height: auto;
+    min-height: 50vh;
+  }
+  .ricerca-risulti-main .search-result-parent .search-result-wrapper .title-box {
+    margin-bottom: 60px;
+  }
+  .ricerca-risulti-main .search-result-parent .search-result-wrapper .title-box h1 {
+    font-size: 30px;
+    line-height: 35px;
+    padding-bottom: 15px;
+  }
+  .ricerca-risulti-main .search-result-parent .search-result-wrapper .result-grid-parent {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 80px;
+    -moz-column-gap: 80px;
+         column-gap: 80px;
   }
 }
 @media (min-width: 1025px) and (max-width: 1299px) {
@@ -2088,7 +2142,7 @@
     font-size: 12px;
   }
   .compionati-main .swiper .swiper-slide-next {
-    border: none;
+    border-right: none;
   }
   .motorsport-contact-main {
     margin-bottom: 50px;
@@ -2122,6 +2176,35 @@
     height: 39px;
     top: 3px;
     right: 3px;
+  }
+  .ricerca-risulti-main {
+    padding: 160px 35px 100px 35px;
+  }
+  .ricerca-risulti-main .search-result-parent {
+    height: auto;
+    min-height: 50vh;
+  }
+  .ricerca-risulti-main .search-result-parent .search-result-wrapper .title-box {
+    margin-bottom: 50px;
+  }
+  .ricerca-risulti-main .search-result-parent .search-result-wrapper .title-box h1 {
+    font-size: 25px;
+    line-height: 30px;
+    padding-bottom: 10px;
+  }
+  .ricerca-risulti-main .search-result-parent .search-result-wrapper .result-grid-parent {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 50px;
+    -moz-column-gap: 50px;
+         column-gap: 50px;
+  }
+  .ricerca-risulti-main .search-result-parent .search-result-wrapper .result-grid-parent .single-result h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .ricerca-risulti-main .search-result-parent .search-result-wrapper .result-grid-parent .single-result p {
+    font-size: 16px;
+    line-height: 20px;
   }
 }
 @media (min-width: 992px) and (max-width: 1024px) {
@@ -2698,9 +2781,6 @@
   .compionati-main .swiper .swiper-slide .slider-content-wrapper .contents a i {
     font-size: 12px;
   }
-  .compionati-main .swiper .swiper-slide-next {
-    border: none;
-  }
   .motorsport-contact-main {
     margin-bottom: 50px;
   }
@@ -2733,6 +2813,35 @@
     height: 39px;
     top: 3px;
     right: 3px;
+  }
+  .ricerca-risulti-main {
+    padding: 160px 35px 100px 35px;
+  }
+  .ricerca-risulti-main .search-result-parent {
+    height: auto;
+    min-height: 50vh;
+  }
+  .ricerca-risulti-main .search-result-parent .search-result-wrapper .title-box {
+    margin-bottom: 50px;
+  }
+  .ricerca-risulti-main .search-result-parent .search-result-wrapper .title-box h1 {
+    font-size: 25px;
+    line-height: 30px;
+    padding-bottom: 10px;
+  }
+  .ricerca-risulti-main .search-result-parent .search-result-wrapper .result-grid-parent {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 50px;
+    -moz-column-gap: 50px;
+         column-gap: 50px;
+  }
+  .ricerca-risulti-main .search-result-parent .search-result-wrapper .result-grid-parent .single-result h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .ricerca-risulti-main .search-result-parent .search-result-wrapper .result-grid-parent .single-result p {
+    font-size: 16px;
+    line-height: 20px;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -3314,9 +3423,6 @@
   .compionati-main .swiper .swiper-slide .slider-content-wrapper .contents a i {
     font-size: 12px;
   }
-  .compionati-main .swiper .swiper-slide-next {
-    border: none;
-  }
   .motorsport-contact-main {
     margin-bottom: 50px;
     padding-left: 35px;
@@ -3355,6 +3461,34 @@
   .shop-slider-main {
     padding-left: 35px;
     padding-right: 35px;
+  }
+  .ricerca-risulti-main {
+    padding: 160px 35px 100px 35px;
+  }
+  .ricerca-risulti-main .search-result-parent {
+    height: auto;
+  }
+  .ricerca-risulti-main .search-result-parent .search-result-wrapper .title-box {
+    margin-bottom: 50px;
+  }
+  .ricerca-risulti-main .search-result-parent .search-result-wrapper .title-box h1 {
+    font-size: 25px;
+    line-height: 30px;
+    padding-bottom: 10px;
+  }
+  .ricerca-risulti-main .search-result-parent .search-result-wrapper .result-grid-parent {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 30px;
+    -moz-column-gap: 30px;
+         column-gap: 30px;
+  }
+  .ricerca-risulti-main .search-result-parent .search-result-wrapper .result-grid-parent .single-result h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .ricerca-risulti-main .search-result-parent .search-result-wrapper .result-grid-parent .single-result p {
+    font-size: 16px;
+    line-height: 20px;
   }
 }
 @media (min-width: 768px) {
@@ -3960,9 +4094,6 @@
   .compionati-main .swiper .swiper-slide .slider-content-wrapper .contents a i {
     font-size: 12px;
   }
-  .compionati-main .swiper .swiper-slide-next {
-    border: none;
-  }
   .motorsport-contact-main {
     margin-bottom: 50px;
   }
@@ -3995,6 +4126,32 @@
     height: 39px;
     top: 3px;
     right: 3px;
+  }
+  .ricerca-risulti-main {
+    padding: 160px 20px 100px 20px;
+  }
+  .ricerca-risulti-main .search-result-parent {
+    height: auto;
+  }
+  .ricerca-risulti-main .search-result-parent .search-result-wrapper .title-box {
+    margin-bottom: 50px;
+  }
+  .ricerca-risulti-main .search-result-parent .search-result-wrapper .title-box h1 {
+    font-size: 25px;
+    line-height: 30px;
+    padding-bottom: 10px;
+  }
+  .ricerca-risulti-main .search-result-parent .search-result-wrapper .result-grid-parent {
+    grid-template-columns: 1fr;
+    row-gap: 30px;
+  }
+  .ricerca-risulti-main .search-result-parent .search-result-wrapper .result-grid-parent .single-result h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .ricerca-risulti-main .search-result-parent .search-result-wrapper .result-grid-parent .single-result p {
+    font-size: 16px;
+    line-height: 20px;
   }
 }
 @media (min-width: 576px) and (max-width: 767px) {
