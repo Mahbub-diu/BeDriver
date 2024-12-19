@@ -2561,7 +2561,17 @@ body.motorsport main .home-slider-main .swiper-slide .video-bg {
   position: relative;
 }
 .coming-soon-main .coming-soon-content {
-  padding: 180px 50px 180px 50px;
+  height: 100vh;
+  position: relative;
+}
+.coming-soon-main .coming-soon-content .coming-position {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .coming-soon-main .coming-soon-content .logo-box {
   text-align: center;

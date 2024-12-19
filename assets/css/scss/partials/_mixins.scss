@@ -75,3 +75,10 @@
     border-radius: #{$i * $multiplier}px;
   }
 }
+
+@mixin trans-xy-center {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
