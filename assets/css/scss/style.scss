@@ -207,13 +207,13 @@ header {
   top: 0;
   left: 0px;
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   background: url(../../images/sidebar-bg.svg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  overflow: hidden;
-  overflow-y: auto;
+  // overflow: hidden;
+  // overflow-y: auto;
   z-index: 99999;
   transition: all 0.4s ease-in-out;
   -webkit-transition: all 0.4s ease-in-out;
@@ -1097,6 +1097,8 @@ footer {
 
 .private-service-main {
   padding-top: 150px;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
   .title-box {
     padding-bottom: 100px;
     text-align: center;
@@ -2567,11 +2569,14 @@ body.motorsport {
 /* ========================================== */
 
 .ricerca-risulti-main {
+  position: relative;
   .search-result-parent {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
+    padding-bottom: 130px;
+    padding-top: 150px;
     .search-result-wrapper {
       flex-basis: 100%;
       .title-box {
@@ -2611,10 +2616,154 @@ body.motorsport {
       }
     }
   }
+  .slider-contact {
+    position: absolute;
+    bottom: 50px;
+    z-index: 1;
+    padding-left: 100px;
+    max-width: 256px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14.5px;
+    p {
+      color: $gray-text;
+      text-transform: capitalize;
+      font-family: $gotham-medium;
+      font-size: 20px;
+      position: relative;
+      margin-bottom: 0px;
+      width: 100%;
+      &::after {
+        position: absolute;
+        right: 0;
+        width: 40px;
+        height: 1px;
+        background: $gray-text;
+        content: '';
+        top: 50%;
+        transform: translateY(-50%);
+      }
+    }
+  }
 }
 
 /* ========================================== */
 
 /* search result page ends here   */
+
+/* ========================================== */
+
+/* ========================================== */
+
+/* comming soon page start from here   */
+
+/* ========================================== */
+
+.coming-soon-main {
+  height: 100vh;
+  position: relative;
+  .coming-soon-content {
+    padding: 180px 50px 180px 50px;
+    .logo-box {
+      text-align: center;
+      margin-bottom: 77px;
+      img {
+        width: 280px;
+      }
+    }
+    .title-box {
+      text-align: center;
+      margin-bottom: 100px;
+      h1 {
+        font-size: 130px;
+        text-transform: uppercase;
+        line-height: 100px;
+        letter-spacing: -3.9px;
+        font-family: $gotahm-bold;
+        color: $white;
+        margin-bottom: 10px;
+      }
+      p {
+        font-size: 25px;
+        letter-spacing: -0.75px;
+        font-family: $gotham-book;
+        color: $white;
+        margin-bottom: 0;
+      }
+    }
+    .email-box {
+      text-align: center;
+      margin-bottom: 120px;
+      a {
+        font-size: 30px;
+        line-height: 30px;
+        letter-spacing: -0.9px;
+        font-family: $gotahm-bold;
+        color: $white;
+      }
+    }
+    .coming-links {
+      ul {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 30px;
+        justify-content: center;
+        li {
+          a {
+            font-size: 25px;
+            font-family: $gotahm-bold;
+            color: $white;
+            margin-bottom: 0;
+            position: relative;
+          }
+          &:not(:first-child) {
+            a {
+              &::before {
+                content: '|';
+                position: absolute;
+                left: -19px;
+                color: $white;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .slider-contact {
+    position: absolute;
+    bottom: 50px;
+    z-index: 1;
+    padding-left: 100px;
+    max-width: 256px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14.5px;
+    p {
+      color: $gray-text;
+      text-transform: capitalize;
+      font-family: $gotham-medium;
+      font-size: 20px;
+      position: relative;
+      margin-bottom: 0px;
+      width: 100%;
+      &::after {
+        position: absolute;
+        right: 0;
+        width: 40px;
+        height: 1px;
+        background: $gray-text;
+        content: '';
+        top: 50%;
+        transform: translateY(-50%);
+      }
+    }
+  }
+}
+
+/* ========================================== */
+
+/* comming soon page ends here   */
 
 /* ========================================== */
