@@ -2620,6 +2620,8 @@ body.motorsport main .home-slider-main .swiper-slide .video-bg {
   position: absolute;
   left: -19px;
   color: #fff;
+  height: 100%;
+  top: 1px;
 }
 .coming-soon-main .slider-contact {
   position: absolute;

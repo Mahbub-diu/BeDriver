@@ -551,6 +551,69 @@
     }
   }
   // search page ends here
+
+  // coming soon page start
+
+  .coming-soon-main {
+    .coming-soon-content {
+      padding: 100px 20px;
+      .logo-box {
+        margin-bottom: 80px;
+        img {
+          max-width: 200px;
+        }
+      }
+      .title-box {
+        margin-bottom: 80px;
+        h1 {
+          font-size: 90px;
+          line-height: 90px;
+          letter-spacing: normal;
+          margin-bottom: 15px;
+        }
+        p {
+          font-size: 20px;
+          line-height: 25px;
+        }
+      }
+      .email-box {
+        margin-bottom: 60px;
+        a {
+          font-size: 25px;
+          line-height: 35px;
+          letter-spacing: normal;
+        }
+      }
+      .coming-links {
+        ul {
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          gap: 20px;
+          row-gap: 10px;
+          justify-content: center;
+          li {
+            a {
+              font-size: 20px;
+              line-height: 25px;
+            }
+            &:not(:first-child) {
+              a {
+                &::before {
+                  left: -15px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .slider-contact {
+      padding-left: 100px;
+    }
+  }
+
+  // coming soon page ends
 }
 // min width 1441px and max width 1550px ends here
 
@@ -1278,6 +1341,69 @@
     }
   }
   // search page ends here
+
+  // coming soon page start
+
+  .coming-soon-main {
+    .coming-soon-content {
+      padding: 100px 20px;
+      .logo-box {
+        margin-bottom: 80px;
+        img {
+          max-width: 200px;
+        }
+      }
+      .title-box {
+        margin-bottom: 80px;
+        h1 {
+          font-size: 90px;
+          line-height: 90px;
+          letter-spacing: normal;
+          margin-bottom: 15px;
+        }
+        p {
+          font-size: 20px;
+          line-height: 25px;
+        }
+      }
+      .email-box {
+        margin-bottom: 60px;
+        a {
+          font-size: 25px;
+          line-height: 35px;
+          letter-spacing: normal;
+        }
+      }
+      .coming-links {
+        ul {
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          gap: 20px;
+          row-gap: 10px;
+          justify-content: center;
+          li {
+            a {
+              font-size: 20px;
+              line-height: 25px;
+            }
+            &:not(:first-child) {
+              a {
+                &::before {
+                  left: -15px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .slider-contact {
+      padding-left: 100px;
+    }
+  }
+
+  // coming soon page ends
 }
 // min width 1366px and max width 1440px ends here
 
@@ -2002,6 +2128,70 @@
     }
   }
   // search page ends here
+
+  // coming soon page start
+
+  .coming-soon-main {
+    .coming-soon-content {
+      padding: 100px 20px;
+      .logo-box {
+        margin-bottom: 80px;
+        img {
+          max-width: 200px;
+        }
+      }
+      .title-box {
+        margin-bottom: 80px;
+        h1 {
+          font-size: 70px;
+          line-height: 70px;
+          letter-spacing: normal;
+          margin-bottom: 15px;
+        }
+        p {
+          font-size: 20px;
+          line-height: 25px;
+        }
+      }
+      .email-box {
+        margin-bottom: 60px;
+        a {
+          font-size: 25px;
+          line-height: 35px;
+          letter-spacing: normal;
+        }
+      }
+      .coming-links {
+        ul {
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          gap: 20px;
+          row-gap: 10px;
+          justify-content: center;
+          li {
+            a {
+              font-size: 20px;
+              line-height: 25px;
+            }
+            &:not(:first-child) {
+              a {
+                &::before {
+                  left: -15px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .slider-contact {
+      padding-left: 50px;
+      max-width: 210px;
+    }
+  }
+
+  // coming soon page ends
 }
 // min width 1300px and max width 1365px ends here
 
@@ -2823,6 +3013,70 @@
     }
   }
   // search page ends here
+
+  // coming soon page start
+
+  .coming-soon-main {
+    .coming-soon-content {
+      padding: 100px 20px;
+      .logo-box {
+        margin-bottom: 50px;
+        img {
+          max-width: 200px;
+        }
+      }
+      .title-box {
+        margin-bottom: 50px;
+        h1 {
+          font-size: 70px;
+          line-height: 70px;
+          letter-spacing: normal;
+          margin-bottom: 15px;
+        }
+        p {
+          font-size: 20px;
+          line-height: 25px;
+        }
+      }
+      .email-box {
+        margin-bottom: 50px;
+        a {
+          font-size: 20px;
+          line-height: 25px;
+          letter-spacing: normal;
+        }
+      }
+      .coming-links {
+        ul {
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          gap: 20px;
+          row-gap: 10px;
+          justify-content: center;
+          li {
+            a {
+              font-size: 20px;
+              line-height: 25px;
+            }
+            &:not(:first-child) {
+              a {
+                &::before {
+                  left: -15px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .slider-contact {
+      padding-left: 50px;
+      max-width: 210px;
+    }
+  }
+
+  // coming soon page ends
 }
 
 // min width 1025px and max width 1299px ends here
@@ -3636,6 +3890,70 @@
     }
   }
   // search page ends here
+
+  // coming soon page start
+
+  .coming-soon-main {
+    .coming-soon-content {
+      padding: 100px 20px;
+      .logo-box {
+        margin-bottom: 50px;
+        img {
+          max-width: 200px;
+        }
+      }
+      .title-box {
+        margin-bottom: 50px;
+        h1 {
+          font-size: 70px;
+          line-height: 70px;
+          letter-spacing: normal;
+          margin-bottom: 15px;
+        }
+        p {
+          font-size: 20px;
+          line-height: 25px;
+        }
+      }
+      .email-box {
+        margin-bottom: 50px;
+        a {
+          font-size: 20px;
+          line-height: 25px;
+          letter-spacing: normal;
+        }
+      }
+      .coming-links {
+        ul {
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          gap: 20px;
+          row-gap: 10px;
+          justify-content: center;
+          li {
+            a {
+              font-size: 20px;
+              line-height: 25px;
+            }
+            &:not(:first-child) {
+              a {
+                &::before {
+                  left: -15px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .slider-contact {
+      padding-left: 50px;
+      max-width: 210px;
+    }
+  }
+
+  // coming soon page ends
 }
 
 // min width 992px and max width 1024px ends here
@@ -4458,6 +4776,70 @@
     }
   }
   // search page ends here
+
+  // coming soon page start
+
+  .coming-soon-main {
+    .coming-soon-content {
+      padding: 100px 20px;
+      .logo-box {
+        margin-bottom: 50px;
+        img {
+          max-width: 200px;
+        }
+      }
+      .title-box {
+        margin-bottom: 50px;
+        h1 {
+          font-size: 50px;
+          line-height: 60px;
+          letter-spacing: normal;
+          margin-bottom: 15px;
+        }
+        p {
+          font-size: 20px;
+          line-height: 25px;
+        }
+      }
+      .email-box {
+        margin-bottom: 50px;
+        a {
+          font-size: 20px;
+          line-height: 25px;
+          letter-spacing: normal;
+        }
+      }
+      .coming-links {
+        ul {
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          gap: 20px;
+          row-gap: 10px;
+          justify-content: center;
+          li {
+            a {
+              font-size: 20px;
+              line-height: 25px;
+            }
+            &:not(:first-child) {
+              a {
+                &::before {
+                  left: -15px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .slider-contact {
+      padding-left: 50px;
+      max-width: 210px;
+    }
+  }
+
+  // coming soon page ends
 }
 
 // min width 768px and max width 991px ends here
@@ -5314,6 +5696,66 @@
     }
   }
   // search page ends here
+
+  // coming soon page start
+
+  .coming-soon-main {
+    .coming-soon-content {
+      padding: 100px 20px;
+      .logo-box {
+        margin-bottom: 50px;
+        img {
+          max-width: 150px;
+        }
+      }
+      .title-box {
+        margin-bottom: 50px;
+        h1 {
+          font-size: 30px;
+          line-height: 40px;
+          letter-spacing: normal;
+          margin-bottom: 10px;
+        }
+        p {
+          font-size: 16px;
+          line-height: 20px;
+        }
+      }
+      .email-box {
+        margin-bottom: 50px;
+        a {
+          font-size: 16px;
+          letter-spacing: normal;
+          line-height: 20px;
+        }
+      }
+      .coming-links {
+        ul {
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          gap: 20px;
+          row-gap: 10px;
+          justify-content: center;
+          li {
+            a {
+              font-size: 16px;
+              line-height: 20px;
+            }
+            &:not(:first-child) {
+              a {
+                &::before {
+                  left: -10px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // coming soon page ends
 }
 
 // max widht 767px ends here
@@ -5404,6 +5846,21 @@
       }
     }
   }
+
+  .coming-soon-main {
+    .slider-contact {
+      padding-left: 35px;
+      max-width: 170px;
+      p {
+        font-size: 16px;
+      }
+      a {
+        img {
+          width: 20px;
+        }
+      }
+    }
+  }
 }
 // min width 576px and max width 767px ends here
 
@@ -5461,6 +5918,75 @@
           img {
             max-width: 70%;
           }
+        }
+      }
+    }
+  }
+
+  .coming-soon-main {
+    .coming-soon-content {
+      .logo-box {
+        margin-bottom: 30px;
+      }
+      .title-box {
+        margin-bottom: 30px;
+      }
+      .email-box {
+        margin-bottom: 30px;
+      }
+      .coming-links {
+        ul {
+          row-gap: 10px;
+          justify-content: center;
+          li {
+            flex-basis: 100%;
+            text-align: center;
+            a {
+              font-size: 16px;
+              line-height: 20px;
+              text-align: center;
+            }
+            &:not(:first-child) {
+              a {
+                &::before {
+                  left: -10px;
+                  display: none;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .slider-contact {
+      padding: 0;
+      transform: rotate(90deg);
+      right: -70px;
+      width: auto;
+      bottom: 171px;
+      align-items: center;
+      left: unset;
+      max-width: -moz-fit-content;
+      max-width: fit-content;
+      p {
+        margin-bottom: 0;
+        font-size: 12px;
+        width: auto;
+        margin-right: 25px;
+        &::after {
+          right: -32px;
+          width: 25px;
+        }
+      }
+      a {
+        img {
+          width: 17px;
+          position: relative;
+          transform: rotate(-90deg);
+          -webkit-transform: rotate(-90deg);
+          -moz-transform: rotate(-90deg);
+          -ms-transform: rotate(-90deg);
+          -o-transform: rotate(-90deg);
         }
       }
     }

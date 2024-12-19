@@ -434,6 +434,54 @@
   .ricerca-risulti-main .slider-contact {
     bottom: 34px;
   }
+  .coming-soon-main .coming-soon-content {
+    padding: 100px 20px;
+  }
+  .coming-soon-main .coming-soon-content .logo-box {
+    margin-bottom: 80px;
+  }
+  .coming-soon-main .coming-soon-content .logo-box img {
+    max-width: 200px;
+  }
+  .coming-soon-main .coming-soon-content .title-box {
+    margin-bottom: 80px;
+  }
+  .coming-soon-main .coming-soon-content .title-box h1 {
+    font-size: 90px;
+    line-height: 90px;
+    letter-spacing: normal;
+    margin-bottom: 15px;
+  }
+  .coming-soon-main .coming-soon-content .title-box p {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .coming-soon-main .coming-soon-content .email-box {
+    margin-bottom: 60px;
+  }
+  .coming-soon-main .coming-soon-content .email-box a {
+    font-size: 25px;
+    line-height: 35px;
+    letter-spacing: normal;
+  }
+  .coming-soon-main .coming-soon-content .coming-links ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    row-gap: 10px;
+    justify-content: center;
+  }
+  .coming-soon-main .coming-soon-content .coming-links ul li a {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .coming-soon-main .coming-soon-content .coming-links ul li:not(:first-child) a::before {
+    left: -15px;
+  }
+  .coming-soon-main .slider-contact {
+    padding-left: 100px;
+  }
 }
 @media (min-width: 1366px) and (max-width: 1440px) {
   header .main-header {
@@ -1010,6 +1058,54 @@
     padding-left: 52px;
     max-width: 217px;
     margin-top: 21px;
+  }
+  .coming-soon-main .coming-soon-content {
+    padding: 100px 20px;
+  }
+  .coming-soon-main .coming-soon-content .logo-box {
+    margin-bottom: 80px;
+  }
+  .coming-soon-main .coming-soon-content .logo-box img {
+    max-width: 200px;
+  }
+  .coming-soon-main .coming-soon-content .title-box {
+    margin-bottom: 80px;
+  }
+  .coming-soon-main .coming-soon-content .title-box h1 {
+    font-size: 90px;
+    line-height: 90px;
+    letter-spacing: normal;
+    margin-bottom: 15px;
+  }
+  .coming-soon-main .coming-soon-content .title-box p {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .coming-soon-main .coming-soon-content .email-box {
+    margin-bottom: 60px;
+  }
+  .coming-soon-main .coming-soon-content .email-box a {
+    font-size: 25px;
+    line-height: 35px;
+    letter-spacing: normal;
+  }
+  .coming-soon-main .coming-soon-content .coming-links ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    row-gap: 10px;
+    justify-content: center;
+  }
+  .coming-soon-main .coming-soon-content .coming-links ul li a {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .coming-soon-main .coming-soon-content .coming-links ul li:not(:first-child) a::before {
+    left: -15px;
+  }
+  .coming-soon-main .slider-contact {
+    padding-left: 100px;
   }
 }
 @media (min-width: 1300px) and (max-width: 1365px) {
@@ -1589,6 +1685,55 @@
     padding-left: 52px;
     max-width: 217px;
     margin-top: 21px;
+  }
+  .coming-soon-main .coming-soon-content {
+    padding: 100px 20px;
+  }
+  .coming-soon-main .coming-soon-content .logo-box {
+    margin-bottom: 80px;
+  }
+  .coming-soon-main .coming-soon-content .logo-box img {
+    max-width: 200px;
+  }
+  .coming-soon-main .coming-soon-content .title-box {
+    margin-bottom: 80px;
+  }
+  .coming-soon-main .coming-soon-content .title-box h1 {
+    font-size: 70px;
+    line-height: 70px;
+    letter-spacing: normal;
+    margin-bottom: 15px;
+  }
+  .coming-soon-main .coming-soon-content .title-box p {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .coming-soon-main .coming-soon-content .email-box {
+    margin-bottom: 60px;
+  }
+  .coming-soon-main .coming-soon-content .email-box a {
+    font-size: 25px;
+    line-height: 35px;
+    letter-spacing: normal;
+  }
+  .coming-soon-main .coming-soon-content .coming-links ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    row-gap: 10px;
+    justify-content: center;
+  }
+  .coming-soon-main .coming-soon-content .coming-links ul li a {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .coming-soon-main .coming-soon-content .coming-links ul li:not(:first-child) a::before {
+    left: -15px;
+  }
+  .coming-soon-main .slider-contact {
+    padding-left: 50px;
+    max-width: 210px;
   }
 }
 @media (min-width: 1025px) and (max-width: 1299px) {
@@ -2235,6 +2380,55 @@
     max-width: 217px;
     margin-top: 30px;
   }
+  .coming-soon-main .coming-soon-content {
+    padding: 100px 20px;
+  }
+  .coming-soon-main .coming-soon-content .logo-box {
+    margin-bottom: 50px;
+  }
+  .coming-soon-main .coming-soon-content .logo-box img {
+    max-width: 200px;
+  }
+  .coming-soon-main .coming-soon-content .title-box {
+    margin-bottom: 50px;
+  }
+  .coming-soon-main .coming-soon-content .title-box h1 {
+    font-size: 70px;
+    line-height: 70px;
+    letter-spacing: normal;
+    margin-bottom: 15px;
+  }
+  .coming-soon-main .coming-soon-content .title-box p {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .coming-soon-main .coming-soon-content .email-box {
+    margin-bottom: 50px;
+  }
+  .coming-soon-main .coming-soon-content .email-box a {
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: normal;
+  }
+  .coming-soon-main .coming-soon-content .coming-links ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    row-gap: 10px;
+    justify-content: center;
+  }
+  .coming-soon-main .coming-soon-content .coming-links ul li a {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .coming-soon-main .coming-soon-content .coming-links ul li:not(:first-child) a::before {
+    left: -15px;
+  }
+  .coming-soon-main .slider-contact {
+    padding-left: 50px;
+    max-width: 210px;
+  }
 }
 @media (min-width: 992px) and (max-width: 1024px) {
   header .main-header {
@@ -2879,6 +3073,55 @@
     padding-left: 52px;
     max-width: 217px;
     margin-top: 21px;
+  }
+  .coming-soon-main .coming-soon-content {
+    padding: 100px 20px;
+  }
+  .coming-soon-main .coming-soon-content .logo-box {
+    margin-bottom: 50px;
+  }
+  .coming-soon-main .coming-soon-content .logo-box img {
+    max-width: 200px;
+  }
+  .coming-soon-main .coming-soon-content .title-box {
+    margin-bottom: 50px;
+  }
+  .coming-soon-main .coming-soon-content .title-box h1 {
+    font-size: 70px;
+    line-height: 70px;
+    letter-spacing: normal;
+    margin-bottom: 15px;
+  }
+  .coming-soon-main .coming-soon-content .title-box p {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .coming-soon-main .coming-soon-content .email-box {
+    margin-bottom: 50px;
+  }
+  .coming-soon-main .coming-soon-content .email-box a {
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: normal;
+  }
+  .coming-soon-main .coming-soon-content .coming-links ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    row-gap: 10px;
+    justify-content: center;
+  }
+  .coming-soon-main .coming-soon-content .coming-links ul li a {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .coming-soon-main .coming-soon-content .coming-links ul li:not(:first-child) a::before {
+    left: -15px;
+  }
+  .coming-soon-main .slider-contact {
+    padding-left: 50px;
+    max-width: 210px;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -3534,6 +3777,55 @@
     padding-left: 12px;
     max-width: 170px;
     margin-top: 21px;
+  }
+  .coming-soon-main .coming-soon-content {
+    padding: 100px 20px;
+  }
+  .coming-soon-main .coming-soon-content .logo-box {
+    margin-bottom: 50px;
+  }
+  .coming-soon-main .coming-soon-content .logo-box img {
+    max-width: 200px;
+  }
+  .coming-soon-main .coming-soon-content .title-box {
+    margin-bottom: 50px;
+  }
+  .coming-soon-main .coming-soon-content .title-box h1 {
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: normal;
+    margin-bottom: 15px;
+  }
+  .coming-soon-main .coming-soon-content .title-box p {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .coming-soon-main .coming-soon-content .email-box {
+    margin-bottom: 50px;
+  }
+  .coming-soon-main .coming-soon-content .email-box a {
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: normal;
+  }
+  .coming-soon-main .coming-soon-content .coming-links ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    row-gap: 10px;
+    justify-content: center;
+  }
+  .coming-soon-main .coming-soon-content .coming-links ul li a {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .coming-soon-main .coming-soon-content .coming-links ul li:not(:first-child) a::before {
+    left: -15px;
+  }
+  .coming-soon-main .slider-contact {
+    padding-left: 50px;
+    max-width: 210px;
   }
 }
 @media (min-width: 768px) {
@@ -4210,6 +4502,51 @@
     max-width: 170px;
     margin-top: 21px;
   }
+  .coming-soon-main .coming-soon-content {
+    padding: 100px 20px;
+  }
+  .coming-soon-main .coming-soon-content .logo-box {
+    margin-bottom: 50px;
+  }
+  .coming-soon-main .coming-soon-content .logo-box img {
+    max-width: 150px;
+  }
+  .coming-soon-main .coming-soon-content .title-box {
+    margin-bottom: 50px;
+  }
+  .coming-soon-main .coming-soon-content .title-box h1 {
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: normal;
+    margin-bottom: 10px;
+  }
+  .coming-soon-main .coming-soon-content .title-box p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .coming-soon-main .coming-soon-content .email-box {
+    margin-bottom: 50px;
+  }
+  .coming-soon-main .coming-soon-content .email-box a {
+    font-size: 16px;
+    letter-spacing: normal;
+    line-height: 20px;
+  }
+  .coming-soon-main .coming-soon-content .coming-links ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    row-gap: 10px;
+    justify-content: center;
+  }
+  .coming-soon-main .coming-soon-content .coming-links ul li a {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .coming-soon-main .coming-soon-content .coming-links ul li:not(:first-child) a::before {
+    left: -10px;
+  }
 }
 @media (min-width: 576px) and (max-width: 767px) {
   footer .footer-main .footer-links ul {
@@ -4258,6 +4595,16 @@
   .officina-contact-main .contact-flex .title-box {
     text-align: center;
   }
+  .coming-soon-main .slider-contact {
+    padding-left: 35px;
+    max-width: 170px;
+  }
+  .coming-soon-main .slider-contact p {
+    font-size: 16px;
+  }
+  .coming-soon-main .slider-contact a img {
+    width: 20px;
+  }
 }
 @media (max-width: 575px) {
   .driver-main .driver-grid-parent .single-driver .name {
@@ -4289,6 +4636,62 @@
   }
   .motor-partner-main .partner-grid-parent .single-partner .image-box img {
     max-width: 70%;
+  }
+  .coming-soon-main .coming-soon-content .logo-box {
+    margin-bottom: 30px;
+  }
+  .coming-soon-main .coming-soon-content .title-box {
+    margin-bottom: 30px;
+  }
+  .coming-soon-main .coming-soon-content .email-box {
+    margin-bottom: 30px;
+  }
+  .coming-soon-main .coming-soon-content .coming-links ul {
+    row-gap: 10px;
+    justify-content: center;
+  }
+  .coming-soon-main .coming-soon-content .coming-links ul li {
+    flex-basis: 100%;
+    text-align: center;
+  }
+  .coming-soon-main .coming-soon-content .coming-links ul li a {
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+  }
+  .coming-soon-main .coming-soon-content .coming-links ul li:not(:first-child) a::before {
+    left: -10px;
+    display: none;
+  }
+  .coming-soon-main .slider-contact {
+    padding: 0;
+    transform: rotate(90deg);
+    right: -70px;
+    width: auto;
+    bottom: 171px;
+    align-items: center;
+    left: unset;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+  }
+  .coming-soon-main .slider-contact p {
+    margin-bottom: 0;
+    font-size: 12px;
+    width: auto;
+    margin-right: 25px;
+  }
+  .coming-soon-main .slider-contact p::after {
+    right: -32px;
+    width: 25px;
+  }
+  .coming-soon-main .slider-contact a img {
+    width: 17px;
+    position: relative;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
   }
 }
 @media (min-width: 415px) and (max-width: 575px) {
