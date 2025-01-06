@@ -82,3 +82,50 @@
   transform: translate(-50%, -50%);
   position: absolute;
 }
+
+@mixin text-clip-1 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1;
+}
+@mixin text-clip-6 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 6;
+}
+@mixin gotham-book-30-35 {
+  font-size: 30px;
+  line-height: 35px;
+  font-family: $gotham-book;
+}
+@mixin gotham-bold-40-35 {
+  font-size: 40px;
+  line-height: 35px;
+  font-family: $gotahm-bold;
+}
+@mixin gotham-book-25-35 {
+  font-size: 25px;
+  line-height: 35px;
+  font-family: $gotham-book;
+}
+@mixin gotham-bold-25-35 {
+  font-size: 25px;
+  line-height: 35px;
+  font-family: $gotahm-bold;
+}
+
+@mixin gotham-bold-65-65 {
+  font-size: 65px;
+  line-height: 65px;
+  font-family: $gotahm-bold;
+}
+
+@mixin gotham-med-45-45 {
+  font-size: 45px;
+  line-height: 45px;
+  font-family: $gotham-medium;
+}

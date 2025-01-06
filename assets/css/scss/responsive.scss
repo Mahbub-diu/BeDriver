@@ -684,7 +684,7 @@
       }
     }
     .sidebar-links {
-      padding-top: 80px;
+      padding-top: 30px;
       gap: 20px;
       .top-items {
         ul {
@@ -2339,7 +2339,7 @@
         }
       }
       a {
-        img {
+        svg {
           width: 20px;
           position: relative;
           transform: rotate(-90deg);
@@ -3218,7 +3218,7 @@
         }
       }
       a {
-        img {
+        svg {
           width: 20px;
           position: relative;
           transform: rotate(-90deg);
@@ -4097,7 +4097,7 @@
         }
       }
       a {
-        img {
+        svg {
           width: 20px;
           position: relative;
           transform: rotate(-90deg);
@@ -4934,7 +4934,7 @@
         }
       }
       a {
-        img {
+        svg {
           width: 17px;
           position: relative;
           transform: rotate(-90deg);
@@ -5855,7 +5855,7 @@
         font-size: 16px;
       }
       a {
-        img {
+        svg {
           width: 20px;
         }
       }
@@ -5979,7 +5979,7 @@
         }
       }
       a {
-        img {
+        svg {
           width: 17px;
           position: relative;
           transform: rotate(-90deg);
@@ -5990,6 +5990,10 @@
         }
       }
     }
+  }
+
+  .search-wrapper-main {
+    padding: 20px 20px;
   }
 }
 

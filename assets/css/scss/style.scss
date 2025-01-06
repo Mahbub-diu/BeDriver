@@ -244,6 +244,9 @@ header {
           }
         }
         .single-items {
+          .search-btn {
+            cursor: pointer;
+          }
           .sidebar-close-btn {
             position: relative;
             width: 25px;
@@ -353,7 +356,7 @@ header {
     position: absolute;
     bottom: 50px;
     z-index: 1;
-    max-width: 130px;
+    max-width: 160px;
     display: flex;
     flex-wrap: wrap;
     gap: 14.5px;
@@ -2778,3 +2781,303 @@ body.motorsport {
 /* comming soon page ends here   */
 
 /* ========================================== */
+
+.search-wrapper-main {
+  background: #000000e0;
+  position: fixed;
+  top: -100%;
+  width: 100%;
+  height: 100%;
+  z-index: 999999;
+  @include transition-four;
+  padding-top: 0;
+  padding-bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  .form-width {
+    width: 80%;
+    position: relative;
+  }
+  .form-group {
+    position: relative;
+
+    input[type='text'] {
+      height: 50px;
+
+      padding-left: 20px;
+      padding-right: 140px;
+      border: none;
+      outline: none;
+      font-size: 16px;
+      line-height: 24px;
+      font-family: $gotham-book;
+      color: #000000;
+      @include dynamic-border-radius(1, 5);
+      &:focus {
+        box-shadow: none;
+        outline: none;
+      }
+    }
+    ::placeholder {
+      color: #000;
+      font-size: 16px;
+    }
+    .search-btn {
+      background: #bfd552;
+      text-transform: uppercase;
+      font-family: $gotahm-bold;
+      height: 38px;
+      padding-left: 15px;
+      padding-right: 15px;
+      position: absolute;
+      top: 6px;
+      right: 6px;
+      border: none;
+      outline: none;
+      @include dynamic-border-radius(1, 5);
+      color: $white;
+      @include transition-four;
+      &:hover {
+        background: #000;
+      }
+    }
+  }
+  .search-close-btn {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    position: absolute;
+    top: -48px;
+    right: 3px;
+    background: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+
+    @include transition-four;
+  }
+}
+.search-wrapper-main.show {
+  top: 0;
+}
+
+// academy page start
+
+.academy-slider-main {
+  .slider-content-box {
+    align-items: center;
+    a {
+      text-transform: uppercase;
+      background: #bfd552;
+      color: #000;
+      font-family: $gotahm-bold;
+      width: 614px;
+      padding: 16px 20px;
+      display: inline-block;
+      font-size: 20px;
+      line-height: 25px;
+      margin-left: 150px;
+      @include transition-four;
+      &:hover {
+        background: #fff;
+        color: #000;
+      }
+    }
+  }
+}
+
+.academypassione-slider-main {
+  padding: 146px 85px 166px 85px;
+  .title-box {
+    text-align: center;
+    margin-bottom: 100px;
+    h2 {
+      color: $white;
+      font-size: 65px;
+      line-height: 65px;
+      text-transform: uppercase;
+      margin-bottom: 26px;
+    }
+    h3 {
+      font-family: $gotahm-bold;
+      color: $logo-green;
+      line-height: 70px;
+      font-size: 60px;
+      margin-bottom: 26px;
+    }
+    p {
+      font-size: 30px;
+      line-height: 42px;
+      font-family: $gotham-medium;
+      color: $white;
+      margin-bottom: 0;
+    }
+  }
+  .academypassione-slider-wrapper {
+    .swiper {
+      width: 100%;
+      height: 100%;
+      .academypassione-slider-box {
+        .image-box {
+          margin-bottom: 27px;
+        }
+        .content {
+          position: relative;
+          p {
+            font-size: 30px;
+            line-height: 35px;
+            font-family: $gotham-book;
+            color: $white;
+            margin-bottom: 0;
+            @include text-clip-6;
+          }
+          a {
+            color: #fff;
+            font-size: 30px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.academyModal {
+  .modal-xl {
+    max-width: 1600px;
+  }
+  .modal-content {
+    background: transparent;
+    .swiper {
+      width: 100%;
+      height: 100%;
+      .swiper-wrapper {
+        .swiper-slide {
+          .academypassione-slider-box {
+            width: 60%;
+            margin: 0 auto;
+          }
+        }
+      }
+      .academypassione-slider-box {
+        .image-box {
+          margin-bottom: 20px;
+          img {
+            max-width: 250px;
+          }
+        }
+        .content {
+          position: relative;
+          p {
+            font-size: 25px;
+            line-height: 30px;
+            font-family: $gotham-book;
+            color: $white;
+            margin-bottom: 0;
+          }
+        }
+      }
+      .swiper-button-next {
+        height: 40px;
+        width: 40px;
+        @include circle-radius;
+        border: 1px solid $white;
+        &:after {
+          font-size: 20px;
+          color: $white;
+        }
+      }
+      .swiper-button-prev {
+        height: 40px;
+        width: 40px;
+        @include circle-radius;
+        border: 1px solid $white;
+        &:after {
+          font-size: 20px;
+          color: $white;
+        }
+      }
+    }
+  }
+}
+
+.car-modello-main {
+  background: #151515;
+  padding: 135px 85px;
+  margin-bottom: 100px;
+  .car-model {
+    p {
+      @include gotham-book-30-35;
+      text-transform: capitalize;
+      color: $white;
+      margin-bottom: 15px;
+    }
+    h4 {
+      @include gotham-bold-40-35;
+      color: $white;
+      text-transform: uppercase;
+      margin-bottom: 50px;
+    }
+  }
+  .car-specification-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    .single-specification {
+      margin-bottom: 30px;
+      h5 {
+        @include gotham-bold-25-35;
+        color: $white;
+        margin-bottom: 0px;
+      }
+      p {
+        @include gotham-book-25-35;
+        color: $white;
+        margin-bottom: 10px;
+      }
+    }
+  }
+  .academy-car {
+    position: relative;
+    img {
+      position: relative;
+      z-index: 2;
+    }
+    .model-no {
+      position: absolute;
+      color: #2c2c2c;
+      font-size: 150px;
+      font-family: $gotahm-bold;
+      right: 158px;
+      top: 63px;
+      z-index: 1;
+      line-height: 78px;
+    }
+  }
+}
+
+.drving-experiance-main {
+  margin-top: 125px;
+  padding-left: 85px;
+  padding-right: 85px;
+  .title-box {
+    text-align: center;
+    margin-bottom: 100px;
+    h3 {
+      @include gotham-bold-65-65;
+      color: $white;
+      margin-bottom: 37px;
+    }
+    p {
+      @include gotham-med-45-45;
+      color: $white;
+      margin-bottom: 0;
+    }
+  }
+}
+
+// academy page ends

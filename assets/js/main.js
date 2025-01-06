@@ -32,7 +32,22 @@
       console.log('Video Duration: ' + duration + ' seconds');
     });
     // home page slider end
-
+    $('.calendar_term').click(function (e) {
+      e.preventDefault();
+      const term_id = $(this).attr('term_id');
+      $(`.season-slider-container`).removeClass(
+        'season-slider-container-opacity-1'
+      );
+      $(`.season-slider-container`).addClass(
+        'season-slider-container-opacity-0'
+      );
+      $(`#calender_post_slider_${term_id}`).removeClass(
+        'season-slider-container-opacity-0'
+      );
+      $(`#calender_post_slider_${term_id}`).addClass(
+        'season-slider-container-opacity-1'
+      );
+    });
     function counterUp() {
       var elementSelector = $('.count');
       elementSelector.each(function () {
@@ -686,5 +701,75 @@
         },
       },
     });
+
+    $('.sidebar-main .single-items .search-btn').on('click', function () {
+      $('.search-wrapper-main').toggleClass('show');
+    });
+    $('.search-close-btn').on('click', function () {
+      $('.search-wrapper-main').toggleClass('show');
+    });
+  });
+
+  var swiper = new Swiper('.academypassione-slider', {
+    slidesPerView: 3,
+    spaceBetween: 40,
+    slidesPerGroup: 1,
+    loop: true,
+    autoplay: true,
+    autoplay: {
+      delay: 2000,
+    },
+
+    breakpoints: {
+      320: {
+        slidesPerView: 1,
+        spaceBetween: 20,
+      },
+      360: {
+        slidesPerView: 1,
+        spaceBetween: 20,
+      },
+      375: {
+        slidesPerView: 1,
+        spaceBetween: 20,
+      },
+      414: {
+        slidesPerView: 1,
+        spaceBetween: 20,
+      },
+      415: {
+        slidesPerView: 1,
+        spaceBetween: 20,
+      },
+      576: {
+        slidesPerView: 1,
+        spaceBetween: 20,
+      },
+
+      767: {
+        slidesPerView: 2,
+        spaceBetween: 2,
+      },
+
+      992: {
+        slidesPerView: 2,
+        spaceBetween: 20,
+      },
+      1300: {
+        slidesPerView: 3,
+        spaceBetween: 20,
+      },
+      1440: {
+        slidesPerView: 3,
+        spaceBetween: 40,
+      },
+    },
+  });
+
+  var swiper = new Swiper('.academyModal-slider', {
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
   });
 })(jQuery);
