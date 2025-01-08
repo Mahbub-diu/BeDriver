@@ -3079,5 +3079,165 @@ body.motorsport {
     }
   }
 }
+.driving-experiance-parent {
+  margin-bottom: 110px;
+  .swiper {
+    width: 100%;
+    height: 100%;
+    .swiper-slide {
+      height: 100%;
+      height: 270px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+    }
+    .swiper-slide-prev {
+      width: 25% !important;
+      .white-img {
+        display: none;
+      }
+      .green-img {
+        display: unset;
+      }
+    }
+    .swiper-slide-next {
+      width: 25% !important;
+      .white-img {
+        display: none;
+      }
+      .green-img {
+        display: unset;
+      }
+    }
+    .swiper-slide-active {
+      width: 50% !important;
+      .white-img {
+        display: unset;
+      }
+      .green-img {
+        display: none;
+      }
+    }
+    .swiper-button-prev {
+      width: 40px;
+      height: 40px;
+      @include circle-radius;
+      border: 1px solid #9e9e9e;
+      &::after {
+        font-size: 20px;
+        color: #9e9e9e;
+      }
+    }
+    .swiper-button-next {
+      width: 40px;
+      height: 40px;
+      @include circle-radius;
+      border: 1px solid #9e9e9e;
+      &::after {
+        font-size: 20px;
+
+        color: #9e9e9e;
+      }
+    }
+  }
+}
+
+.circuito-franciacorta-main {
+  padding: 0 85px;
+  .circuito-bg {
+    background: #151515;
+    padding: 60px 70px;
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    gap: 30px;
+    position: relative;
+    .single-box {
+      color: $white;
+      h5 {
+        @include gotham-book-30-35;
+      }
+      h4 {
+        @include gotham-bold-40-35;
+        margin-bottom: 30px;
+      }
+      p {
+        @include gotham-book-25-35;
+        margin-bottom: 15px;
+        span {
+          font-family: $gotahm-bold;
+          padding-left: 5px;
+        }
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+      ul {
+        margin-left: 20px;
+        li {
+          @include gotham-book-25-35;
+          list-style: none;
+          padding-left: 4px;
+          &::marker {
+            content: '- ';
+          }
+        }
+      }
+      &:not(:first-child) {
+        h5 {
+          margin-bottom: 28px;
+        }
+      }
+    }
+    &::before {
+      content: '';
+      width: 439px;
+      height: 57px;
+      background: url('../../images/academy/arrow-shape-bg.svg');
+      top: -55px;
+      @include trans-x-center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+  }
+}
 
 // academy page ends
+
+// team and events page start
+
+.teamevents-slider-main {
+  .slider-content-box {
+    align-items: center;
+    h2 {
+      margin-bottom: 30px;
+      font-size: 40px;
+      font-family: $gotham-book;
+      color: $white;
+      line-height: 50px;
+    }
+    a {
+      text-transform: uppercase;
+      background: #bfd552;
+      color: #000;
+      font-family: $gotahm-bold;
+      padding: 10px 20px;
+      display: inline-block;
+      font-size: 20px;
+      line-height: 25px;
+      border-radius: 5px;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      -ms-border-radius: 5px;
+      -o-border-radius: 5px;
+      @include transition-four;
+      &:hover {
+        background: #fff;
+        color: #000;
+      }
+    }
+  }
+}
+
+// team and events page ends

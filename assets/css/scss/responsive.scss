@@ -2192,6 +2192,175 @@
   }
 
   // coming soon page ends
+
+  // academy page min 1300px to 1365px start here
+
+  .academy-slider-main {
+    .slider-content-box {
+      a {
+        width: 100%;
+        padding: 10px 20px;
+        font-size: 16px;
+        line-height: 20px;
+        margin-left: 100px;
+      }
+    }
+  }
+  .academypassione-slider-main {
+    padding: 50px 20px;
+    .title-box {
+      margin-bottom: 50px;
+      h2 {
+        font-size: 30px;
+        line-height: 35px;
+        margin-bottom: 10px;
+      }
+      h3 {
+        font-size: 25px;
+        line-height: 30px;
+      }
+      p {
+        font-size: 20px;
+        line-height: 25px;
+      }
+    }
+    .academypassione-slider {
+      .swiper-slide {
+        .academypassione-slider-box {
+          .image-box {
+            margin-bottom: 20px;
+            img {
+              max-width: 200px;
+            }
+          }
+          .content {
+            p {
+              font-size: 16px;
+              line-height: 20px;
+            }
+            a {
+              font-size: 20px;
+              line-height: 25px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .car-modello-main {
+    padding: 50px 20px;
+    margin-bottom: 50px;
+    .car-model {
+      p {
+        font-size: 20px;
+        line-height: 25px;
+      }
+      h4 {
+        font-size: 25px;
+        line-height: 30px;
+        margin-bottom: 30px;
+      }
+    }
+    .car-specification-grid {
+      margin-bottom: 30px;
+      .single-grid {
+        .single-specification {
+          margin-bottom: 15px;
+          p {
+            font-size: 16px;
+            line-height: 20px;
+          }
+          h5 {
+            font-size: 16px;
+            line-height: 20px;
+          }
+        }
+      }
+    }
+    .academy-car {
+      .model-no {
+        font-size: 80px;
+        line-height: 80px;
+        top: 45px;
+        right: 124px;
+      }
+    }
+  }
+  .drving-experiance-main {
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    .title-box {
+      margin-bottom: 50px;
+      h3 {
+        font-size: 25px;
+        line-height: 30px;
+        margin-bottom: 20px;
+      }
+      p {
+        font-size: 16px;
+        line-height: 20px;
+      }
+    }
+    .driving-experiance-parent {
+      margin-bottom: 50px;
+      .swiper {
+        .swiper-slide-next {
+          width: 25% !important;
+        }
+        .swiper-slide-prev {
+          width: 25% !important;
+        }
+        .swiper-slide-active {
+          width: 50% !important;
+          img {
+            max-width: 80%;
+          }
+        }
+      }
+    }
+  }
+  .circuito-franciacorta-main {
+    padding-left: 20px;
+    padding-right: 20px;
+    .circuito-bg {
+      padding: 30px 35px;
+      gap: 20px;
+      .single-box {
+        h5 {
+          font-size: 20px;
+          line-height: 25px;
+        }
+        h4 {
+          font-size: 25px;
+          line-height: 30px;
+          margin-bottom: 15px;
+        }
+        p {
+          font-size: 16px;
+          line-height: 25px;
+          margin-bottom: 10px;
+        }
+        ul {
+          li {
+            font-size: 16px;
+            line-height: 25px;
+          }
+        }
+        &:not(:first-child) {
+          h5 {
+            margin-bottom: 20px;
+          }
+        }
+      }
+      &::before {
+        top: -55px;
+        z-index: -1;
+      }
+    }
+  }
+  // academy page min 1300px to 1365px ends here
 }
 // min width 1300px and max width 1365px ends here
 
@@ -3077,6 +3246,175 @@
   }
 
   // coming soon page ends
+
+  // academy page min 1025px to 1299px start here
+
+  .academy-slider-main {
+    .slider-content-box {
+      a {
+        width: 100%;
+        padding: 10px 20px;
+        font-size: 16px;
+        line-height: 20px;
+        margin-left: 100px;
+      }
+    }
+  }
+  .academypassione-slider-main {
+    padding: 50px 20px;
+    .title-box {
+      margin-bottom: 50px;
+      h2 {
+        font-size: 30px;
+        line-height: 35px;
+        margin-bottom: 10px;
+      }
+      h3 {
+        font-size: 25px;
+        line-height: 30px;
+      }
+      p {
+        font-size: 20px;
+        line-height: 25px;
+      }
+    }
+    .academypassione-slider {
+      .swiper-slide {
+        .academypassione-slider-box {
+          .image-box {
+            margin-bottom: 20px;
+            img {
+              max-width: 200px;
+            }
+          }
+          .content {
+            p {
+              font-size: 16px;
+              line-height: 20px;
+            }
+            a {
+              font-size: 20px;
+              line-height: 25px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .car-modello-main {
+    padding: 50px 20px;
+    margin-bottom: 50px;
+    .car-model {
+      p {
+        font-size: 20px;
+        line-height: 25px;
+      }
+      h4 {
+        font-size: 25px;
+        line-height: 30px;
+        margin-bottom: 30px;
+      }
+    }
+    .car-specification-grid {
+      margin-bottom: 30px;
+      .single-grid {
+        .single-specification {
+          margin-bottom: 15px;
+          p {
+            font-size: 16px;
+            line-height: 20px;
+          }
+          h5 {
+            font-size: 16px;
+            line-height: 20px;
+          }
+        }
+      }
+    }
+    .academy-car {
+      .model-no {
+        font-size: 80px;
+        line-height: 80px;
+        top: 45px;
+        right: 124px;
+      }
+    }
+  }
+  .drving-experiance-main {
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    .title-box {
+      margin-bottom: 50px;
+      h3 {
+        font-size: 25px;
+        line-height: 30px;
+        margin-bottom: 20px;
+      }
+      p {
+        font-size: 16px;
+        line-height: 20px;
+      }
+    }
+    .driving-experiance-parent {
+      margin-bottom: 50px;
+      .swiper {
+        .swiper-slide-next {
+          width: 25% !important;
+        }
+        .swiper-slide-prev {
+          width: 25% !important;
+        }
+        .swiper-slide-active {
+          width: 50% !important;
+          img {
+            max-width: 80%;
+          }
+        }
+      }
+    }
+  }
+  .circuito-franciacorta-main {
+    padding-left: 20px;
+    padding-right: 20px;
+    .circuito-bg {
+      padding: 30px 35px;
+      gap: 20px;
+      .single-box {
+        h5 {
+          font-size: 20px;
+          line-height: 25px;
+        }
+        h4 {
+          font-size: 25px;
+          line-height: 30px;
+          margin-bottom: 15px;
+        }
+        p {
+          font-size: 16px;
+          line-height: 25px;
+          margin-bottom: 10px;
+        }
+        ul {
+          li {
+            font-size: 16px;
+            line-height: 25px;
+          }
+        }
+        &:not(:first-child) {
+          h5 {
+            margin-bottom: 20px;
+          }
+        }
+      }
+      &::before {
+        top: -55px;
+        z-index: -1;
+      }
+    }
+  }
+  // academy page min 1025px to 1299px ends here
 }
 
 // min width 1025px and max width 1299px ends here
@@ -3954,6 +4292,175 @@
   }
 
   // coming soon page ends
+
+  // academy page min 922px to 1024px start here
+
+  .academy-slider-main {
+    .slider-content-box {
+      a {
+        width: 100%;
+        padding: 10px 20px;
+        font-size: 16px;
+        line-height: 20px;
+        margin-left: 100px;
+      }
+    }
+  }
+  .academypassione-slider-main {
+    padding: 50px 20px;
+    .title-box {
+      margin-bottom: 50px;
+      h2 {
+        font-size: 30px;
+        line-height: 35px;
+        margin-bottom: 10px;
+      }
+      h3 {
+        font-size: 25px;
+        line-height: 30px;
+      }
+      p {
+        font-size: 20px;
+        line-height: 25px;
+      }
+    }
+    .academypassione-slider {
+      .swiper-slide {
+        .academypassione-slider-box {
+          .image-box {
+            margin-bottom: 20px;
+            img {
+              max-width: 200px;
+            }
+          }
+          .content {
+            p {
+              font-size: 16px;
+              line-height: 20px;
+            }
+            a {
+              font-size: 20px;
+              line-height: 25px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .car-modello-main {
+    padding: 50px 20px;
+    margin-bottom: 50px;
+    .car-model {
+      p {
+        font-size: 20px;
+        line-height: 25px;
+      }
+      h4 {
+        font-size: 25px;
+        line-height: 30px;
+        margin-bottom: 30px;
+      }
+    }
+    .car-specification-grid {
+      margin-bottom: 30px;
+      .single-grid {
+        .single-specification {
+          margin-bottom: 15px;
+          p {
+            font-size: 16px;
+            line-height: 20px;
+          }
+          h5 {
+            font-size: 16px;
+            line-height: 20px;
+          }
+        }
+      }
+    }
+    .academy-car {
+      .model-no {
+        font-size: 80px;
+        line-height: 80px;
+        top: 10px;
+        right: 95px;
+      }
+    }
+  }
+  .drving-experiance-main {
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    .title-box {
+      margin-bottom: 50px;
+      h3 {
+        font-size: 25px;
+        line-height: 30px;
+        margin-bottom: 20px;
+      }
+      p {
+        font-size: 16px;
+        line-height: 20px;
+      }
+    }
+    .driving-experiance-parent {
+      margin-bottom: 50px;
+      .swiper {
+        .swiper-slide-next {
+          width: 25% !important;
+        }
+        .swiper-slide-prev {
+          width: 25% !important;
+        }
+        .swiper-slide-active {
+          width: 50% !important;
+          img {
+            max-width: 80%;
+          }
+        }
+      }
+    }
+  }
+  .circuito-franciacorta-main {
+    padding-left: 20px;
+    padding-right: 20px;
+    .circuito-bg {
+      padding: 30px 35px;
+      gap: 20px;
+      .single-box {
+        h5 {
+          font-size: 20px;
+          line-height: 25px;
+        }
+        h4 {
+          font-size: 25px;
+          line-height: 30px;
+          margin-bottom: 15px;
+        }
+        p {
+          font-size: 16px;
+          line-height: 25px;
+          margin-bottom: 10px;
+        }
+        ul {
+          li {
+            font-size: 16px;
+            line-height: 25px;
+          }
+        }
+        &:not(:first-child) {
+          h5 {
+            margin-bottom: 20px;
+          }
+        }
+      }
+      &::before {
+        top: -55px;
+        z-index: -1;
+      }
+    }
+  }
+  // academy page min 922px to 1024px ends here
 }
 
 // min width 992px and max width 1024px ends here
@@ -4840,6 +5347,177 @@
   }
 
   // coming soon page ends
+
+  // academy page min 768 to 991px start here
+
+  .academy-slider-main {
+    .slider-content-box {
+      justify-content: center;
+      a {
+        width: 100%;
+        padding: 10px 20px;
+        font-size: 16px;
+        line-height: 20px;
+        margin-left: 0px;
+      }
+    }
+  }
+  .academypassione-slider-main {
+    padding: 50px 20px;
+    .title-box {
+      margin-bottom: 50px;
+      h2 {
+        font-size: 30px;
+        line-height: 35px;
+        margin-bottom: 10px;
+      }
+      h3 {
+        font-size: 25px;
+        line-height: 30px;
+      }
+      p {
+        font-size: 20px;
+        line-height: 25px;
+      }
+    }
+    .academypassione-slider {
+      .swiper-slide {
+        .academypassione-slider-box {
+          .image-box {
+            margin-bottom: 20px;
+            img {
+              max-width: 200px;
+            }
+          }
+          .content {
+            p {
+              font-size: 16px;
+              line-height: 20px;
+            }
+            a {
+              font-size: 20px;
+              line-height: 25px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .car-modello-main {
+    padding: 50px 20px;
+    margin-bottom: 50px;
+    .car-model {
+      p {
+        font-size: 20px;
+        line-height: 25px;
+      }
+      h4 {
+        font-size: 25px;
+        line-height: 30px;
+        margin-bottom: 30px;
+      }
+    }
+    .car-specification-grid {
+      margin-bottom: 30px;
+      .single-grid {
+        .single-specification {
+          margin-bottom: 15px;
+          p {
+            font-size: 16px;
+            line-height: 20px;
+          }
+          h5 {
+            font-size: 16px;
+            line-height: 20px;
+          }
+        }
+      }
+    }
+    .academy-car {
+      .model-no {
+        font-size: 80px;
+        line-height: 80px;
+        top: 34px;
+        right: 95px;
+      }
+    }
+  }
+  .drving-experiance-main {
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    .title-box {
+      margin-bottom: 50px;
+      h3 {
+        font-size: 25px;
+        line-height: 30px;
+        margin-bottom: 20px;
+      }
+      p {
+        font-size: 16px;
+        line-height: 20px;
+      }
+    }
+    .driving-experiance-parent {
+      margin-bottom: 50px;
+      .swiper {
+        .swiper-slide-next {
+          width: 25% !important;
+        }
+        .swiper-slide-prev {
+          width: 25% !important;
+        }
+        .swiper-slide-active {
+          width: 50% !important;
+          img {
+            max-width: 80%;
+          }
+        }
+      }
+    }
+  }
+  .circuito-franciacorta-main {
+    padding-left: 20px;
+    padding-right: 20px;
+    .circuito-bg {
+      padding: 30px 35px;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      .single-box {
+        h5 {
+          font-size: 20px;
+          line-height: 25px;
+        }
+        h4 {
+          font-size: 25px;
+          line-height: 30px;
+          margin-bottom: 15px;
+        }
+        p {
+          font-size: 16px;
+          line-height: 25px;
+          margin-bottom: 10px;
+        }
+        ul {
+          li {
+            font-size: 16px;
+            line-height: 25px;
+          }
+        }
+        &:not(:first-child) {
+          h5 {
+            margin-bottom: 20px;
+          }
+        }
+      }
+      &::before {
+        top: -55px;
+        z-index: -1;
+      }
+    }
+  }
+  // academy page min 768 to 991px ends here
 }
 
 // min width 768px and max width 991px ends here
@@ -5756,6 +6434,177 @@
   }
 
   // coming soon page ends
+
+  // academy page max 767px start here
+
+  .academy-slider-main {
+    .slider-content-box {
+      justify-content: center;
+      a {
+        width: 100%;
+        padding: 10px 20px;
+        font-size: 16px;
+        line-height: 20px;
+        margin-left: 0px;
+      }
+    }
+  }
+  .academypassione-slider-main {
+    padding: 50px 20px;
+    .title-box {
+      margin-bottom: 50px;
+      h2 {
+        font-size: 30px;
+        line-height: 35px;
+        margin-bottom: 10px;
+      }
+      h3 {
+        font-size: 25px;
+        line-height: 30px;
+      }
+      p {
+        font-size: 20px;
+        line-height: 25px;
+      }
+    }
+    .academypassione-slider {
+      .swiper-slide {
+        .academypassione-slider-box {
+          .image-box {
+            margin-bottom: 20px;
+            img {
+              max-width: 200px;
+            }
+          }
+          .content {
+            p {
+              font-size: 16px;
+              line-height: 20px;
+            }
+            a {
+              font-size: 20px;
+              line-height: 25px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .car-modello-main {
+    padding: 50px 20px;
+    margin-bottom: 50px;
+    .car-model {
+      p {
+        font-size: 20px;
+        line-height: 25px;
+      }
+      h4 {
+        font-size: 25px;
+        line-height: 30px;
+        margin-bottom: 30px;
+      }
+    }
+    .car-specification-grid {
+      grid-template-columns: 1fr;
+      .single-grid {
+        .single-specification {
+          margin-bottom: 15px;
+          p {
+            font-size: 16px;
+            line-height: 20px;
+          }
+          h5 {
+            font-size: 16px;
+            line-height: 20px;
+          }
+        }
+      }
+    }
+    .academy-car {
+      .model-no {
+        font-size: 50px;
+        line-height: 50px;
+        top: 18px;
+        right: 100px;
+      }
+    }
+  }
+  .drving-experiance-main {
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    .title-box {
+      margin-bottom: 50px;
+      h3 {
+        font-size: 25px;
+        line-height: 30px;
+        margin-bottom: 20px;
+      }
+      p {
+        font-size: 16px;
+        line-height: 20px;
+      }
+    }
+    .driving-experiance-parent {
+      margin-bottom: 50px;
+      .swiper {
+        .swiper-slide {
+          padding-left: 60px;
+          padding-right: 60px;
+        }
+        .swiper-slide-next {
+          width: 100% !important;
+        }
+        .swiper-slide-prev {
+          width: 100% !important;
+        }
+        .swiper-slide-active {
+          width: 100% !important;
+        }
+      }
+    }
+  }
+  .circuito-franciacorta-main {
+    padding-left: 20px;
+    padding-right: 20px;
+    .circuito-bg {
+      padding: 20px 25px;
+      grid-template-columns: 1fr;
+      .single-box {
+        h5 {
+          font-size: 20px;
+          line-height: 25px;
+        }
+        h4 {
+          font-size: 25px;
+          line-height: 30px;
+          margin-bottom: 15px;
+        }
+        p {
+          font-size: 16px;
+          line-height: 25px;
+          margin-bottom: 10px;
+        }
+        ul {
+          li {
+            font-size: 16px;
+            line-height: 25px;
+          }
+        }
+        &:not(:first-child) {
+          h5 {
+            margin-bottom: 20px;
+          }
+        }
+      }
+      &::before {
+        width: 200px;
+        top: -28px;
+      }
+    }
+  }
+  // academy page max 767px ends here
 }
 
 // max widht 767px ends here

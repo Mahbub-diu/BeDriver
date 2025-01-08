@@ -748,7 +748,7 @@
 
       767: {
         slidesPerView: 2,
-        spaceBetween: 2,
+        spaceBetween: 20,
       },
 
       992: {
@@ -770,6 +770,68 @@
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
+    },
+  });
+
+  var swiper = new Swiper('.driving-experiance-slider', {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    centeredSlides: true,
+    loop: true,
+    speed: 2000,
+    // autoplay: {
+    //   delay: 4000,
+    //   disableOnInteraction: false,
+    // },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    breakpoints: {
+      320: {
+        slidesPerView: 1,
+        spaceBetween: 20,
+      },
+      360: {
+        slidesPerView: 1,
+        spaceBetween: 20,
+      },
+      375: {
+        slidesPerView: 1,
+        spaceBetween: 20,
+      },
+      414: {
+        slidesPerView: 1,
+        spaceBetween: 20,
+      },
+      415: {
+        slidesPerView: 1,
+        spaceBetween: 20,
+      },
+      576: {
+        slidesPerView: 1,
+        spaceBetween: 20,
+      },
+
+      767: {
+        slidesPerView: 1,
+        spaceBetween: 20,
+      },
+      768: {
+        slidesPerView: 3,
+        spaceBetween: 20,
+      },
+      992: {
+        slidesPerView: 3,
+        spaceBetween: 20,
+      },
+      1300: {
+        slidesPerView: 3,
+        spaceBetween: 20,
+      },
+      1440: {
+        slidesPerView: 3,
+      },
     },
   });
 })(jQuery);
