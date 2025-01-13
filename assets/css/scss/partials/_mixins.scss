@@ -129,3 +129,15 @@
   line-height: 45px;
   font-family: $gotham-medium;
 }
+
+@mixin gotham-bold-60-84 {
+  font-size: 60px;
+  line-height: 84px;
+  font-family: $gotahm-bold;
+}
+
+@mixin gotham-med-30-42 {
+  font-size: 30px;
+  line-height: 42px;
+  font-family: $gotham-medium;
+}

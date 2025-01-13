@@ -410,6 +410,7 @@ header {
   position: relative;
   .swiper {
     width: 100%;
+    z-index: 1;
     .swiper-button-prev {
       transition: 1s ease-out;
       -webkit-transition: 1s ease-out;
@@ -2870,29 +2871,40 @@ body.motorsport {
 
 .academy-slider-main {
   .slider-content-box {
+    padding: 100px 100px 100px 100px;
     align-items: center;
-    a {
-      text-transform: uppercase;
-      background: #bfd552;
-      color: #000;
-      font-family: $gotahm-bold;
-      width: 614px;
-      padding: 16px 20px;
-      display: inline-block;
-      font-size: 20px;
-      line-height: 25px;
-      margin-left: 150px;
-      @include transition-four;
-      &:hover {
-        background: #fff;
+    justify-content: center !important;
+    .acadey-logo-box {
+      margin-bottom: 150px;
+      text-align: center;
+    }
+    .btn-flex {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 180px;
+      a {
+        text-transform: uppercase;
+        background: #bfd552;
         color: #000;
+        font-family: $gotahm-bold;
+
+        padding: 16px 20px;
+        display: inline-block;
+        font-size: 22px;
+        line-height: 21px;
+        @include transition-four;
+        &:hover {
+          background: #fff;
+          color: #000;
+        }
       }
     }
   }
 }
 
 .academypassione-slider-main {
-  padding: 146px 85px 166px 85px;
+  padding: 146px 85px 90px 85px;
   .title-box {
     text-align: center;
     margin-bottom: 100px;
@@ -2912,35 +2924,74 @@ body.motorsport {
     }
     p {
       font-size: 30px;
-      line-height: 42px;
-      font-family: $gotham-medium;
+      line-height: 35px;
+      font-family: $gotham-book;
       color: $white;
       margin-bottom: 0;
     }
   }
-  .academypassione-slider-wrapper {
-    .swiper {
-      width: 100%;
-      height: 100%;
-      .academypassione-slider-box {
-        .image-box {
-          margin-bottom: 27px;
+  .hitlar-box-wrapper {
+    position: relative;
+    .hitlar-box-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 80px;
+      .single-grid {
+        .logo-box {
+          margin-bottom: 50px;
         }
-        .content {
-          position: relative;
+        .title {
+          h5 {
+            @include gotham-book-30-35;
+            font-family: $gotahm-bold;
+            color: #e7ff00;
+            margin-bottom: 35px;
+          }
+        }
+        .description {
           p {
-            font-size: 30px;
-            line-height: 35px;
-            font-family: $gotham-book;
+            @include gotham-book-30-35;
             color: $white;
             margin-bottom: 0;
-            @include text-clip-6;
-          }
-          a {
-            color: #fff;
-            font-size: 30px;
           }
         }
+      }
+    }
+    .hitlar-box-border {
+      height: 5px;
+      background: $logo-green;
+      position: absolute;
+      top: 91px;
+      left: 0;
+      width: 100%;
+      span {
+        width: 11px;
+        height: 11px;
+        background: $logo-green;
+        position: relative;
+        display: inline-block;
+        top: -9px;
+        &:nth-child(1) {
+          left: 0;
+        }
+        &:nth-child(2) {
+          left: 33.33%;
+        }
+        &:nth-child(3) {
+          left: 66.66%;
+        }
+      }
+      &::after {
+        content: '\f054';
+        position: absolute;
+        color: #ebff46;
+        height: 20px;
+        width: 20px;
+        top: -13px;
+        right: -3px;
+        font-family: 'Font Awesome 6 Pro';
+        text-align: right;
+        font-size: 22px;
       }
     }
   }
@@ -3008,7 +3059,7 @@ body.motorsport {
 .car-modello-main {
   background: #151515;
   padding: 135px 85px;
-  margin-bottom: 100px;
+  margin-bottom: 150px;
   .car-model {
     p {
       @include gotham-book-30-35;
@@ -3060,25 +3111,6 @@ body.motorsport {
   }
 }
 
-.drving-experiance-main {
-  margin-top: 125px;
-  padding-left: 85px;
-  padding-right: 85px;
-  .title-box {
-    text-align: center;
-    margin-bottom: 100px;
-    h3 {
-      @include gotham-bold-65-65;
-      color: $white;
-      margin-bottom: 37px;
-    }
-    p {
-      @include gotham-med-45-45;
-      color: $white;
-      margin-bottom: 0;
-    }
-  }
-}
 .driving-experiance-parent {
   margin-bottom: 110px;
   .swiper {
@@ -3143,71 +3175,50 @@ body.motorsport {
   }
 }
 
-.circuito-franciacorta-main {
-  padding: 0 85px;
-  .circuito-bg {
-    background: #151515;
-    padding: 60px 70px;
-    display: grid;
-    grid-template-columns: 30% 40% 30%;
-    gap: 30px;
-    position: relative;
-    .single-box {
-      color: $white;
-      h5 {
-        @include gotham-book-30-35;
-      }
-      h4 {
-        @include gotham-bold-40-35;
-        margin-bottom: 30px;
-      }
-      p {
-        @include gotham-book-25-35;
-        margin-bottom: 15px;
-        span {
-          font-family: $gotahm-bold;
-          padding-left: 5px;
-        }
-        &:last-child {
-          margin-bottom: 0;
-        }
-      }
-      ul {
-        margin-left: 20px;
-        li {
-          @include gotham-book-25-35;
-          list-style: none;
-          padding-left: 4px;
-          &::marker {
-            content: '- ';
-          }
-        }
-      }
-      &:not(:first-child) {
-        h5 {
-          margin-bottom: 28px;
-        }
-      }
-    }
-    &::before {
-      content: '';
-      width: 439px;
-      height: 57px;
-      background: url('../../images/academy/arrow-shape-bg.svg');
-      top: -55px;
-      @include trans-x-center;
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center center;
-    }
-  }
-}
-
 // academy page ends
 
 // team and events page start
 
 .teamevents-slider-main {
+  .swiper {
+    .swiper-button-next {
+      @include trans-x-center;
+      bottom: 60px;
+      top: unset;
+      left: unset;
+      right: 43%;
+      border: 1px solid $white;
+      width: 40px;
+      height: 40px;
+      @include circle-radius;
+      &::after {
+        font-size: 20px;
+        color: $white;
+      }
+    }
+    .swiper-button-prev {
+      @include trans-x-center;
+      bottom: 60px;
+      top: unset;
+      left: 49%;
+      border: 1px solid $white;
+      width: 40px;
+      height: 40px;
+      @include circle-radius;
+      &::after {
+        font-size: 20px;
+        color: $white;
+      }
+    }
+    &:hover {
+      .swiper-button-next {
+        right: 45%;
+      }
+      .swiper-button-prev {
+        left: 45%;
+      }
+    }
+  }
   .slider-content-box {
     align-items: center;
     h2 {
@@ -3240,4 +3251,355 @@ body.motorsport {
   }
 }
 
+.team-driver-main {
+  padding: 140px 85px 100px 85px;
+  .title-box {
+    text-align: center;
+    h3 {
+      @include gotham-bold-60-84;
+      color: $white;
+      margin-bottom: 40px;
+    }
+    p {
+      @include gotham-med-30-42;
+      color: $white;
+      margin-bottom: 0;
+    }
+  }
+}
+.perche-sceglierci-main {
+  background: #151515;
+  padding-top: 60px;
+  padding-bottom: 105px;
+  .title-box {
+    text-align: center;
+    margin-bottom: 80px;
+    h3 {
+      @include gotham-med-45-45;
+      line-height: 63px;
+      color: $white;
+    }
+    p {
+      @include gotham-med-30-42;
+      color: $white;
+      margin-bottom: 0px;
+    }
+  }
+  .accordion {
+    .accordion-item {
+      border: none;
+      position: relative;
+      background: #151515;
+      margin-bottom: 20px;
+      .accordion-header {
+        .accordion-button {
+          background: #151515;
+          color: $white;
+          padding: 0;
+          @include no-radius;
+          border: none;
+          @include gotham-med-30-42;
+          position: relative;
+          padding-left: 45px;
+          box-shadow: none;
+          &:focus {
+            outline: none;
+            box-shadow: none;
+          }
+          &::after {
+            background-image: url(../../images/team/plus-01.svg);
+            width: 30px;
+            height: 30px;
+            background-size: 30px;
+            color: $logo-green;
+            font-family: $gotham-book;
+            margin-left: unset;
+            margin-right: auto;
+            position: absolute;
+            left: 0;
+            top: 6px;
+          }
+        }
+        .accordion-button:not(.collapsed) {
+          &::after {
+            background-image: url(../../images/team/minus.svg);
+          }
+        }
+      }
+      .accordion-collapse {
+        color: $white;
+        .accordion-body {
+          padding-left: 50px;
+          @include gotham-book-25-35;
+          color: $white;
+        }
+      }
+    }
+  }
+}
+
+.paccheti-main {
+  padding: 87px 85px 150px 85px;
+  .title-box {
+    text-align: center;
+    margin-bottom: 100px;
+    h3 {
+      @include gotham-bold-60-84;
+      color: $white;
+      margin-bottom: 0px;
+    }
+  }
+  .paccheti-single-box {
+    background: #2c2c2c;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    padding: 50px 42px;
+  }
+}
+
 // team and events page ends
+
+.cosa-offriamo-main {
+  padding-left: 85px;
+  padding-right: 85px;
+  padding-bottom: 150px;
+  .title-box {
+    h3 {
+      font-size: 45px;
+      line-height: 45px;
+      color: $white;
+      font-family: $gotham-medium;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+  }
+  .single-cosa-box {
+    background: #151515;
+    padding: 48px 20px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    h6 {
+      text-align: center;
+      color: $white;
+      font-size: 30px;
+      font-family: $gotahm-bold;
+      margin-bottom: 30px;
+    }
+    ul {
+      padding-left: 48px;
+      li {
+        font-size: 30px;
+        color: $white;
+        line-height: 42px;
+        font-family: $gotham-book;
+        position: relative;
+
+        &::before {
+          background: url(../../images/icon/plus.svg);
+          position: absolute;
+          left: -31px;
+          top: 11px;
+          content: '';
+          width: 20px;
+          height: 20px;
+          background-size: cover;
+          background-position: center center;
+        }
+      }
+    }
+  }
+}
+
+.track-day-main {
+  padding-left: 85px;
+  padding-right: 85px;
+  .title-box {
+    text-align: center;
+    h3 {
+      color: $white;
+      font-size: 65px;
+      line-height: 91px;
+      font-family: $gotahm-bold;
+      margin-bottom: 45px;
+    }
+    h6 {
+      font-size: 45px;
+      line-height: 63px;
+      font-family: $gotham-medium;
+      color: $white;
+      margin-bottom: 32px;
+    }
+    .track-dot-box {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      padding-left: 20px;
+      justify-content: center;
+      margin-bottom: 51px;
+      span {
+        font-family: $helvetica;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 30px;
+        color: $white;
+        text-align: left;
+        display: inline-block;
+        position: relative;
+        padding-right: 15px;
+        &:not(:first-child) {
+          padding-left: 15px;
+          &::before {
+            content: '';
+            position: absolute;
+            left: -10px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 5px;
+            height: 5px;
+            background: $white;
+            @include circle-radius;
+          }
+        }
+      }
+    }
+  }
+}
+
+.calendar-slider-main {
+  background: #151515;
+  padding: 100px 85px;
+  .calendar-slider-parent {
+    .swiper {
+      width: 100%;
+      height: 100%;
+      padding: 0 100px;
+
+      .swiper-slide {
+        h3 {
+          font-family: $gotham-medium;
+          color: $white;
+          font-size: 45px;
+          line-height: 1;
+          margin-bottom: 50px;
+          text-transform: uppercase;
+        }
+        .single-day-flex {
+          display: flex;
+          flex-wrap: wrap;
+
+          margin-bottom: 20px;
+          color: $white;
+          .date-box {
+            width: 120px;
+            .date-wrapper {
+              background: #2c2c2c;
+              padding-top: 20px;
+              padding-bottom: 24px;
+              text-align: center;
+              border-top-left-radius: 5px;
+              border-top-right-radius: 5px;
+              .date {
+                font-size: 60px;
+                line-height: 60px;
+                font-family: $gotham-medium;
+              }
+              .month {
+                font-family: $gotham-medium;
+                font-size: 20px;
+                line-height: 1;
+              }
+            }
+
+            .status {
+              border-bottom-right-radius: 5px;
+              border-bottom-left-radius: 5px;
+              text-align: center;
+              padding-top: 12px;
+              padding-bottom: 12px;
+              font-size: 25px;
+              font-family: $gotham-medium;
+              line-height: 1;
+              text-transform: uppercase;
+            }
+            .open {
+              background: #e7ff00;
+              color: #000;
+            }
+            .full {
+              background: #ff0000;
+            }
+          }
+          .contents {
+            width: calc(100% - 120px);
+            padding-left: 25px;
+            padding-top: 30px;
+            h5 {
+              font-size: 30px;
+              font-family: $gotahm-bold;
+              line-height: 1;
+              text-transform: capitalize;
+              margin-bottom: 0;
+            }
+            p {
+              font-size: 20px;
+              font-family: $gotham-medium;
+              margin-bottom: 0;
+            }
+          }
+        }
+      }
+      .swiper-button-prev {
+        width: 40px;
+        height: 40px;
+        @include circle-radius;
+        border: 1px solid $white;
+        top: 200px;
+        z-index: 999;
+        &::after {
+          font-size: 20px;
+          color: $white;
+        }
+      }
+      .swiper-button-next {
+        top: 200px;
+        width: 40px;
+        height: 40px;
+        @include circle-radius;
+        border: 1px solid $white;
+        z-index: 999;
+        &::after {
+          font-size: 20px;
+          color: $white;
+        }
+      }
+      &::before {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100px;
+        height: 100%;
+        content: '';
+        background: #151515;
+
+        z-index: 99;
+      }
+      &::after {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 100px;
+        height: 100%;
+        content: '';
+        background: #151515;
+
+        z-index: 99;
+      }
+    }
+  }
+}

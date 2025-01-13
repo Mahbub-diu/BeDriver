@@ -773,15 +773,15 @@
     },
   });
 
-  var swiper = new Swiper('.driving-experiance-slider', {
+  // calendar slider start
+  var swiper = new Swiper('.calendar-slider', {
     slidesPerView: 3,
     spaceBetween: 30,
-    centeredSlides: true,
+    slidesPerGroup: 1,
     loop: true,
-    speed: 2000,
+    // autoplay: true,
     // autoplay: {
-    //   delay: 4000,
-    //   disableOnInteraction: false,
+    //   delay: 2000,
     // },
     navigation: {
       nextEl: '.swiper-button-next',
@@ -814,24 +814,24 @@
       },
 
       767: {
-        slidesPerView: 1,
+        slidesPerView: 2,
         spaceBetween: 20,
       },
-      768: {
-        slidesPerView: 3,
-        spaceBetween: 20,
-      },
+
       992: {
-        slidesPerView: 3,
+        slidesPerView: 2,
         spaceBetween: 20,
       },
+
       1300: {
         slidesPerView: 3,
         spaceBetween: 20,
       },
       1440: {
         slidesPerView: 3,
+        spaceBetween: 30,
       },
     },
   });
+  // calendar slider ends
 })(jQuery);

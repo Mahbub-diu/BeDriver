@@ -1,3 +1,4 @@
+@import url("https://fonts.cdnfonts.com/css/helvetica-neue-55");
 @keyframes stroke-fill {
   0% {
     opacity: 0;
@@ -397,6 +398,7 @@ header .main-header.dark-header {
 }
 .home-slider-main .swiper {
   width: 100%;
+  z-index: 1;
 }
 .home-slider-main .swiper .swiper-button-prev {
   transition: 1s ease-out;
@@ -2767,32 +2769,42 @@ body.motorsport main .home-slider-main .swiper-slide .video-bg {
 }
 
 .academy-slider-main .slider-content-box {
+  padding: 100px 100px 100px 100px;
   align-items: center;
+  justify-content: center !important;
 }
-.academy-slider-main .slider-content-box a {
+.academy-slider-main .slider-content-box .acadey-logo-box {
+  margin-bottom: 150px;
+  text-align: center;
+}
+.academy-slider-main .slider-content-box .btn-flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 180px;
+}
+.academy-slider-main .slider-content-box .btn-flex a {
   text-transform: uppercase;
   background: #bfd552;
   color: #000;
   font-family: "gothambold";
-  width: 614px;
   padding: 16px 20px;
   display: inline-block;
-  font-size: 20px;
-  line-height: 25px;
-  margin-left: 150px;
+  font-size: 22px;
+  line-height: 21px;
   transition: all 0.4s ease-in-out;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
 }
-.academy-slider-main .slider-content-box a:hover {
+.academy-slider-main .slider-content-box .btn-flex a:hover {
   background: #fff;
   color: #000;
 }
 
 .academypassione-slider-main {
-  padding: 146px 85px 166px 85px;
+  padding: 146px 85px 90px 85px;
 }
 .academypassione-slider-main .title-box {
   text-align: center;
@@ -2814,36 +2826,73 @@ body.motorsport main .home-slider-main .swiper-slide .video-bg {
 }
 .academypassione-slider-main .title-box p {
   font-size: 30px;
-  line-height: 42px;
-  font-family: "gothammedium";
+  line-height: 35px;
+  font-family: "gothambook";
   color: #fff;
   margin-bottom: 0;
 }
-.academypassione-slider-main .academypassione-slider-wrapper .swiper {
-  width: 100%;
-  height: 100%;
-}
-.academypassione-slider-main .academypassione-slider-wrapper .swiper .academypassione-slider-box .image-box {
-  margin-bottom: 27px;
-}
-.academypassione-slider-main .academypassione-slider-wrapper .swiper .academypassione-slider-box .content {
+.academypassione-slider-main .hitlar-box-wrapper {
   position: relative;
 }
-.academypassione-slider-main .academypassione-slider-wrapper .swiper .academypassione-slider-box .content p {
+.academypassione-slider-main .hitlar-box-wrapper .hitlar-box-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 80px;
+}
+.academypassione-slider-main .hitlar-box-wrapper .hitlar-box-grid .single-grid .logo-box {
+  margin-bottom: 50px;
+}
+.academypassione-slider-main .hitlar-box-wrapper .hitlar-box-grid .single-grid .title h5 {
+  font-size: 30px;
+  line-height: 35px;
+  font-family: "gothambook";
+  font-family: "gothambold";
+  color: #e7ff00;
+  margin-bottom: 35px;
+}
+.academypassione-slider-main .hitlar-box-wrapper .hitlar-box-grid .single-grid .description p {
   font-size: 30px;
   line-height: 35px;
   font-family: "gothambook";
   color: #fff;
   margin-bottom: 0;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  -webkit-line-clamp: 6;
 }
-.academypassione-slider-main .academypassione-slider-wrapper .swiper .academypassione-slider-box .content a {
-  color: #fff;
-  font-size: 30px;
+.academypassione-slider-main .hitlar-box-wrapper .hitlar-box-border {
+  height: 5px;
+  background: #ebff46;
+  position: absolute;
+  top: 91px;
+  left: 0;
+  width: 100%;
+}
+.academypassione-slider-main .hitlar-box-wrapper .hitlar-box-border span {
+  width: 11px;
+  height: 11px;
+  background: #ebff46;
+  position: relative;
+  display: inline-block;
+  top: -9px;
+}
+.academypassione-slider-main .hitlar-box-wrapper .hitlar-box-border span:nth-child(1) {
+  left: 0;
+}
+.academypassione-slider-main .hitlar-box-wrapper .hitlar-box-border span:nth-child(2) {
+  left: 33.33%;
+}
+.academypassione-slider-main .hitlar-box-wrapper .hitlar-box-border span:nth-child(3) {
+  left: 66.66%;
+}
+.academypassione-slider-main .hitlar-box-wrapper .hitlar-box-border::after {
+  content: "\f054";
+  position: absolute;
+  color: #ebff46;
+  height: 20px;
+  width: 20px;
+  top: -13px;
+  right: -3px;
+  font-family: "Font Awesome 6 Pro";
+  text-align: right;
+  font-size: 22px;
 }
 
 .academyModal .modal-xl {
@@ -2908,7 +2957,7 @@ body.motorsport main .home-slider-main .swiper-slide .video-bg {
 .car-modello-main {
   background: #151515;
   padding: 135px 85px;
-  margin-bottom: 100px;
+  margin-bottom: 150px;
 }
 .car-modello-main .car-model p {
   font-size: 30px;
@@ -2964,30 +3013,6 @@ body.motorsport main .home-slider-main .swiper-slide .video-bg {
   top: 63px;
   z-index: 1;
   line-height: 78px;
-}
-
-.drving-experiance-main {
-  margin-top: 125px;
-  padding-left: 85px;
-  padding-right: 85px;
-}
-.drving-experiance-main .title-box {
-  text-align: center;
-  margin-bottom: 100px;
-}
-.drving-experiance-main .title-box h3 {
-  font-size: 65px;
-  line-height: 65px;
-  font-family: "gothambold";
-  color: #fff;
-  margin-bottom: 37px;
-}
-.drving-experiance-main .title-box p {
-  font-size: 45px;
-  line-height: 45px;
-  font-family: "gothammedium";
-  color: #fff;
-  margin-bottom: 0;
 }
 
 .driving-experiance-parent {
@@ -3061,66 +3086,7 @@ body.motorsport main .home-slider-main .swiper-slide .video-bg {
   color: #9e9e9e;
 }
 
-.circuito-franciacorta-main {
-  padding: 0 85px;
-}
-.circuito-franciacorta-main .circuito-bg {
-  background: #151515;
-  padding: 60px 70px;
-  display: grid;
-  grid-template-columns: 30% 40% 30%;
-  gap: 30px;
-  position: relative;
-}
-.circuito-franciacorta-main .circuito-bg .single-box {
-  color: #fff;
-}
-.circuito-franciacorta-main .circuito-bg .single-box h5 {
-  font-size: 30px;
-  line-height: 35px;
-  font-family: "gothambook";
-}
-.circuito-franciacorta-main .circuito-bg .single-box h4 {
-  font-size: 40px;
-  line-height: 35px;
-  font-family: "gothambold";
-  margin-bottom: 30px;
-}
-.circuito-franciacorta-main .circuito-bg .single-box p {
-  font-size: 25px;
-  line-height: 35px;
-  font-family: "gothambook";
-  margin-bottom: 15px;
-}
-.circuito-franciacorta-main .circuito-bg .single-box p span {
-  font-family: "gothambold";
-  padding-left: 5px;
-}
-.circuito-franciacorta-main .circuito-bg .single-box p:last-child {
-  margin-bottom: 0;
-}
-.circuito-franciacorta-main .circuito-bg .single-box ul {
-  margin-left: 20px;
-}
-.circuito-franciacorta-main .circuito-bg .single-box ul li {
-  font-size: 25px;
-  line-height: 35px;
-  font-family: "gothambook";
-  list-style: none;
-  padding-left: 4px;
-}
-.circuito-franciacorta-main .circuito-bg .single-box ul li::marker {
-  content: "- ";
-}
-.circuito-franciacorta-main .circuito-bg .single-box:not(:first-child) h5 {
-  margin-bottom: 28px;
-}
-.circuito-franciacorta-main .circuito-bg::before {
-  content: "";
-  width: 439px;
-  height: 57px;
-  background: url("../../images/academy/arrow-shape-bg.svg");
-  top: -55px;
+.teamevents-slider-main .swiper .swiper-button-next {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -3128,11 +3094,53 @@ body.motorsport main .home-slider-main .swiper-slide .video-bg {
   -moz-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   -o-transform: translateX(-50%);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
+  bottom: 60px;
+  top: unset;
+  left: unset;
+  right: 43%;
+  border: 1px solid #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }
-
+.teamevents-slider-main .swiper .swiper-button-next::after {
+  font-size: 20px;
+  color: #fff;
+}
+.teamevents-slider-main .swiper .swiper-button-prev {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  bottom: 60px;
+  top: unset;
+  left: 49%;
+  border: 1px solid #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.teamevents-slider-main .swiper .swiper-button-prev::after {
+  font-size: 20px;
+  color: #fff;
+}
+.teamevents-slider-main .swiper:hover .swiper-button-next {
+  right: 45%;
+}
+.teamevents-slider-main .swiper:hover .swiper-button-prev {
+  left: 45%;
+}
 .teamevents-slider-main .slider-content-box {
   align-items: center;
 }
@@ -3166,4 +3174,368 @@ body.motorsport main .home-slider-main .swiper-slide .video-bg {
 .teamevents-slider-main .slider-content-box a:hover {
   background: #fff;
   color: #000;
+}
+
+.team-driver-main {
+  padding: 140px 85px 100px 85px;
+}
+.team-driver-main .title-box {
+  text-align: center;
+}
+.team-driver-main .title-box h3 {
+  font-size: 60px;
+  line-height: 84px;
+  font-family: "gothambold";
+  color: #fff;
+  margin-bottom: 40px;
+}
+.team-driver-main .title-box p {
+  font-size: 30px;
+  line-height: 42px;
+  font-family: "gothammedium";
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.perche-sceglierci-main {
+  background: #151515;
+  padding-top: 60px;
+  padding-bottom: 105px;
+}
+.perche-sceglierci-main .title-box {
+  text-align: center;
+  margin-bottom: 80px;
+}
+.perche-sceglierci-main .title-box h3 {
+  font-size: 45px;
+  line-height: 45px;
+  font-family: "gothammedium";
+  line-height: 63px;
+  color: #fff;
+}
+.perche-sceglierci-main .title-box p {
+  font-size: 30px;
+  line-height: 42px;
+  font-family: "gothammedium";
+  color: #fff;
+  margin-bottom: 0px;
+}
+.perche-sceglierci-main .accordion .accordion-item {
+  border: none;
+  position: relative;
+  background: #151515;
+  margin-bottom: 20px;
+}
+.perche-sceglierci-main .accordion .accordion-item .accordion-header .accordion-button {
+  background: #151515;
+  color: #fff;
+  padding: 0;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border: none;
+  font-size: 30px;
+  line-height: 42px;
+  font-family: "gothammedium";
+  position: relative;
+  padding-left: 45px;
+  box-shadow: none;
+}
+.perche-sceglierci-main .accordion .accordion-item .accordion-header .accordion-button:focus {
+  outline: none;
+  box-shadow: none;
+}
+.perche-sceglierci-main .accordion .accordion-item .accordion-header .accordion-button::after {
+  background-image: url(../../images/team/plus-01.svg);
+  width: 30px;
+  height: 30px;
+  background-size: 30px;
+  color: #ebff46;
+  font-family: "gothambook";
+  margin-left: unset;
+  margin-right: auto;
+  position: absolute;
+  left: 0;
+  top: 6px;
+}
+.perche-sceglierci-main .accordion .accordion-item .accordion-header .accordion-button:not(.collapsed)::after {
+  background-image: url(../../images/team/minus.svg);
+}
+.perche-sceglierci-main .accordion .accordion-item .accordion-collapse {
+  color: #fff;
+}
+.perche-sceglierci-main .accordion .accordion-item .accordion-collapse .accordion-body {
+  padding-left: 50px;
+  font-size: 25px;
+  line-height: 35px;
+  font-family: "gothambook";
+  color: #fff;
+}
+
+.paccheti-main {
+  padding: 87px 85px 150px 85px;
+}
+.paccheti-main .title-box {
+  text-align: center;
+  margin-bottom: 100px;
+}
+.paccheti-main .title-box h3 {
+  font-size: 60px;
+  line-height: 84px;
+  font-family: "gothambold";
+  color: #fff;
+  margin-bottom: 0px;
+}
+.paccheti-main .paccheti-single-box {
+  background: #2c2c2c;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  padding: 50px 42px;
+}
+
+.cosa-offriamo-main {
+  padding-left: 85px;
+  padding-right: 85px;
+  padding-bottom: 150px;
+}
+.cosa-offriamo-main .title-box h3 {
+  font-size: 45px;
+  line-height: 45px;
+  color: #fff;
+  font-family: "gothammedium";
+  margin-bottom: 40px;
+  text-align: center;
+}
+.cosa-offriamo-main .single-cosa-box {
+  background: #151515;
+  padding: 48px 20px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.cosa-offriamo-main .single-cosa-box h6 {
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+  font-family: "gothambold";
+  margin-bottom: 30px;
+}
+.cosa-offriamo-main .single-cosa-box ul {
+  padding-left: 48px;
+}
+.cosa-offriamo-main .single-cosa-box ul li {
+  font-size: 30px;
+  color: #fff;
+  line-height: 42px;
+  font-family: "gothambook";
+  position: relative;
+}
+.cosa-offriamo-main .single-cosa-box ul li::before {
+  background: url(../../images/icon/plus.svg);
+  position: absolute;
+  left: -31px;
+  top: 11px;
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-size: cover;
+  background-position: center center;
+}
+
+.track-day-main {
+  padding-left: 85px;
+  padding-right: 85px;
+}
+.track-day-main .title-box {
+  text-align: center;
+}
+.track-day-main .title-box h3 {
+  color: #fff;
+  font-size: 65px;
+  line-height: 91px;
+  font-family: "gothambold";
+  margin-bottom: 45px;
+}
+.track-day-main .title-box h6 {
+  font-size: 45px;
+  line-height: 63px;
+  font-family: "gothammedium";
+  color: #fff;
+  margin-bottom: 32px;
+}
+.track-day-main .title-box .track-dot-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding-left: 20px;
+  justify-content: center;
+  margin-bottom: 51px;
+}
+.track-day-main .title-box .track-dot-box span {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  color: #fff;
+  text-align: left;
+  display: inline-block;
+  position: relative;
+  padding-right: 15px;
+}
+.track-day-main .title-box .track-dot-box span:not(:first-child) {
+  padding-left: 15px;
+}
+.track-day-main .title-box .track-dot-box span:not(:first-child)::before {
+  content: "";
+  position: absolute;
+  left: -10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 5px;
+  height: 5px;
+  background: #fff;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.calendar-slider-main {
+  background: #151515;
+  padding: 100px 85px;
+}
+.calendar-slider-main .calendar-slider-parent .swiper {
+  width: 100%;
+  height: 100%;
+  padding: 0 100px;
+}
+.calendar-slider-main .calendar-slider-parent .swiper .swiper-slide h3 {
+  font-family: "gothammedium";
+  color: #fff;
+  font-size: 45px;
+  line-height: 1;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+.calendar-slider-main .calendar-slider-parent .swiper .swiper-slide .single-day-flex {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  color: #fff;
+}
+.calendar-slider-main .calendar-slider-parent .swiper .swiper-slide .single-day-flex .date-box {
+  width: 120px;
+}
+.calendar-slider-main .calendar-slider-parent .swiper .swiper-slide .single-day-flex .date-box .date-wrapper {
+  background: #2c2c2c;
+  padding-top: 20px;
+  padding-bottom: 24px;
+  text-align: center;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.calendar-slider-main .calendar-slider-parent .swiper .swiper-slide .single-day-flex .date-box .date-wrapper .date {
+  font-size: 60px;
+  line-height: 60px;
+  font-family: "gothammedium";
+}
+.calendar-slider-main .calendar-slider-parent .swiper .swiper-slide .single-day-flex .date-box .date-wrapper .month {
+  font-family: "gothammedium";
+  font-size: 20px;
+  line-height: 1;
+}
+.calendar-slider-main .calendar-slider-parent .swiper .swiper-slide .single-day-flex .date-box .status {
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 25px;
+  font-family: "gothammedium";
+  line-height: 1;
+  text-transform: uppercase;
+}
+.calendar-slider-main .calendar-slider-parent .swiper .swiper-slide .single-day-flex .date-box .open {
+  background: #e7ff00;
+  color: #000;
+}
+.calendar-slider-main .calendar-slider-parent .swiper .swiper-slide .single-day-flex .date-box .full {
+  background: #ff0000;
+}
+.calendar-slider-main .calendar-slider-parent .swiper .swiper-slide .single-day-flex .contents {
+  width: calc(100% - 120px);
+  padding-left: 25px;
+  padding-top: 30px;
+}
+.calendar-slider-main .calendar-slider-parent .swiper .swiper-slide .single-day-flex .contents h5 {
+  font-size: 30px;
+  font-family: "gothambold";
+  line-height: 1;
+  text-transform: capitalize;
+  margin-bottom: 0;
+}
+.calendar-slider-main .calendar-slider-parent .swiper .swiper-slide .single-day-flex .contents p {
+  font-size: 20px;
+  font-family: "gothammedium";
+  margin-bottom: 0;
+}
+.calendar-slider-main .calendar-slider-parent .swiper .swiper-button-prev {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border: 1px solid #fff;
+  top: 200px;
+  z-index: 999;
+}
+.calendar-slider-main .calendar-slider-parent .swiper .swiper-button-prev::after {
+  font-size: 20px;
+  color: #fff;
+}
+.calendar-slider-main .calendar-slider-parent .swiper .swiper-button-next {
+  top: 200px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border: 1px solid #fff;
+  z-index: 999;
+}
+.calendar-slider-main .calendar-slider-parent .swiper .swiper-button-next::after {
+  font-size: 20px;
+  color: #fff;
+}
+.calendar-slider-main .calendar-slider-parent .swiper::before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100px;
+  height: 100%;
+  content: "";
+  background: #151515;
+  z-index: 99;
+}
+.calendar-slider-main .calendar-slider-parent .swiper::after {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100px;
+  height: 100%;
+  content: "";
+  background: #151515;
+  z-index: 99;
 }/*# sourceMappingURL=style.css.map */

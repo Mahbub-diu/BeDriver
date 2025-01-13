@@ -1107,6 +1107,153 @@
   .coming-soon-main .slider-contact {
     padding-left: 100px;
   }
+  .academypassione-slider-main .hitlar-box-wrapper .hitlar-box-grid {
+    gap: 20px;
+  }
+  .academypassione-slider-main .hitlar-box-wrapper .hitlar-box-grid .single-grid .logo-box {
+    margin-bottom: 30px;
+  }
+  .academypassione-slider-main .hitlar-box-wrapper .hitlar-box-grid .single-grid .logo-box img {
+    max-width: 120px;
+  }
+  .academypassione-slider-main .hitlar-box-wrapper .hitlar-box-grid .single-grid .title h5 {
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 20px;
+  }
+  .academypassione-slider-main .hitlar-box-wrapper .hitlar-box-grid .single-grid .description p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .academypassione-slider-main .hitlar-box-wrapper .hitlar-box-border {
+    top: 55px;
+  }
+  .academy-slider-main .slider-content-box .centerd {
+    width: 100%;
+  }
+  .academy-slider-main .slider-content-box .acadey-logo-box {
+    margin-bottom: 40px;
+  }
+  .academy-slider-main .slider-content-box .acadey-logo-box img {
+    max-width: 200px;
+  }
+  .academy-slider-main .slider-content-box .btn-flex {
+    gap: 100px;
+    justify-content: center;
+  }
+  .academy-slider-main .slider-content-box .btn-flex a {
+    font-size: 16px;
+    padding: 8px 15px;
+  }
+  .cosa-offriamo-main {
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 50px;
+  }
+  .cosa-offriamo-main .title-box h3 {
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 30px;
+  }
+  .cosa-offriamo-main .single-cosa-box {
+    margin-bottom: 0;
+    height: 100%;
+  }
+  .cosa-offriamo-main .single-cosa-box h6 {
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 20px;
+  }
+  .cosa-offriamo-main .single-cosa-box ul {
+    padding-left: 40px;
+  }
+  .cosa-offriamo-main .single-cosa-box ul li {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .cosa-offriamo-main .single-cosa-box ul li::before {
+    left: -25px;
+    top: 7px;
+    width: 10px;
+    height: 10px;
+  }
+  .track-day-main {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+  .track-day-main .title-box h3 {
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 30px;
+  }
+  .track-day-main .title-box h6 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .track-day-main .title-box h6 br {
+    display: none;
+  }
+  .track-day-main .title-box .track-dot-box {
+    flex-wrap: wrap;
+  }
+  .track-day-main .title-box .track-dot-box span {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .calendar-slider-main {
+    padding: 50px 35px;
+  }
+  .calendar-slider-main .calendar-slider-parent .swiper {
+    padding: 0 0px;
+  }
+  .calendar-slider-main .calendar-slider-parent .swiper .swiper-slide h3 {
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+  .calendar-slider-main .calendar-slider-parent .swiper .swiper-slide .single-day-flex .date-box .date-wrapper .date {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .calendar-slider-main .calendar-slider-parent .swiper .swiper-slide .single-day-flex .date-box .date-wrapper .month {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .calendar-slider-main .calendar-slider-parent .swiper .swiper-slide .single-day-flex .date-box .status {
+    font-size: 20px;
+    line-height: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .calendar-slider-main .calendar-slider-parent .swiper .swiper-slide .single-day-flex .contents {
+    padding-top: 20px;
+  }
+  .calendar-slider-main .calendar-slider-parent .swiper .swiper-slide .single-day-flex .contents h5 {
+    font-size: 25px;
+  }
+  .calendar-slider-main .calendar-slider-parent .swiper .swiper-button-prev {
+    left: 0;
+    width: 30px;
+    height: 30px;
+    top: 150px;
+  }
+  .calendar-slider-main .calendar-slider-parent .swiper .swiper-button-prev::after {
+    font-size: 16px;
+  }
+  .calendar-slider-main .calendar-slider-parent .swiper .swiper-button-next {
+    right: 0;
+    width: 30px;
+    height: 30px;
+    top: 150px;
+  }
+  .calendar-slider-main .calendar-slider-parent .swiper .swiper-button-next::after {
+    font-size: 16px;
+  }
+  .calendar-slider-main .calendar-slider-parent .swiper::before {
+    display: none;
+  }
+  .calendar-slider-main .calendar-slider-parent .swiper::after {
+    display: none;
+  }
 }
 @media (min-width: 1300px) and (max-width: 1365px) {
   header .main-header {
@@ -1736,11 +1883,9 @@
     max-width: 210px;
   }
   .academy-slider-main .slider-content-box a {
-    width: 100%;
     padding: 10px 20px;
     font-size: 16px;
     line-height: 20px;
-    margin-left: 100px;
   }
   .academypassione-slider-main {
     padding: 50px 20px;
@@ -1808,70 +1953,170 @@
     top: 45px;
     right: 124px;
   }
-  .drving-experiance-main {
-    margin-top: 50px;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  .drving-experiance-main .title-box {
-    margin-bottom: 50px;
-  }
-  .drving-experiance-main .title-box h3 {
-    font-size: 25px;
-    line-height: 30px;
-    margin-bottom: 20px;
-  }
-  .drving-experiance-main .title-box p {
-    font-size: 16px;
-    line-height: 20px;
-  }
-  .drving-experiance-main .driving-experiance-parent {
-    margin-bottom: 50px;
-  }
-  .drving-experiance-main .driving-experiance-parent .swiper .swiper-slide-next {
-    width: 25% !important;
-  }
-  .drving-experiance-main .driving-experiance-parent .swiper .swiper-slide-prev {
-    width: 25% !important;
-  }
-  .drving-experiance-main .driving-experiance-parent .swiper .swiper-slide-active {
-    width: 50% !important;
-  }
-  .drving-experiance-main .driving-experiance-parent .swiper .swiper-slide-active img {
-    max-width: 80%;
-  }
-  .circuito-franciacorta-main {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  .circuito-franciacorta-main .circuito-bg {
-    padding: 30px 35px;
+  .academypassione-slider-main .hitlar-box-wrapper .hitlar-box-grid {
     gap: 20px;
   }
-  .circuito-franciacorta-main .circuito-bg .single-box h5 {
-    font-size: 20px;
+  .academypassione-slider-main .hitlar-box-wrapper .hitlar-box-grid .single-grid .logo-box {
+    margin-bottom: 30px;
+  }
+  .academypassione-slider-main .hitlar-box-wrapper .hitlar-box-grid .single-grid .logo-box img {
+    max-width: 120px;
+  }
+  .academypassione-slider-main .hitlar-box-wrapper .hitlar-box-grid .single-grid .title h5 {
+    font-size: 18px;
     line-height: 25px;
-  }
-  .circuito-franciacorta-main .circuito-bg .single-box h4 {
-    font-size: 25px;
-    line-height: 30px;
-    margin-bottom: 15px;
-  }
-  .circuito-franciacorta-main .circuito-bg .single-box p {
-    font-size: 16px;
-    line-height: 25px;
-    margin-bottom: 10px;
-  }
-  .circuito-franciacorta-main .circuito-bg .single-box ul li {
-    font-size: 16px;
-    line-height: 25px;
-  }
-  .circuito-franciacorta-main .circuito-bg .single-box:not(:first-child) h5 {
     margin-bottom: 20px;
   }
-  .circuito-franciacorta-main .circuito-bg::before {
-    top: -55px;
-    z-index: -1;
+  .academypassione-slider-main .hitlar-box-wrapper .hitlar-box-grid .single-grid .description p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .academypassione-slider-main .hitlar-box-wrapper .hitlar-box-border {
+    top: 55px;
+  }
+  .academy-slider-main .slider-content-box .centerd {
+    width: 100%;
+  }
+  .academy-slider-main .slider-content-box .acadey-logo-box {
+    margin-bottom: 40px;
+  }
+  .academy-slider-main .slider-content-box .acadey-logo-box img {
+    max-width: 200px;
+  }
+  .academy-slider-main .slider-content-box .btn-flex {
+    gap: 100px;
+    justify-content: center;
+  }
+  .academy-slider-main .slider-content-box .btn-flex a {
+    font-size: 16px;
+    padding: 8px 15px;
+  }
+  .cosa-offriamo-main {
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 50px;
+  }
+  .cosa-offriamo-main .title-box h3 {
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 30px;
+  }
+  .cosa-offriamo-main .single-cosa-box {
+    margin-bottom: 0;
+    height: 100%;
+  }
+  .cosa-offriamo-main .single-cosa-box h6 {
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 20px;
+  }
+  .cosa-offriamo-main .single-cosa-box ul {
+    padding-left: 40px;
+  }
+  .cosa-offriamo-main .single-cosa-box ul li {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .cosa-offriamo-main .single-cosa-box ul li::before {
+    left: -25px;
+    top: 7px;
+    width: 10px;
+    height: 10px;
+  }
+  .track-day-main {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+  .track-day-main .title-box h3 {
+    font-size: 50px;
+    line-height: 60px;
+    margin-bottom: 30px;
+  }
+  .track-day-main .title-box h6 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .track-day-main .title-box .track-dot-box {
+    flex-wrap: wrap;
+  }
+  .track-day-main .title-box .track-dot-box span {
+    flex-basis: 100%;
+    padding: 0;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .track-day-main .title-box .track-dot-box span:not(:first-child)::before {
+    left: -10px;
+    top: 8px;
+    transform: translateY(0);
+    width: 5px;
+    height: 5px;
+  }
+  .calendar-slider-main {
+    padding: 50px 35px;
+  }
+  .calendar-slider-main .calendar-slider-parent .swiper {
+    padding: 0 0px;
+  }
+  .calendar-slider-main .calendar-slider-parent .swiper .swiper-slide h3 {
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 30px;
+  }
+  .calendar-slider-main .calendar-slider-parent .swiper .swiper-slide .single-day-flex .date-box .date-wrapper {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .calendar-slider-main .calendar-slider-parent .swiper .swiper-slide .single-day-flex .date-box .date-wrapper .date {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .calendar-slider-main .calendar-slider-parent .swiper .swiper-slide .single-day-flex .date-box .date-wrapper .month {
+    font-size: 12px;
+    line-height: 12px;
+  }
+  .calendar-slider-main .calendar-slider-parent .swiper .swiper-slide .single-day-flex .date-box .status {
+    font-size: 12px;
+    line-height: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .calendar-slider-main .calendar-slider-parent .swiper .swiper-slide .single-day-flex .contents {
+    padding-top: 20px;
+  }
+  .calendar-slider-main .calendar-slider-parent .swiper .swiper-slide .single-day-flex .contents h5 {
+    font-size: 20px;
+  }
+  .calendar-slider-main .calendar-slider-parent .swiper .swiper-slide .single-day-flex .contents p {
+    font-size: 14px;
+  }
+  .calendar-slider-main .calendar-slider-parent .swiper .swiper-button-prev {
+    left: 0;
+    width: 30px;
+    height: 30px;
+    top: 150px;
+  }
+  .calendar-slider-main .calendar-slider-parent .swiper .swiper-button-prev::after {
+    font-size: 16px;
+  }
+  .calendar-slider-main .calendar-slider-parent .swiper .swiper-button-next {
+    right: 0;
+    width: 30px;
+    height: 30px;
+    top: 150px;
+  }
+  .calendar-slider-main .calendar-slider-parent .swiper .swiper-button-next::after {
+    font-size: 16px;
+  }
+  .calendar-slider-main .calendar-slider-parent .swiper::before {
+    display: none;
+  }
+  .calendar-slider-main .calendar-slider-parent .swiper::after {
+    display: none;
+  }
+  .shop-slider-main {
+    padding-left: 35px;
+    padding-right: 35px;
   }
 }
 @media (min-width: 1025px) and (max-width: 1299px) {
@@ -2640,70 +2885,175 @@
     top: 45px;
     right: 124px;
   }
-  .drving-experiance-main {
-    margin-top: 50px;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  .drving-experiance-main .title-box {
-    margin-bottom: 50px;
-  }
-  .drving-experiance-main .title-box h3 {
-    font-size: 25px;
-    line-height: 30px;
-    margin-bottom: 20px;
-  }
-  .drving-experiance-main .title-box p {
-    font-size: 16px;
-    line-height: 20px;
-  }
-  .drving-experiance-main .driving-experiance-parent {
-    margin-bottom: 50px;
-  }
-  .drving-experiance-main .driving-experiance-parent .swiper .swiper-slide-next {
-    width: 25% !important;
-  }
-  .drving-experiance-main .driving-experiance-parent .swiper .swiper-slide-prev {
-    width: 25% !important;
-  }
-  .drving-experiance-main .driving-experiance-parent .swiper .swiper-slide-active {
-    width: 50% !important;
-  }
-  .drving-experiance-main .driving-experiance-parent .swiper .swiper-slide-active img {
-    max-width: 80%;
-  }
-  .circuito-franciacorta-main {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  .circuito-franciacorta-main .circuito-bg {
-    padding: 30px 35px;
+  .academypassione-slider-main .hitlar-box-wrapper .hitlar-box-grid {
     gap: 20px;
   }
-  .circuito-franciacorta-main .circuito-bg .single-box h5 {
+  .academypassione-slider-main .hitlar-box-wrapper .hitlar-box-grid .single-grid .logo-box {
+    margin-bottom: 30px;
+  }
+  .academypassione-slider-main .hitlar-box-wrapper .hitlar-box-grid .single-grid .logo-box img {
+    max-width: 120px;
+  }
+  .academypassione-slider-main .hitlar-box-wrapper .hitlar-box-grid .single-grid .title h5 {
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 20px;
+  }
+  .academypassione-slider-main .hitlar-box-wrapper .hitlar-box-grid .single-grid .description p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .academypassione-slider-main .hitlar-box-wrapper .hitlar-box-border {
+    top: 55px;
+  }
+  .academy-slider-main .slider-content-box .centerd {
+    width: 100%;
+  }
+  .academy-slider-main .slider-content-box .acadey-logo-box {
+    margin-bottom: 40px;
+  }
+  .academy-slider-main .slider-content-box .acadey-logo-box img {
+    max-width: 200px;
+  }
+  .academy-slider-main .slider-content-box .btn-flex {
+    gap: 20px;
+  }
+  .academy-slider-main .slider-content-box .btn-flex a {
+    font-size: 16px;
+    padding: 8px 15px;
+    text-align: center;
+    width: 45%;
+    margin: 0px auto;
+  }
+  .cosa-offriamo-main {
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 50px;
+  }
+  .cosa-offriamo-main .title-box h3 {
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 30px;
+  }
+  .cosa-offriamo-main .single-cosa-box {
+    margin-bottom: 0;
+    height: 100%;
+  }
+  .cosa-offriamo-main .single-cosa-box h6 {
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 20px;
+  }
+  .cosa-offriamo-main .single-cosa-box ul {
+    padding-left: 40px;
+  }
+  .cosa-offriamo-main .single-cosa-box ul li {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .cosa-offriamo-main .single-cosa-box ul li::before {
+    left: -25px;
+    top: 7px;
+    width: 10px;
+    height: 10px;
+  }
+  .track-day-main {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+  .track-day-main .title-box h3 {
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 30px;
+  }
+  .track-day-main .title-box h6 {
     font-size: 20px;
     line-height: 25px;
   }
-  .circuito-franciacorta-main .circuito-bg .single-box h4 {
-    font-size: 25px;
-    line-height: 30px;
-    margin-bottom: 15px;
+  .track-day-main .title-box h6 br {
+    display: none;
   }
-  .circuito-franciacorta-main .circuito-bg .single-box p {
+  .track-day-main .title-box .track-dot-box {
+    flex-wrap: wrap;
+  }
+  .track-day-main .title-box .track-dot-box span {
+    flex-basis: 100%;
+    padding: 0;
     font-size: 16px;
-    line-height: 25px;
-    margin-bottom: 10px;
+    line-height: 22px;
   }
-  .circuito-franciacorta-main .circuito-bg .single-box ul li {
+  .track-day-main .title-box .track-dot-box span:not(:first-child)::before {
+    left: -10px;
+    top: 8px;
+    transform: translateY(0);
+    width: 5px;
+    height: 5px;
+  }
+  .calendar-slider-main {
+    padding: 50px 35px;
+  }
+  .calendar-slider-main .calendar-slider-parent .swiper {
+    padding: 0 0px;
+  }
+  .calendar-slider-main .calendar-slider-parent .swiper .swiper-slide h3 {
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 30px;
+  }
+  .calendar-slider-main .calendar-slider-parent .swiper .swiper-slide .single-day-flex .date-box .date-wrapper {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .calendar-slider-main .calendar-slider-parent .swiper .swiper-slide .single-day-flex .date-box .date-wrapper .date {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .calendar-slider-main .calendar-slider-parent .swiper .swiper-slide .single-day-flex .date-box .date-wrapper .month {
+    font-size: 12px;
+    line-height: 12px;
+  }
+  .calendar-slider-main .calendar-slider-parent .swiper .swiper-slide .single-day-flex .date-box .status {
+    font-size: 12px;
+    line-height: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .calendar-slider-main .calendar-slider-parent .swiper .swiper-slide .single-day-flex .contents {
+    padding-top: 20px;
+  }
+  .calendar-slider-main .calendar-slider-parent .swiper .swiper-slide .single-day-flex .contents h5 {
+    font-size: 20px;
+  }
+  .calendar-slider-main .calendar-slider-parent .swiper .swiper-slide .single-day-flex .contents p {
+    font-size: 14px;
+  }
+  .calendar-slider-main .calendar-slider-parent .swiper .swiper-button-prev {
+    left: 0;
+    width: 30px;
+    height: 30px;
+    top: 150px;
+  }
+  .calendar-slider-main .calendar-slider-parent .swiper .swiper-button-prev::after {
     font-size: 16px;
-    line-height: 25px;
   }
-  .circuito-franciacorta-main .circuito-bg .single-box:not(:first-child) h5 {
-    margin-bottom: 20px;
+  .calendar-slider-main .calendar-slider-parent .swiper .swiper-button-next {
+    right: 0;
+    width: 30px;
+    height: 30px;
+    top: 150px;
   }
-  .circuito-franciacorta-main .circuito-bg::before {
-    top: -55px;
-    z-index: -1;
+  .calendar-slider-main .calendar-slider-parent .swiper .swiper-button-next::after {
+    font-size: 16px;
+  }
+  .calendar-slider-main .calendar-slider-parent .swiper::before {
+    display: none;
+  }
+  .calendar-slider-main .calendar-slider-parent .swiper::after {
+    display: none;
+  }
+  .shop-slider-main {
+    padding-left: 35px;
+    padding-right: 35px;
   }
 }
 @media (min-width: 992px) and (max-width: 1024px) {
@@ -3021,7 +3371,7 @@
     padding: 40px 0px;
   }
   .officina-contact-main {
-    padding: 40px 20px;
+    padding: 40px 35px;
   }
   .officina-contact-main .contact-flex {
     gap: 20px;
@@ -3400,14 +3750,14 @@
     max-width: 210px;
   }
   .academy-slider-main .slider-content-box a {
-    width: 100%;
+    width: 45%;
     padding: 10px 20px;
     font-size: 16px;
     line-height: 20px;
     margin-left: 100px;
   }
   .academypassione-slider-main {
-    padding: 50px 20px;
+    padding: 50px 35px;
   }
   .academypassione-slider-main .title-box {
     margin-bottom: 50px;
@@ -3440,7 +3790,7 @@
     line-height: 25px;
   }
   .car-modello-main {
-    padding: 50px 20px;
+    padding: 50px 35px;
     margin-bottom: 50px;
   }
   .car-modello-main .car-model p {
@@ -3472,70 +3822,181 @@
     top: 10px;
     right: 95px;
   }
-  .drving-experiance-main {
-    margin-top: 50px;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  .drving-experiance-main .title-box {
-    margin-bottom: 50px;
-  }
-  .drving-experiance-main .title-box h3 {
-    font-size: 25px;
-    line-height: 30px;
-    margin-bottom: 20px;
-  }
-  .drving-experiance-main .title-box p {
-    font-size: 16px;
-    line-height: 20px;
-  }
-  .drving-experiance-main .driving-experiance-parent {
-    margin-bottom: 50px;
-  }
-  .drving-experiance-main .driving-experiance-parent .swiper .swiper-slide-next {
-    width: 25% !important;
-  }
-  .drving-experiance-main .driving-experiance-parent .swiper .swiper-slide-prev {
-    width: 25% !important;
-  }
-  .drving-experiance-main .driving-experiance-parent .swiper .swiper-slide-active {
-    width: 50% !important;
-  }
-  .drving-experiance-main .driving-experiance-parent .swiper .swiper-slide-active img {
-    max-width: 80%;
-  }
-  .circuito-franciacorta-main {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  .circuito-franciacorta-main .circuito-bg {
-    padding: 30px 35px;
+  .academypassione-slider-main .hitlar-box-wrapper .hitlar-box-grid {
     gap: 20px;
   }
-  .circuito-franciacorta-main .circuito-bg .single-box h5 {
+  .academypassione-slider-main .hitlar-box-wrapper .hitlar-box-grid .single-grid .logo-box {
+    margin-bottom: 30px;
+  }
+  .academypassione-slider-main .hitlar-box-wrapper .hitlar-box-grid .single-grid .logo-box img {
+    max-width: 120px;
+  }
+  .academypassione-slider-main .hitlar-box-wrapper .hitlar-box-grid .single-grid .title h5 {
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 20px;
+  }
+  .academypassione-slider-main .hitlar-box-wrapper .hitlar-box-grid .single-grid .description p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .academypassione-slider-main .hitlar-box-wrapper .hitlar-box-border {
+    top: 55px;
+    height: 3px;
+  }
+  .academypassione-slider-main .hitlar-box-wrapper .hitlar-box-border span {
+    width: 5px;
+    height: 5px;
+    top: -13px;
+  }
+  .academy-slider-main .slider-content-box .centerd {
+    width: 100%;
+  }
+  .academy-slider-main .slider-content-box .acadey-logo-box {
+    margin-bottom: 40px;
+  }
+  .academy-slider-main .slider-content-box .acadey-logo-box img {
+    max-width: 200px;
+  }
+  .academy-slider-main .slider-content-box .btn-flex {
+    gap: 20px;
+  }
+  .academy-slider-main .slider-content-box .btn-flex a {
+    font-size: 16px;
+    padding: 8px 15px;
+    text-align: center;
+    width: 45%;
+    margin: 0px auto;
+  }
+  .cosa-offriamo-main {
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 50px;
+  }
+  .cosa-offriamo-main .title-box h3 {
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 30px;
+  }
+  .cosa-offriamo-main .single-cosa-box {
+    margin-bottom: 0;
+    height: 100%;
+  }
+  .cosa-offriamo-main .single-cosa-box h6 {
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 20px;
+  }
+  .cosa-offriamo-main .single-cosa-box ul {
+    padding-left: 40px;
+  }
+  .cosa-offriamo-main .single-cosa-box ul li {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .cosa-offriamo-main .single-cosa-box ul li::before {
+    left: -25px;
+    top: 7px;
+    width: 10px;
+    height: 10px;
+  }
+  .track-day-main {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+  .track-day-main .title-box h3 {
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 30px;
+  }
+  .track-day-main .title-box h6 {
     font-size: 20px;
     line-height: 25px;
   }
-  .circuito-franciacorta-main .circuito-bg .single-box h4 {
+  .track-day-main .title-box h6 br {
+    display: none;
+  }
+  .track-day-main .title-box .track-dot-box {
+    flex-wrap: wrap;
+  }
+  .track-day-main .title-box .track-dot-box span {
+    flex-basis: 100%;
+    padding: 0;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .track-day-main .title-box .track-dot-box span:not(:first-child)::before {
+    left: -10px;
+    top: 8px;
+    transform: translateY(0);
+    width: 5px;
+    height: 5px;
+  }
+  .calendar-slider-main {
+    padding: 50px 35px;
+  }
+  .calendar-slider-main .calendar-slider-parent .swiper {
+    padding: 0 0px;
+  }
+  .calendar-slider-main .calendar-slider-parent .swiper .swiper-slide h3 {
     font-size: 25px;
     line-height: 30px;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
   }
-  .circuito-franciacorta-main .circuito-bg .single-box p {
+  .calendar-slider-main .calendar-slider-parent .swiper .swiper-slide .single-day-flex .date-box .date-wrapper {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .calendar-slider-main .calendar-slider-parent .swiper .swiper-slide .single-day-flex .date-box .date-wrapper .date {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .calendar-slider-main .calendar-slider-parent .swiper .swiper-slide .single-day-flex .date-box .date-wrapper .month {
+    font-size: 12px;
+    line-height: 12px;
+  }
+  .calendar-slider-main .calendar-slider-parent .swiper .swiper-slide .single-day-flex .date-box .status {
+    font-size: 12px;
+    line-height: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .calendar-slider-main .calendar-slider-parent .swiper .swiper-slide .single-day-flex .contents {
+    padding-top: 20px;
+  }
+  .calendar-slider-main .calendar-slider-parent .swiper .swiper-slide .single-day-flex .contents h5 {
+    font-size: 20px;
+  }
+  .calendar-slider-main .calendar-slider-parent .swiper .swiper-slide .single-day-flex .contents p {
+    font-size: 14px;
+  }
+  .calendar-slider-main .calendar-slider-parent .swiper .swiper-button-prev {
+    left: 0;
+    width: 30px;
+    height: 30px;
+    top: 150px;
+  }
+  .calendar-slider-main .calendar-slider-parent .swiper .swiper-button-prev::after {
     font-size: 16px;
-    line-height: 25px;
-    margin-bottom: 10px;
   }
-  .circuito-franciacorta-main .circuito-bg .single-box ul li {
+  .calendar-slider-main .calendar-slider-parent .swiper .swiper-button-next {
+    right: 0;
+    width: 30px;
+    height: 30px;
+    top: 150px;
+  }
+  .calendar-slider-main .calendar-slider-parent .swiper .swiper-button-next::after {
     font-size: 16px;
-    line-height: 25px;
   }
-  .circuito-franciacorta-main .circuito-bg .single-box:not(:first-child) h5 {
-    margin-bottom: 20px;
+  .calendar-slider-main .calendar-slider-parent .swiper::before {
+    display: none;
   }
-  .circuito-franciacorta-main .circuito-bg::before {
-    top: -55px;
-    z-index: -1;
+  .calendar-slider-main .calendar-slider-parent .swiper::after {
+    display: none;
+  }
+  .shop-slider-main {
+    padding-left: 35px;
+    padding-right: 35px;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -4317,71 +4778,173 @@
     top: 34px;
     right: 95px;
   }
-  .drving-experiance-main {
-    margin-top: 50px;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  .drving-experiance-main .title-box {
-    margin-bottom: 50px;
-  }
-  .drving-experiance-main .title-box h3 {
-    font-size: 25px;
-    line-height: 30px;
-    margin-bottom: 20px;
-  }
-  .drving-experiance-main .title-box p {
-    font-size: 16px;
-    line-height: 20px;
-  }
-  .drving-experiance-main .driving-experiance-parent {
-    margin-bottom: 50px;
-  }
-  .drving-experiance-main .driving-experiance-parent .swiper .swiper-slide-next {
-    width: 25% !important;
-  }
-  .drving-experiance-main .driving-experiance-parent .swiper .swiper-slide-prev {
-    width: 25% !important;
-  }
-  .drving-experiance-main .driving-experiance-parent .swiper .swiper-slide-active {
-    width: 50% !important;
-  }
-  .drving-experiance-main .driving-experiance-parent .swiper .swiper-slide-active img {
-    max-width: 80%;
-  }
-  .circuito-franciacorta-main {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  .circuito-franciacorta-main .circuito-bg {
-    padding: 30px 35px;
-    grid-template-columns: 1fr 1fr;
+  .academypassione-slider-main .hitlar-box-wrapper .hitlar-box-grid {
     gap: 20px;
   }
-  .circuito-franciacorta-main .circuito-bg .single-box h5 {
+  .academypassione-slider-main .hitlar-box-wrapper .hitlar-box-grid .single-grid .logo-box {
+    margin-bottom: 30px;
+  }
+  .academypassione-slider-main .hitlar-box-wrapper .hitlar-box-grid .single-grid .logo-box img {
+    max-width: 120px;
+  }
+  .academypassione-slider-main .hitlar-box-wrapper .hitlar-box-grid .single-grid .title h5 {
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 20px;
+  }
+  .academypassione-slider-main .hitlar-box-wrapper .hitlar-box-grid .single-grid .description p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .academypassione-slider-main .hitlar-box-wrapper .hitlar-box-border {
+    top: 55px;
+    height: 3px;
+  }
+  .academypassione-slider-main .hitlar-box-wrapper .hitlar-box-border span {
+    width: 5px;
+    height: 5px;
+    top: -13px;
+  }
+  .academy-slider-main .slider-content-box .acadey-logo-box {
+    margin-bottom: 40px;
+  }
+  .academy-slider-main .slider-content-box .acadey-logo-box img {
+    max-width: 150px;
+  }
+  .academy-slider-main .slider-content-box .btn-flex {
+    gap: 20px;
+  }
+  .academy-slider-main .slider-content-box .btn-flex a {
+    font-size: 16px;
+    padding: 8px 15px;
+    text-align: center;
+    width: 55%;
+    margin: 0px auto;
+  }
+  .cosa-offriamo-main {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+  }
+  .cosa-offriamo-main .title-box h3 {
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 30px;
+  }
+  .cosa-offriamo-main .single-cosa-box {
+    margin-bottom: 20px;
+  }
+  .cosa-offriamo-main .single-cosa-box h6 {
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 20px;
+  }
+  .cosa-offriamo-main .single-cosa-box ul {
+    padding-left: 40px;
+  }
+  .cosa-offriamo-main .single-cosa-box ul li {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .cosa-offriamo-main .single-cosa-box ul li::before {
+    left: -25px;
+    top: 7px;
+    width: 10px;
+    height: 10px;
+  }
+  .track-day-main {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .track-day-main .title-box h3 {
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 30px;
+  }
+  .track-day-main .title-box h6 {
     font-size: 20px;
     line-height: 25px;
   }
-  .circuito-franciacorta-main .circuito-bg .single-box h4 {
+  .track-day-main .title-box h6 br {
+    display: none;
+  }
+  .track-day-main .title-box .track-dot-box {
+    flex-wrap: wrap;
+  }
+  .track-day-main .title-box .track-dot-box span {
+    flex-basis: 100%;
+    padding: 0;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .track-day-main .title-box .track-dot-box span:not(:first-child)::before {
+    left: -10px;
+    top: 8px;
+    transform: translateY(0);
+    width: 5px;
+    height: 5px;
+  }
+  .calendar-slider-main {
+    padding: 50px 20px;
+  }
+  .calendar-slider-main .calendar-slider-parent .swiper {
+    padding: 0 0px;
+  }
+  .calendar-slider-main .calendar-slider-parent .swiper .swiper-slide h3 {
     font-size: 25px;
     line-height: 30px;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
   }
-  .circuito-franciacorta-main .circuito-bg .single-box p {
+  .calendar-slider-main .calendar-slider-parent .swiper .swiper-slide .single-day-flex .date-box .date-wrapper {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .calendar-slider-main .calendar-slider-parent .swiper .swiper-slide .single-day-flex .date-box .date-wrapper .date {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .calendar-slider-main .calendar-slider-parent .swiper .swiper-slide .single-day-flex .date-box .date-wrapper .month {
+    font-size: 12px;
+    line-height: 12px;
+  }
+  .calendar-slider-main .calendar-slider-parent .swiper .swiper-slide .single-day-flex .date-box .status {
+    font-size: 12px;
+    line-height: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .calendar-slider-main .calendar-slider-parent .swiper .swiper-slide .single-day-flex .contents {
+    padding-top: 20px;
+  }
+  .calendar-slider-main .calendar-slider-parent .swiper .swiper-slide .single-day-flex .contents h5 {
+    font-size: 20px;
+  }
+  .calendar-slider-main .calendar-slider-parent .swiper .swiper-slide .single-day-flex .contents p {
+    font-size: 14px;
+  }
+  .calendar-slider-main .calendar-slider-parent .swiper .swiper-button-prev {
+    left: 0;
+    width: 30px;
+    height: 30px;
+    top: 150px;
+  }
+  .calendar-slider-main .calendar-slider-parent .swiper .swiper-button-prev::after {
     font-size: 16px;
-    line-height: 25px;
-    margin-bottom: 10px;
   }
-  .circuito-franciacorta-main .circuito-bg .single-box ul li {
+  .calendar-slider-main .calendar-slider-parent .swiper .swiper-button-next {
+    right: 0;
+    width: 30px;
+    height: 30px;
+    top: 150px;
+  }
+  .calendar-slider-main .calendar-slider-parent .swiper .swiper-button-next::after {
     font-size: 16px;
-    line-height: 25px;
   }
-  .circuito-franciacorta-main .circuito-bg .single-box:not(:first-child) h5 {
-    margin-bottom: 20px;
+  .calendar-slider-main .calendar-slider-parent .swiper::before {
+    display: none;
   }
-  .circuito-franciacorta-main .circuito-bg::before {
-    top: -55px;
-    z-index: -1;
+  .calendar-slider-main .calendar-slider-parent .swiper::after {
+    display: none;
   }
 }
 @media (min-width: 768px) {
@@ -5176,74 +5739,176 @@
   .car-modello-main .academy-car .model-no {
     font-size: 50px;
     line-height: 50px;
-    top: 18px;
-    right: 100px;
+    top: 5px;
+    right: 45px;
   }
-  .drving-experiance-main {
-    margin-top: 50px;
-    padding-left: 20px;
-    padding-right: 20px;
+  .academypassione-slider-main .hitlar-box-wrapper .hitlar-box-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
   }
-  .drving-experiance-main .title-box {
-    margin-bottom: 50px;
+  .academypassione-slider-main .hitlar-box-wrapper .hitlar-box-grid .single-grid .logo-box {
+    margin-bottom: 30px;
   }
-  .drving-experiance-main .title-box h3 {
-    font-size: 25px;
-    line-height: 30px;
+  .academypassione-slider-main .hitlar-box-wrapper .hitlar-box-grid .single-grid .logo-box img {
+    max-width: 120px;
+  }
+  .academypassione-slider-main .hitlar-box-wrapper .hitlar-box-grid .single-grid .title h5 {
+    font-size: 18px;
+    line-height: 25px;
     margin-bottom: 20px;
   }
-  .drving-experiance-main .title-box p {
+  .academypassione-slider-main .hitlar-box-wrapper .hitlar-box-grid .single-grid .description p {
     font-size: 16px;
-    line-height: 20px;
+    line-height: 22px;
   }
-  .drving-experiance-main .driving-experiance-parent {
-    margin-bottom: 50px;
+  .academypassione-slider-main .hitlar-box-wrapper .hitlar-box-border {
+    top: 61px;
+    height: 3px;
   }
-  .drving-experiance-main .driving-experiance-parent .swiper .swiper-slide {
-    padding-left: 60px;
-    padding-right: 60px;
+  .academypassione-slider-main .hitlar-box-wrapper .hitlar-box-border span {
+    width: 5px;
+    height: 5px;
+    top: -13px;
   }
-  .drving-experiance-main .driving-experiance-parent .swiper .swiper-slide-next {
-    width: 100% !important;
+  .academy-slider-main .slider-content-box .acadey-logo-box {
+    margin-bottom: 40px;
   }
-  .drving-experiance-main .driving-experiance-parent .swiper .swiper-slide-prev {
-    width: 100% !important;
+  .academy-slider-main .slider-content-box .acadey-logo-box img {
+    max-width: 150px;
   }
-  .drving-experiance-main .driving-experiance-parent .swiper .swiper-slide-active {
-    width: 100% !important;
+  .academy-slider-main .slider-content-box .btn-flex {
+    gap: 20px;
   }
-  .circuito-franciacorta-main {
+  .academy-slider-main .slider-content-box .btn-flex a {
+    font-size: 16px;
+    padding: 8px 15px;
+    text-align: center;
+  }
+  .cosa-offriamo-main {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+  }
+  .cosa-offriamo-main .title-box h3 {
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 30px;
+  }
+  .cosa-offriamo-main .single-cosa-box {
+    margin-bottom: 20px;
+  }
+  .cosa-offriamo-main .single-cosa-box h6 {
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 20px;
+  }
+  .cosa-offriamo-main .single-cosa-box ul {
+    padding-left: 40px;
+  }
+  .cosa-offriamo-main .single-cosa-box ul li {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .cosa-offriamo-main .single-cosa-box ul li::before {
+    left: -25px;
+    top: 7px;
+    width: 10px;
+    height: 10px;
+  }
+  .track-day-main {
     padding-left: 20px;
     padding-right: 20px;
   }
-  .circuito-franciacorta-main .circuito-bg {
-    padding: 20px 25px;
-    grid-template-columns: 1fr;
+  .track-day-main .title-box h3 {
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 30px;
   }
-  .circuito-franciacorta-main .circuito-bg .single-box h5 {
+  .track-day-main .title-box h6 {
     font-size: 20px;
     line-height: 25px;
   }
-  .circuito-franciacorta-main .circuito-bg .single-box h4 {
+  .track-day-main .title-box h6 br {
+    display: none;
+  }
+  .track-day-main .title-box .track-dot-box {
+    flex-wrap: wrap;
+  }
+  .track-day-main .title-box .track-dot-box span {
+    flex-basis: 100%;
+    padding: 0;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .track-day-main .title-box .track-dot-box span:not(:first-child)::before {
+    left: -10px;
+    top: 8px;
+    transform: translateY(0);
+    width: 5px;
+    height: 5px;
+  }
+  .calendar-slider-main {
+    padding: 50px 20px;
+  }
+  .calendar-slider-main .calendar-slider-parent .swiper {
+    padding: 0 0px;
+  }
+  .calendar-slider-main .calendar-slider-parent .swiper .swiper-slide h3 {
     font-size: 25px;
     line-height: 30px;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
   }
-  .circuito-franciacorta-main .circuito-bg .single-box p {
+  .calendar-slider-main .calendar-slider-parent .swiper .swiper-slide .single-day-flex .date-box .date-wrapper {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .calendar-slider-main .calendar-slider-parent .swiper .swiper-slide .single-day-flex .date-box .date-wrapper .date {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .calendar-slider-main .calendar-slider-parent .swiper .swiper-slide .single-day-flex .date-box .date-wrapper .month {
+    font-size: 12px;
+    line-height: 12px;
+  }
+  .calendar-slider-main .calendar-slider-parent .swiper .swiper-slide .single-day-flex .date-box .status {
+    font-size: 12px;
+    line-height: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .calendar-slider-main .calendar-slider-parent .swiper .swiper-slide .single-day-flex .contents {
+    padding-top: 20px;
+  }
+  .calendar-slider-main .calendar-slider-parent .swiper .swiper-slide .single-day-flex .contents h5 {
+    font-size: 20px;
+  }
+  .calendar-slider-main .calendar-slider-parent .swiper .swiper-slide .single-day-flex .contents p {
+    font-size: 14px;
+  }
+  .calendar-slider-main .calendar-slider-parent .swiper .swiper-button-prev {
+    left: 0;
+    width: 30px;
+    height: 30px;
+    top: 150px;
+  }
+  .calendar-slider-main .calendar-slider-parent .swiper .swiper-button-prev::after {
     font-size: 16px;
-    line-height: 25px;
-    margin-bottom: 10px;
   }
-  .circuito-franciacorta-main .circuito-bg .single-box ul li {
+  .calendar-slider-main .calendar-slider-parent .swiper .swiper-button-next {
+    right: 0;
+    width: 30px;
+    height: 30px;
+    top: 150px;
+  }
+  .calendar-slider-main .calendar-slider-parent .swiper .swiper-button-next::after {
     font-size: 16px;
-    line-height: 25px;
   }
-  .circuito-franciacorta-main .circuito-bg .single-box:not(:first-child) h5 {
-    margin-bottom: 20px;
+  .calendar-slider-main .calendar-slider-parent .swiper::before {
+    display: none;
   }
-  .circuito-franciacorta-main .circuito-bg::before {
-    width: 200px;
-    top: -28px;
+  .calendar-slider-main .calendar-slider-parent .swiper::after {
+    display: none;
   }
 }
 @media (min-width: 576px) and (max-width: 767px) {
