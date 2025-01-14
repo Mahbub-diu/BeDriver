@@ -779,10 +779,10 @@
     spaceBetween: 30,
     slidesPerGroup: 1,
     loop: true,
-    // autoplay: true,
-    // autoplay: {
-    //   delay: 2000,
-    // },
+    autoplay: true,
+    autoplay: {
+      delay: 2000,
+    },
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
@@ -834,4 +834,88 @@
     },
   });
   // calendar slider ends
+
+  // collaborator slider start
+  var swiper = new Swiper('.collaborator-slider', {
+    slidesPerView: 6,
+    spaceBetween: 30,
+    slidesPerGroup: 1,
+    loop: true,
+    autoplay: true,
+    autoplay: {
+      delay: 2000,
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    breakpoints: {
+      320: {
+        slidesPerView: 1,
+        spaceBetween: 20,
+      },
+      360: {
+        slidesPerView: 1,
+        spaceBetween: 20,
+      },
+      375: {
+        slidesPerView: 1,
+        spaceBetween: 20,
+      },
+      414: {
+        slidesPerView: 1,
+        spaceBetween: 20,
+      },
+      415: {
+        slidesPerView: 1,
+        spaceBetween: 20,
+      },
+      576: {
+        slidesPerView: 1,
+        spaceBetween: 20,
+      },
+
+      767: {
+        slidesPerView: 2,
+        spaceBetween: 20,
+      },
+
+      992: {
+        slidesPerView: 2,
+        spaceBetween: 20,
+      },
+
+      1300: {
+        slidesPerView: 3,
+        spaceBetween: 20,
+      },
+      1440: {
+        slidesPerView: 6,
+        spaceBetween: 30,
+      },
+    },
+  });
+  // collaborator slider ends
+
+  // event case slider start
+
+  var swiper = new Swiper('.display-thumb-slider', {
+    loop: true,
+    spaceBetween: 10,
+    slidesPerView: 4,
+    freeMode: true,
+    watchSlidesProgress: true,
+  });
+  var swiper2 = new Swiper('.display-slider', {
+    loop: true,
+    spaceBetween: 10,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    thumbs: {
+      swiper: swiper,
+    },
+  });
+  // event case slider ends
 })(jQuery);
