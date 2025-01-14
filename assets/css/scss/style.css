@@ -3319,6 +3319,7 @@ body.motorsport main .home-slider-main .swiper-slide .video-bg {
   -moz-border-radius: 20px;
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
+  height: 100%;
 }
 .cosa-offriamo-main .single-cosa-box h6 {
   text-align: center;

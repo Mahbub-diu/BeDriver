@@ -876,12 +876,12 @@
       },
 
       767: {
-        slidesPerView: 2,
+        slidesPerView: 3,
         spaceBetween: 20,
       },
 
       992: {
-        slidesPerView: 2,
+        slidesPerView:  4,
         spaceBetween: 20,
       },
 
