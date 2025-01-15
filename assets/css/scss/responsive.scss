@@ -614,6 +614,91 @@
   }
 
   // coming soon page ends
+
+  // transporti page start
+
+  .transporti-slider-main {
+    .slider-content-box {
+      .centerd {
+        h5 {
+          font-size: 25px;
+        }
+
+        .card-grid-parent {
+          margin-top: 20px;
+
+          .single-car-box {
+            gap: 15px;
+            padding: 12px 25px;
+            .icon {
+              height: 70px;
+            }
+            .title {
+              width: calc(100% - 100px);
+              font-size: 20px;
+              text-align: left;
+            }
+          }
+        }
+      }
+    }
+  }
+  .transport-banner-main {
+    height: 290px;
+  }
+  .private-service-main.py-150 {
+    padding-bottom: 60px;
+    padding-left: 35px !important;
+    padding-right: 35px !important;
+  }
+
+  .perche-icon-main {
+    padding: 80px 35px;
+    .icon-wrapper {
+      margin-bottom: 30px;
+      .icon {
+        height: 80px;
+        margin-bottom: 10px;
+      }
+      .title {
+        font-size: 20px;
+        line-height: 25px;
+      }
+    }
+  }
+  .transportiamo-main {
+    padding: 80px 35px;
+    margin-bottom: 50px;
+    .title-box {
+      h3 {
+        font-size: 45px;
+        line-height: 50px;
+        margin-bottom: 20px;
+      }
+    }
+    .round-point-parent {
+      .round-wrapper {
+        .single-round {
+          .number {
+            width: 40px;
+            height: 40px;
+            border-width: 2px;
+            font-size: 16px;
+            &::before {
+              height: 2px;
+              left: 40px;
+              width: calc(100% - 40px);
+            }
+          }
+        }
+      }
+      .single-point {
+        font-size: 25px;
+        line-height: 35px;
+      }
+    }
+  }
+  // transporti page ends
 }
 // min width 1441px and max width 1550px ends here
 
@@ -1832,6 +1917,91 @@
     }
   }
   // events page ends
+
+  // transporti page start
+
+  .transporti-slider-main {
+    .slider-content-box {
+      .centerd {
+        h5 {
+          font-size: 25px;
+        }
+
+        .card-grid-parent {
+          margin-top: 20px;
+
+          .single-car-box {
+            gap: 15px;
+            padding: 12px 25px;
+            .icon {
+              height: 70px;
+            }
+            .title {
+              width: calc(100% - 100px);
+              font-size: 20px;
+              text-align: left;
+            }
+          }
+        }
+      }
+    }
+  }
+  .transport-banner-main {
+    height: 290px;
+  }
+  .private-service-main.py-150 {
+    padding-bottom: 60px;
+    padding-left: 35px !important;
+    padding-right: 35px !important;
+  }
+
+  .perche-icon-main {
+    padding: 80px 35px;
+    .icon-wrapper {
+      margin-bottom: 30px;
+      .icon {
+        height: 80px;
+        margin-bottom: 10px;
+      }
+      .title {
+        font-size: 20px;
+        line-height: 25px;
+      }
+    }
+  }
+  .transportiamo-main {
+    padding: 80px 35px;
+    margin-bottom: 50px;
+    .title-box {
+      h3 {
+        font-size: 45px;
+        line-height: 50px;
+        margin-bottom: 20px;
+      }
+    }
+    .round-point-parent {
+      .round-wrapper {
+        .single-round {
+          .number {
+            width: 40px;
+            height: 40px;
+            border-width: 2px;
+            font-size: 16px;
+            &::before {
+              height: 2px;
+              left: 40px;
+              width: calc(100% - 40px);
+            }
+          }
+        }
+      }
+      .single-point {
+        font-size: 25px;
+        line-height: 35px;
+      }
+    }
+  }
+  // transporti page ends
 }
 // min width 1366px and max width 1440px ends here
 
@@ -3155,6 +3325,98 @@
     }
   }
   // events page ends
+
+  // transporti page start
+
+  .transporti-slider-main {
+    .slider-content-box {
+      .centerd {
+        h5 {
+          font-size: 25px;
+        }
+
+        .card-grid-parent {
+          margin-top: 20px;
+
+          .single-car-box {
+            gap: 15px;
+            padding: 12px 25px;
+            .icon {
+              height: 70px;
+            }
+            .title {
+              width: calc(100% - 100px);
+              font-size: 20px;
+              text-align: left;
+            }
+          }
+        }
+      }
+    }
+  }
+  .transport-banner-main {
+    height: 290px;
+  }
+  .private-service-main.py-150 {
+    padding-bottom: 60px;
+    padding-left: 35px !important;
+    padding-right: 35px !important;
+  }
+
+  .perche-icon-main {
+    padding: 80px 35px;
+    .icon-wrapper {
+      margin-bottom: 30px;
+      .icon {
+        height: 80px;
+        margin-bottom: 10px;
+      }
+      .title {
+        font-size: 20px;
+        line-height: 25px;
+      }
+    }
+  }
+  .transportiamo-main {
+    padding: 80px 35px;
+    margin-bottom: 50px;
+    .title-box {
+      h3 {
+        font-size: 45px;
+        line-height: 50px;
+        margin-bottom: 20px;
+      }
+    }
+    .round-point-parent {
+      .round-wrapper {
+        .single-round {
+          &:nth-child(1) {
+            width: 200px !important;
+          }
+          &:nth-child(2) {
+            width: 250px !important;
+          }
+          .number {
+            width: 40px;
+            height: 40px;
+            border-width: 2px;
+            font-size: 16px;
+            &::before {
+              height: 2px;
+              left: 40px;
+              width: calc(100% - 40px);
+            }
+          }
+        }
+      }
+      .single-point {
+        font-size: 25px;
+        line-height: 35px;
+        padding-right: 20px;
+      }
+    }
+  }
+  // transporti page ends
 }
 // min width 1300px and max width 1365px ends here
 
@@ -4587,6 +4849,96 @@
     }
   }
   // events page ends
+
+  // transporti page start
+
+  .transporti-slider-main {
+    .slider-content-box {
+      .centerd {
+        h5 {
+          font-size: 25px;
+        }
+
+        .card-grid-parent {
+          margin-top: 20px;
+          grid-template-columns: repeat(3, 1fr);
+          .single-car-box {
+            gap: 15px;
+            padding: 5px 15px;
+            .icon {
+              height: 55px;
+            }
+            .title {
+              width: calc(100% - 100px);
+              font-size: 20px;
+              text-align: left;
+            }
+          }
+        }
+      }
+    }
+  }
+  .transport-banner-main {
+    height: 290px;
+  }
+  .private-service-main.py-150 {
+    padding-bottom: 40px;
+  }
+
+  .perche-icon-main {
+    padding: 50px 20px;
+    .icon-wrapper {
+      margin-bottom: 30px;
+      .icon {
+        height: 80px;
+        margin-bottom: 10px;
+      }
+      .title {
+        font-size: 20px;
+        line-height: 25px;
+      }
+    }
+  }
+  .transportiamo-main {
+    padding: 50px 20px;
+    margin-bottom: 50px;
+    .title-box {
+      h3 {
+        font-size: 35px;
+        line-height: 40px;
+        margin-bottom: 20px;
+      }
+    }
+    .round-point-parent {
+      .round-wrapper {
+        .single-round {
+          &:nth-child(1) {
+            width: 200px !important;
+          }
+          &:nth-child(2) {
+            width: 250px !important;
+          }
+          .number {
+            width: 40px;
+            height: 40px;
+            border-width: 2px;
+            font-size: 16px;
+            &::before {
+              height: 2px;
+              left: 40px;
+              width: calc(100% - 40px);
+            }
+          }
+        }
+      }
+      .single-point {
+        font-size: 20px;
+        line-height: 25px;
+        padding-right: 20px;
+      }
+    }
+  }
+  // transporti page ends
 }
 
 // min width 1025px and max width 1299px ends here
@@ -6021,6 +6373,96 @@
     }
   }
   // events page ends
+
+  // transporti page start
+
+  .transporti-slider-main {
+    .slider-content-box {
+      .centerd {
+        h5 {
+          font-size: 25px;
+        }
+
+        .card-grid-parent {
+          margin-top: 20px;
+          grid-template-columns: repeat(3, 1fr);
+          .single-car-box {
+            gap: 15px;
+            padding: 5px 15px;
+            .icon {
+              height: 55px;
+            }
+            .title {
+              width: calc(100% - 100px);
+              font-size: 20px;
+              text-align: left;
+            }
+          }
+        }
+      }
+    }
+  }
+  .transport-banner-main {
+    height: 290px;
+  }
+  .private-service-main.py-150 {
+    padding-bottom: 40px;
+  }
+
+  .perche-icon-main {
+    padding: 50px 20px;
+    .icon-wrapper {
+      margin-bottom: 30px;
+      .icon {
+        height: 80px;
+        margin-bottom: 10px;
+      }
+      .title {
+        font-size: 20px;
+        line-height: 25px;
+      }
+    }
+  }
+  .transportiamo-main {
+    padding: 50px 20px;
+    margin-bottom: 50px;
+    .title-box {
+      h3 {
+        font-size: 35px;
+        line-height: 40px;
+        margin-bottom: 20px;
+      }
+    }
+    .round-point-parent {
+      .round-wrapper {
+        .single-round {
+          &:nth-child(1) {
+            width: 200px !important;
+          }
+          &:nth-child(2) {
+            width: 250px !important;
+          }
+          .number {
+            width: 40px;
+            height: 40px;
+            border-width: 2px;
+            font-size: 16px;
+            &::before {
+              height: 2px;
+              left: 40px;
+              width: calc(100% - 40px);
+            }
+          }
+        }
+      }
+      .single-point {
+        font-size: 20px;
+        line-height: 25px;
+        padding-right: 20px;
+      }
+    }
+  }
+  // transporti page ends
 }
 
 // min width 992px and max width 1024px ends here
@@ -7469,6 +7911,103 @@
     }
   }
   // events page ends
+
+  // transporti page start
+
+  .transporti-slider-main {
+    .slider-content-box {
+      .centerd {
+        h5 {
+          font-size: 20px;
+          margin-bottom: 25px;
+        }
+
+        .card-grid-parent {
+          margin-top: 20px;
+          grid-template-columns: repeat(2, 1fr);
+          .single-car-box {
+            gap: 15px;
+            padding: 5px 15px;
+            .icon {
+              height: 55px;
+            }
+            .title {
+              width: calc(100% - 100px);
+              font-size: 20px;
+              text-align: left;
+            }
+          }
+        }
+      }
+    }
+  }
+  .transport-banner-main {
+    height: 230px;
+  }
+  .private-service-main.py-150 {
+    padding-bottom: 40px;
+  }
+
+  .perche-icon-main {
+    padding: 50px 20px;
+    .icon-wrapper {
+      margin-bottom: 30px;
+      .icon {
+        height: 80px;
+        margin-bottom: 10px;
+      }
+      .title {
+        font-size: 16px;
+        line-height: 22px;
+        br {
+          display: none;
+        }
+      }
+    }
+  }
+  .transportiamo-main {
+    padding: 50px 20px;
+    margin-bottom: 50px;
+    .title-box {
+      h3 {
+        font-size: 30px;
+        line-height: 35px;
+        margin-bottom: 20px;
+        br {
+          display: none;
+        }
+      }
+    }
+    .round-point-parent {
+      .round-wrapper {
+        .single-round {
+          &:nth-child(1) {
+            width: 25% !important;
+          }
+          &:nth-child(2) {
+            width: 35% !important;
+          }
+          .number {
+            width: 40px;
+            height: 40px;
+            border-width: 2px;
+            font-size: 16px;
+            &::before {
+              height: 2px;
+              left: 40px;
+              width: calc(100% - 40px);
+            }
+          }
+        }
+      }
+      .single-point {
+        font-size: 20px;
+        line-height: 25px;
+        padding-right: 20px;
+      }
+    }
+  }
+  // transporti page ends
 }
 
 // min width 768px and max width 991px ends here
@@ -8944,6 +9483,110 @@
     }
   }
   // events page ends
+
+  // transporti page start
+
+  .transporti-slider-main {
+    .slider-content-box {
+      .centerd {
+        h5 {
+          font-size: 16px;
+          margin-bottom: 15px;
+        }
+        h1 {
+          font-size: 25px;
+          line-height: 35px;
+          margin-bottom: 20px;
+        }
+        .card-grid-parent {
+          margin-top: 20px;
+          grid-template-columns: 1fr;
+          .single-car-box {
+            gap: 15px;
+            padding: 5px 15px;
+            .icon {
+              height: 55px;
+            }
+            .title {
+              width: calc(100% - 100px);
+              font-size: 20px;
+              text-align: left;
+            }
+          }
+        }
+      }
+    }
+  }
+  .transport-banner-main {
+    height: 190px;
+  }
+  .private-service-main.py-150 {
+    padding-bottom: 40px;
+  }
+
+  .perche-icon-main {
+    padding: 50px 20px;
+    .icon-wrapper {
+      margin-bottom: 30px;
+      .icon {
+        height: 80px;
+        margin-bottom: 10px;
+      }
+      .title {
+        font-size: 16px;
+        line-height: 22px;
+        br {
+          display: none;
+        }
+      }
+    }
+  }
+  .transportiamo-main {
+    padding: 50px 20px;
+    margin-bottom: 50px;
+    .title-box {
+      h3 {
+        font-size: 25px;
+        line-height: 30px;
+        margin-bottom: 20px;
+        br {
+          display: none;
+        }
+      }
+    }
+    .round-point-parent {
+      .round-wrapper {
+        .single-round {
+          &:nth-child(1) {
+            width: 35% !important;
+          }
+          &:nth-child(2) {
+            width: 40% !important;
+          }
+          .number {
+            width: 40px;
+            height: 40px;
+            border-width: 2px;
+            font-size: 16px;
+            &::before {
+              height: 2px;
+              left: 40px;
+              width: calc(100% - 40px);
+            }
+          }
+        }
+      }
+      .single-point {
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 10px;
+        padding-right: 0;
+        width: 100%;
+        display: block;
+      }
+    }
+  }
+  // transporti page ends
 }
 
 // max widht 767px ends here

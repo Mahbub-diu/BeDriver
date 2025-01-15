@@ -3955,4 +3955,278 @@ body.motorsport main .home-slider-main .swiper-slide .video-bg {
 }
 .event-case-main .case-slider-parent .display-thumb-slider .swiper-slide-thumb-active {
   opacity: 1;
+}
+
+.transporti-slider-main .slider-content-box .centerd {
+  max-width: 100%;
+  text-align: center;
+}
+.transporti-slider-main .slider-content-box .centerd h5 {
+  font-size: 28px;
+  line-height: 1;
+  color: #ebff46;
+  margin-bottom: 17px;
+}
+.transporti-slider-main .slider-content-box .centerd .card-grid-parent {
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+.transporti-slider-main .slider-content-box .centerd .card-grid-parent .single-car-box {
+  background: #151515;
+  padding: 18px 44px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 44px;
+}
+.transporti-slider-main .slider-content-box .centerd .card-grid-parent .single-car-box .icon {
+  width: 85px;
+  height: 85px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.transporti-slider-main .slider-content-box .centerd .card-grid-parent .single-car-box .icon img {
+  max-width: 100%;
+}
+.transporti-slider-main .slider-content-box .centerd .card-grid-parent .single-car-box .title {
+  font-size: 30px;
+  line-height: 1;
+  font-family: "gothambook";
+  color: #fff;
+}
+
+.transport-banner-main {
+  height: 650px;
+}
+
+.transportiamo-main {
+  padding: 120px 115px;
+  margin-bottom: 142px;
+}
+.transportiamo-main .title-box {
+  margin-bottom: 40px;
+}
+.transportiamo-main .title-box h3 {
+  font-size: 60px;
+  line-height: 65px;
+  font-family: "gothambold";
+  color: #fff;
+  margin-bottom: 40px;
+}
+.transportiamo-main .title-box h3 span {
+  color: #ebff46;
+}
+.transportiamo-main .round-point-parent .round-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.transportiamo-main .round-point-parent .round-wrapper .single-round {
+  position: relative;
+}
+.transportiamo-main .round-point-parent .round-wrapper .single-round .number {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  line-height: 1;
+  font-family: "gothambold";
+  color: #fff;
+  text-transform: uppercase;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+}
+.transportiamo-main .round-point-parent .round-wrapper .single-round .number::before {
+  content: "";
+  position: absolute;
+  width: calc(100% - 60px);
+  height: 5px;
+  background: #fff;
+  top: 50%;
+  left: 60px;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+.transportiamo-main .round-point-parent .round-wrapper .single-round:nth-child(1) {
+  width: 300px;
+}
+.transportiamo-main .round-point-parent .round-wrapper .single-round:nth-child(2) {
+  width: 393px;
+}
+.transportiamo-main .round-point-parent .single-point {
+  font-size: 30px;
+  line-height: 45px;
+  font-family: "gothambold";
+  color: #fff;
+  text-transform: uppercase;
+  padding-right: 50px;
+}
+
+.private-service-main.py-150 {
+  padding-bottom: 150px;
+}
+.private-service-main.py-150 .title-box {
+  padding-bottom: 0;
+}
+
+.perche-icon-main {
+  padding: 100px 85px;
+  background: #151515;
+}
+.perche-icon-main .icon-wrapper .icon {
+  height: 115px;
+  margin-bottom: 38px;
+  text-align: center;
+}
+.perche-icon-main .icon-wrapper .icon img {
+  max-width: 140px;
+  max-height: 100%;
+}
+.perche-icon-main .icon-wrapper .title {
+  font-size: 30px;
+  line-height: 32px;
+  font-family: "gothambook";
+  color: #fff;
+  text-align: center;
+}
+
+.fleet-slider-main {
+  height: 75vh;
+}
+.fleet-slider-main .slider-content-box {
+  align-items: flex-end;
+}
+.fleet-slider-main .slider-content-box .centerd {
+  max-width: 100%;
+  text-align: center;
+}
+.fleet-slider-main .slider-content-box .centerd h1 {
+  text-align: center;
+  margin-bottom: 82px;
+}
+.fleet-slider-main .slider-content-box .centerd p {
+  font-size: 35px;
+  line-height: 50px;
+  font-family: "gothambook";
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.offriamo-main {
+  padding: 110px 85px;
+}
+.offriamo-main .title-box h3 {
+  text-align: center;
+  font-size: 45px;
+  line-height: 1;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "gothammedium";
+  margin-bottom: 64px;
+}
+.offriamo-main .offriamo-grid-main {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 50px;
+}
+.offriamo-main .offriamo-grid-main .offriamo-single-box {
+  text-align: center;
+}
+.offriamo-main .offriamo-grid-main .offriamo-single-box .icon {
+  margin: 0px auto;
+  margin-bottom: 38px;
+  height: 105px;
+  width: 120px;
+}
+.offriamo-main .offriamo-grid-main .offriamo-single-box .icon img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.offriamo-main .offriamo-grid-main .offriamo-single-box .title {
+  font-size: 30px;
+  line-height: 32px;
+  font-family: "gothambook";
+  color: #fff;
+}
+
+.motorsport-contact-main.mb-90 {
+  padding-bottom: 90px;
+}
+
+.faq-main {
+  padding: 0px 85px 105px 85px;
+}
+.faq-main .title-box h3 {
+  font-size: 45px;
+  line-height: 50px;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "gothammedium";
+  margin-bottom: 40px;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 20px;
+}
+.faq-main .accordion .accordion-item {
+  border: none;
+  position: relative;
+  background: #000000;
+  margin-bottom: 20px;
+}
+.faq-main .accordion .accordion-item .accordion-header .accordion-button {
+  background: #000000;
+  color: #fff;
+  padding: 0;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border: none;
+  font-size: 30px;
+  line-height: 1;
+  font-family: "gothambook";
+  position: relative;
+  padding-left: 45px;
+  box-shadow: none;
+}
+.faq-main .accordion .accordion-item .accordion-header .accordion-button:focus {
+  outline: none;
+  box-shadow: none;
+}
+.faq-main .accordion .accordion-item .accordion-header .accordion-button::after {
+  background-image: url(../../images/fleet/plus.svg);
+  width: 20px;
+  height: 20px;
+  background-size: 20px;
+  color: #ebff46;
+  font-family: "gothambook";
+  margin-left: unset;
+  margin-right: auto;
+  position: absolute;
+  left: 0;
+  top: 6px;
+}
+.faq-main .accordion .accordion-item .accordion-header .accordion-button:not(.collapsed)::after {
+  background-image: url(../../images/fleet/minus.svg);
+  top: 0;
+}
+.faq-main .accordion .accordion-item .accordion-collapse {
+  color: #fff;
+}
+.faq-main .accordion .accordion-item .accordion-collapse .accordion-body {
+  padding-left: 50px;
+  font-size: 20px;
+  line-height: 25px;
+  font-family: "gothambook";
+  color: #fff;
 }/*# sourceMappingURL=style.css.map */

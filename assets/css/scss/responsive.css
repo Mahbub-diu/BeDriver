@@ -482,6 +482,70 @@
   .coming-soon-main .slider-contact {
     padding-left: 100px;
   }
+  .transporti-slider-main .slider-content-box .centerd h5 {
+    font-size: 25px;
+  }
+  .transporti-slider-main .slider-content-box .centerd .card-grid-parent {
+    margin-top: 20px;
+  }
+  .transporti-slider-main .slider-content-box .centerd .card-grid-parent .single-car-box {
+    gap: 15px;
+    padding: 12px 25px;
+  }
+  .transporti-slider-main .slider-content-box .centerd .card-grid-parent .single-car-box .icon {
+    height: 70px;
+  }
+  .transporti-slider-main .slider-content-box .centerd .card-grid-parent .single-car-box .title {
+    width: calc(100% - 100px);
+    font-size: 20px;
+    text-align: left;
+  }
+  .transport-banner-main {
+    height: 290px;
+  }
+  .private-service-main.py-150 {
+    padding-bottom: 60px;
+    padding-left: 35px !important;
+    padding-right: 35px !important;
+  }
+  .perche-icon-main {
+    padding: 80px 35px;
+  }
+  .perche-icon-main .icon-wrapper {
+    margin-bottom: 30px;
+  }
+  .perche-icon-main .icon-wrapper .icon {
+    height: 80px;
+    margin-bottom: 10px;
+  }
+  .perche-icon-main .icon-wrapper .title {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .transportiamo-main {
+    padding: 80px 35px;
+    margin-bottom: 50px;
+  }
+  .transportiamo-main .title-box h3 {
+    font-size: 45px;
+    line-height: 50px;
+    margin-bottom: 20px;
+  }
+  .transportiamo-main .round-point-parent .round-wrapper .single-round .number {
+    width: 40px;
+    height: 40px;
+    border-width: 2px;
+    font-size: 16px;
+  }
+  .transportiamo-main .round-point-parent .round-wrapper .single-round .number::before {
+    height: 2px;
+    left: 40px;
+    width: calc(100% - 40px);
+  }
+  .transportiamo-main .round-point-parent .single-point {
+    font-size: 25px;
+    line-height: 35px;
+  }
 }
 @media (min-width: 1366px) and (max-width: 1440px) {
   header .main-header {
@@ -1439,6 +1503,70 @@
   }
   .scorpit-table-main .table tbody tr:not(:nth-child(1)) td .td-inner {
     min-height: 50px;
+  }
+  .transporti-slider-main .slider-content-box .centerd h5 {
+    font-size: 25px;
+  }
+  .transporti-slider-main .slider-content-box .centerd .card-grid-parent {
+    margin-top: 20px;
+  }
+  .transporti-slider-main .slider-content-box .centerd .card-grid-parent .single-car-box {
+    gap: 15px;
+    padding: 12px 25px;
+  }
+  .transporti-slider-main .slider-content-box .centerd .card-grid-parent .single-car-box .icon {
+    height: 70px;
+  }
+  .transporti-slider-main .slider-content-box .centerd .card-grid-parent .single-car-box .title {
+    width: calc(100% - 100px);
+    font-size: 20px;
+    text-align: left;
+  }
+  .transport-banner-main {
+    height: 290px;
+  }
+  .private-service-main.py-150 {
+    padding-bottom: 60px;
+    padding-left: 35px !important;
+    padding-right: 35px !important;
+  }
+  .perche-icon-main {
+    padding: 80px 35px;
+  }
+  .perche-icon-main .icon-wrapper {
+    margin-bottom: 30px;
+  }
+  .perche-icon-main .icon-wrapper .icon {
+    height: 80px;
+    margin-bottom: 10px;
+  }
+  .perche-icon-main .icon-wrapper .title {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .transportiamo-main {
+    padding: 80px 35px;
+    margin-bottom: 50px;
+  }
+  .transportiamo-main .title-box h3 {
+    font-size: 45px;
+    line-height: 50px;
+    margin-bottom: 20px;
+  }
+  .transportiamo-main .round-point-parent .round-wrapper .single-round .number {
+    width: 40px;
+    height: 40px;
+    border-width: 2px;
+    font-size: 16px;
+  }
+  .transportiamo-main .round-point-parent .round-wrapper .single-round .number::before {
+    height: 2px;
+    left: 40px;
+    width: calc(100% - 40px);
+  }
+  .transportiamo-main .round-point-parent .single-point {
+    font-size: 25px;
+    line-height: 35px;
   }
 }
 @media (min-width: 1300px) and (max-width: 1365px) {
@@ -2489,6 +2617,77 @@
   }
   .scorpit-table-main .table tbody tr:not(:nth-child(1)) td .td-inner {
     min-height: 50px;
+  }
+  .transporti-slider-main .slider-content-box .centerd h5 {
+    font-size: 25px;
+  }
+  .transporti-slider-main .slider-content-box .centerd .card-grid-parent {
+    margin-top: 20px;
+  }
+  .transporti-slider-main .slider-content-box .centerd .card-grid-parent .single-car-box {
+    gap: 15px;
+    padding: 12px 25px;
+  }
+  .transporti-slider-main .slider-content-box .centerd .card-grid-parent .single-car-box .icon {
+    height: 70px;
+  }
+  .transporti-slider-main .slider-content-box .centerd .card-grid-parent .single-car-box .title {
+    width: calc(100% - 100px);
+    font-size: 20px;
+    text-align: left;
+  }
+  .transport-banner-main {
+    height: 290px;
+  }
+  .private-service-main.py-150 {
+    padding-bottom: 60px;
+    padding-left: 35px !important;
+    padding-right: 35px !important;
+  }
+  .perche-icon-main {
+    padding: 80px 35px;
+  }
+  .perche-icon-main .icon-wrapper {
+    margin-bottom: 30px;
+  }
+  .perche-icon-main .icon-wrapper .icon {
+    height: 80px;
+    margin-bottom: 10px;
+  }
+  .perche-icon-main .icon-wrapper .title {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .transportiamo-main {
+    padding: 80px 35px;
+    margin-bottom: 50px;
+  }
+  .transportiamo-main .title-box h3 {
+    font-size: 45px;
+    line-height: 50px;
+    margin-bottom: 20px;
+  }
+  .transportiamo-main .round-point-parent .round-wrapper .single-round:nth-child(1) {
+    width: 200px !important;
+  }
+  .transportiamo-main .round-point-parent .round-wrapper .single-round:nth-child(2) {
+    width: 250px !important;
+  }
+  .transportiamo-main .round-point-parent .round-wrapper .single-round .number {
+    width: 40px;
+    height: 40px;
+    border-width: 2px;
+    font-size: 16px;
+  }
+  .transportiamo-main .round-point-parent .round-wrapper .single-round .number::before {
+    height: 2px;
+    left: 40px;
+    width: calc(100% - 40px);
+  }
+  .transportiamo-main .round-point-parent .single-point {
+    font-size: 25px;
+    line-height: 35px;
+    padding-right: 20px;
   }
 }
 @media (min-width: 1025px) and (max-width: 1299px) {
@@ -3615,6 +3814,76 @@
   }
   .scorpit-table-main .table tbody tr:not(:nth-child(1)) td .td-inner {
     min-height: 50px;
+  }
+  .transporti-slider-main .slider-content-box .centerd h5 {
+    font-size: 25px;
+  }
+  .transporti-slider-main .slider-content-box .centerd .card-grid-parent {
+    margin-top: 20px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .transporti-slider-main .slider-content-box .centerd .card-grid-parent .single-car-box {
+    gap: 15px;
+    padding: 5px 15px;
+  }
+  .transporti-slider-main .slider-content-box .centerd .card-grid-parent .single-car-box .icon {
+    height: 55px;
+  }
+  .transporti-slider-main .slider-content-box .centerd .card-grid-parent .single-car-box .title {
+    width: calc(100% - 100px);
+    font-size: 20px;
+    text-align: left;
+  }
+  .transport-banner-main {
+    height: 290px;
+  }
+  .private-service-main.py-150 {
+    padding-bottom: 40px;
+  }
+  .perche-icon-main {
+    padding: 50px 20px;
+  }
+  .perche-icon-main .icon-wrapper {
+    margin-bottom: 30px;
+  }
+  .perche-icon-main .icon-wrapper .icon {
+    height: 80px;
+    margin-bottom: 10px;
+  }
+  .perche-icon-main .icon-wrapper .title {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .transportiamo-main {
+    padding: 50px 20px;
+    margin-bottom: 50px;
+  }
+  .transportiamo-main .title-box h3 {
+    font-size: 35px;
+    line-height: 40px;
+    margin-bottom: 20px;
+  }
+  .transportiamo-main .round-point-parent .round-wrapper .single-round:nth-child(1) {
+    width: 200px !important;
+  }
+  .transportiamo-main .round-point-parent .round-wrapper .single-round:nth-child(2) {
+    width: 250px !important;
+  }
+  .transportiamo-main .round-point-parent .round-wrapper .single-round .number {
+    width: 40px;
+    height: 40px;
+    border-width: 2px;
+    font-size: 16px;
+  }
+  .transportiamo-main .round-point-parent .round-wrapper .single-round .number::before {
+    height: 2px;
+    left: 40px;
+    width: calc(100% - 40px);
+  }
+  .transportiamo-main .round-point-parent .single-point {
+    font-size: 20px;
+    line-height: 25px;
+    padding-right: 20px;
   }
 }
 @media (min-width: 992px) and (max-width: 1024px) {
@@ -4751,6 +5020,76 @@
   }
   .scorpit-table-main .table tbody tr:not(:nth-child(1)) td .td-inner {
     min-height: 50px;
+  }
+  .transporti-slider-main .slider-content-box .centerd h5 {
+    font-size: 25px;
+  }
+  .transporti-slider-main .slider-content-box .centerd .card-grid-parent {
+    margin-top: 20px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .transporti-slider-main .slider-content-box .centerd .card-grid-parent .single-car-box {
+    gap: 15px;
+    padding: 5px 15px;
+  }
+  .transporti-slider-main .slider-content-box .centerd .card-grid-parent .single-car-box .icon {
+    height: 55px;
+  }
+  .transporti-slider-main .slider-content-box .centerd .card-grid-parent .single-car-box .title {
+    width: calc(100% - 100px);
+    font-size: 20px;
+    text-align: left;
+  }
+  .transport-banner-main {
+    height: 290px;
+  }
+  .private-service-main.py-150 {
+    padding-bottom: 40px;
+  }
+  .perche-icon-main {
+    padding: 50px 20px;
+  }
+  .perche-icon-main .icon-wrapper {
+    margin-bottom: 30px;
+  }
+  .perche-icon-main .icon-wrapper .icon {
+    height: 80px;
+    margin-bottom: 10px;
+  }
+  .perche-icon-main .icon-wrapper .title {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .transportiamo-main {
+    padding: 50px 20px;
+    margin-bottom: 50px;
+  }
+  .transportiamo-main .title-box h3 {
+    font-size: 35px;
+    line-height: 40px;
+    margin-bottom: 20px;
+  }
+  .transportiamo-main .round-point-parent .round-wrapper .single-round:nth-child(1) {
+    width: 200px !important;
+  }
+  .transportiamo-main .round-point-parent .round-wrapper .single-round:nth-child(2) {
+    width: 250px !important;
+  }
+  .transportiamo-main .round-point-parent .round-wrapper .single-round .number {
+    width: 40px;
+    height: 40px;
+    border-width: 2px;
+    font-size: 16px;
+  }
+  .transportiamo-main .round-point-parent .round-wrapper .single-round .number::before {
+    height: 2px;
+    left: 40px;
+    width: calc(100% - 40px);
+  }
+  .transportiamo-main .round-point-parent .single-point {
+    font-size: 20px;
+    line-height: 25px;
+    padding-right: 20px;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -5908,6 +6247,83 @@
   }
   .scorpit-table-main .table tbody tr:not(:nth-child(1)) td .td-inner {
     min-height: 50px;
+  }
+  .transporti-slider-main .slider-content-box .centerd h5 {
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+  .transporti-slider-main .slider-content-box .centerd .card-grid-parent {
+    margin-top: 20px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .transporti-slider-main .slider-content-box .centerd .card-grid-parent .single-car-box {
+    gap: 15px;
+    padding: 5px 15px;
+  }
+  .transporti-slider-main .slider-content-box .centerd .card-grid-parent .single-car-box .icon {
+    height: 55px;
+  }
+  .transporti-slider-main .slider-content-box .centerd .card-grid-parent .single-car-box .title {
+    width: calc(100% - 100px);
+    font-size: 20px;
+    text-align: left;
+  }
+  .transport-banner-main {
+    height: 230px;
+  }
+  .private-service-main.py-150 {
+    padding-bottom: 40px;
+  }
+  .perche-icon-main {
+    padding: 50px 20px;
+  }
+  .perche-icon-main .icon-wrapper {
+    margin-bottom: 30px;
+  }
+  .perche-icon-main .icon-wrapper .icon {
+    height: 80px;
+    margin-bottom: 10px;
+  }
+  .perche-icon-main .icon-wrapper .title {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .perche-icon-main .icon-wrapper .title br {
+    display: none;
+  }
+  .transportiamo-main {
+    padding: 50px 20px;
+    margin-bottom: 50px;
+  }
+  .transportiamo-main .title-box h3 {
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 20px;
+  }
+  .transportiamo-main .title-box h3 br {
+    display: none;
+  }
+  .transportiamo-main .round-point-parent .round-wrapper .single-round:nth-child(1) {
+    width: 25% !important;
+  }
+  .transportiamo-main .round-point-parent .round-wrapper .single-round:nth-child(2) {
+    width: 35% !important;
+  }
+  .transportiamo-main .round-point-parent .round-wrapper .single-round .number {
+    width: 40px;
+    height: 40px;
+    border-width: 2px;
+    font-size: 16px;
+  }
+  .transportiamo-main .round-point-parent .round-wrapper .single-round .number::before {
+    height: 2px;
+    left: 40px;
+    width: calc(100% - 40px);
+  }
+  .transportiamo-main .round-point-parent .single-point {
+    font-size: 20px;
+    line-height: 25px;
+    padding-right: 20px;
   }
 }
 @media (min-width: 768px) {
@@ -7078,6 +7494,91 @@
   }
   .scorpit-table-main .table tbody tr:not(:nth-child(1)) td .td-inner {
     min-height: 50px;
+  }
+  .transporti-slider-main .slider-content-box .centerd h5 {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  .transporti-slider-main .slider-content-box .centerd h1 {
+    font-size: 25px;
+    line-height: 35px;
+    margin-bottom: 20px;
+  }
+  .transporti-slider-main .slider-content-box .centerd .card-grid-parent {
+    margin-top: 20px;
+    grid-template-columns: 1fr;
+  }
+  .transporti-slider-main .slider-content-box .centerd .card-grid-parent .single-car-box {
+    gap: 15px;
+    padding: 5px 15px;
+  }
+  .transporti-slider-main .slider-content-box .centerd .card-grid-parent .single-car-box .icon {
+    height: 55px;
+  }
+  .transporti-slider-main .slider-content-box .centerd .card-grid-parent .single-car-box .title {
+    width: calc(100% - 100px);
+    font-size: 20px;
+    text-align: left;
+  }
+  .transport-banner-main {
+    height: 190px;
+  }
+  .private-service-main.py-150 {
+    padding-bottom: 40px;
+  }
+  .perche-icon-main {
+    padding: 50px 20px;
+  }
+  .perche-icon-main .icon-wrapper {
+    margin-bottom: 30px;
+  }
+  .perche-icon-main .icon-wrapper .icon {
+    height: 80px;
+    margin-bottom: 10px;
+  }
+  .perche-icon-main .icon-wrapper .title {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .perche-icon-main .icon-wrapper .title br {
+    display: none;
+  }
+  .transportiamo-main {
+    padding: 50px 20px;
+    margin-bottom: 50px;
+  }
+  .transportiamo-main .title-box h3 {
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 20px;
+  }
+  .transportiamo-main .title-box h3 br {
+    display: none;
+  }
+  .transportiamo-main .round-point-parent .round-wrapper .single-round:nth-child(1) {
+    width: 35% !important;
+  }
+  .transportiamo-main .round-point-parent .round-wrapper .single-round:nth-child(2) {
+    width: 40% !important;
+  }
+  .transportiamo-main .round-point-parent .round-wrapper .single-round .number {
+    width: 40px;
+    height: 40px;
+    border-width: 2px;
+    font-size: 16px;
+  }
+  .transportiamo-main .round-point-parent .round-wrapper .single-round .number::before {
+    height: 2px;
+    left: 40px;
+    width: calc(100% - 40px);
+  }
+  .transportiamo-main .round-point-parent .single-point {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 10px;
+    padding-right: 0;
+    width: 100%;
+    display: block;
   }
 }
 @media (min-width: 576px) and (max-width: 767px) {

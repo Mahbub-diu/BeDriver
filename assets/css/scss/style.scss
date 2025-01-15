@@ -4044,3 +4044,293 @@ body.motorsport {
     }
   }
 }
+
+.transporti-slider-main {
+  .slider-content-box {
+    .centerd {
+      max-width: 100%;
+      text-align: center;
+      h5 {
+        font-size: 28px;
+        line-height: 1;
+        color: $logo-green;
+        margin-bottom: 17px;
+      }
+      .card-grid-parent {
+        margin-top: 80px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 15px;
+        .single-car-box {
+          background: #151515;
+
+          padding: 18px 44px;
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          gap: 44px;
+          .icon {
+            width: 85px;
+            height: 85px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            img {
+              max-width: 100%;
+            }
+          }
+          .title {
+            font-size: 30px;
+            line-height: 1;
+            font-family: $gotham-book;
+            color: $white;
+          }
+        }
+      }
+    }
+  }
+}
+
+.transport-banner-main {
+  height: 650px;
+}
+
+.transportiamo-main {
+  padding: 120px 115px;
+  margin-bottom: 142px;
+  .title-box {
+    margin-bottom: 40px;
+    h3 {
+      font-size: 60px;
+      line-height: 65px;
+      font-family: $gotahm-bold;
+      color: $white;
+      margin-bottom: 40px;
+      span {
+        color: $logo-green;
+      }
+    }
+  }
+  .round-point-parent {
+    .round-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      margin-bottom: 25px;
+      .single-round {
+        position: relative;
+        .number {
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          justify-content: center;
+          font-size: 30px;
+          line-height: 1;
+          font-family: $gotahm-bold;
+          color: $white;
+          text-transform: uppercase;
+          width: 60px;
+          height: 60px;
+          border-radius: 50%;
+          border: 5px solid #fff;
+          &::before {
+            content: '';
+            position: absolute;
+            width: calc(100% - 60px);
+            height: 5px;
+            background: #fff;
+            top: 50%;
+            left: 60px;
+            transform: translateY(-50%);
+            -webkit-transform: translateY(-50%);
+            -moz-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            -o-transform: translateY(-50%);
+          }
+        }
+        &:nth-child(1) {
+          width: 300px;
+        }
+        &:nth-child(2) {
+          width: 393px;
+        }
+      }
+    }
+    .single-point {
+      font-size: 30px;
+      line-height: 45px;
+      font-family: $gotahm-bold;
+      color: $white;
+      text-transform: uppercase;
+      padding-right: 50px;
+    }
+  }
+}
+.private-service-main.py-150 {
+  padding-bottom: 150px;
+  .title-box {
+    padding-bottom: 0;
+  }
+}
+.perche-icon-main {
+  padding: 100px 85px;
+  background: #151515;
+  .icon-wrapper {
+    .icon {
+      height: 115px;
+      margin-bottom: 38px;
+      text-align: center;
+      img {
+        max-width: 140px;
+        max-height: 100%;
+      }
+    }
+    .title {
+      font-size: 30px;
+      line-height: 32px;
+      font-family: $gotham-book;
+      color: $white;
+      text-align: center;
+    }
+  }
+}
+
+// fleet page start from here
+
+.fleet-slider-main {
+  height: 75vh;
+  .slider-content-box {
+    align-items: flex-end;
+    .centerd {
+      max-width: 100%;
+      text-align: center;
+      h1 {
+        text-align: center;
+        margin-bottom: 82px;
+      }
+      p {
+        font-size: 35px;
+        line-height: 50px;
+        font-family: $gotham-book;
+        color: $white;
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+.offriamo-main {
+  padding: 110px 85px;
+  .title-box {
+    h3 {
+      text-align: center;
+      font-size: 45px;
+      line-height: 1;
+      color: $white;
+      text-transform: uppercase;
+      font-family: $gotham-medium;
+      margin-bottom: 64px;
+    }
+  }
+  .offriamo-grid-main {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 50px;
+    .offriamo-single-box {
+      text-align: center;
+      .icon {
+        margin: 0px auto;
+        margin-bottom: 38px;
+        height: 105px;
+        width: 120px;
+        img {
+          max-width: 100%;
+          max-height: 100%;
+        }
+      }
+      .title {
+        font-size: 30px;
+        line-height: 32px;
+        font-family: $gotham-book;
+        color: $white;
+      }
+    }
+  }
+}
+.motorsport-contact-main.mb-90 {
+  padding-bottom: 90px;
+}
+
+.faq-main {
+  padding: 0px 85px 105px 85px;
+  .title-box {
+    h3 {
+      font-size: 45px;
+      line-height: 50px;
+      color: $white;
+      text-transform: uppercase;
+      font-family: $gotham-medium;
+      margin-bottom: 40px;
+      border-bottom: 1px solid #fff;
+      padding-bottom: 20px;
+    }
+  }
+  .accordion {
+    .accordion-item {
+      border: none;
+      position: relative;
+      background: #000000;
+      margin-bottom: 20px;
+      .accordion-header {
+        .accordion-button {
+          background: #000000;
+          color: $white;
+          padding: 0;
+          @include no-radius;
+          border: none;
+          font-size: 30px;
+          line-height: 1;
+          font-family: $gotham-book;
+          position: relative;
+          padding-left: 45px;
+          box-shadow: none;
+          &:focus {
+            outline: none;
+            box-shadow: none;
+          }
+          &::after {
+            background-image: url(../../images/fleet/plus.svg);
+            width: 20px;
+            height: 20px;
+            background-size: 20px;
+            color: $logo-green;
+            font-family: $gotham-book;
+            margin-left: unset;
+            margin-right: auto;
+            position: absolute;
+            left: 0;
+            top: 6px;
+          }
+        }
+        .accordion-button:not(.collapsed) {
+          &::after {
+            background-image: url(../../images/fleet/minus.svg);
+            top: 0;
+          }
+        }
+      }
+      .accordion-collapse {
+        color: $white;
+        .accordion-body {
+          padding-left: 50px;
+          font-size: 20px;
+          line-height: 25px;
+          font-family: $gotham-book;
+          color: $white;
+        }
+      }
+    }
+  }
+}
+
+// fleet page ends here
